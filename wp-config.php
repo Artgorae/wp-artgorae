@@ -74,6 +74,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+/* Increase PHP Memory to 64MB */
+define('WP_MEMORY_LIMIT', '64M');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
