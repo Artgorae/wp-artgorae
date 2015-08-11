@@ -1,0 +1,597 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TokoPress Multipurpose Shortcode v2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-03-10 04:04:20+0000\n"
+"Last-Translator: tokopressdemo <demo@toko.press>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: component/call-to-action.php:50
+#@ tokopress
+msgid "Tokopress - Custom Call To Action"
+msgstr ""
+
+#: component/call-to-action.php:59
+#@ tokopress
+msgid "Paragraf Title"
+msgstr ""
+
+#: component/call-to-action.php:65
+#@ tokopress
+msgid "Paragraf Title Color"
+msgstr ""
+
+#: component/call-to-action.php:71
+#@ tokopress
+msgid "Paragraf Text"
+msgstr ""
+
+#: component/call-to-action.php:77
+#@ tokopress
+msgid "Paragraf Text Color"
+msgstr ""
+
+#: component/call-to-action.php:83
+#@ tokopress
+msgid "Paragraf Align"
+msgstr ""
+
+#: component/call-to-action.php:94
+#@ tokopress
+msgid "Button Text"
+msgstr ""
+
+#: component/call-to-action.php:100
+#@ tokopress
+msgid "Button Link"
+msgstr ""
+
+#: component/call-to-action.php:106
+#@ tokopress
+msgid "Button Color"
+msgstr ""
+
+#: component/call-to-action.php:124
+#@ tokopress
+msgid "Button Align"
+msgstr ""
+
+#: component/call-to-action.php:136
+#: component/divider.php:118
+#: component/features.php:116
+#: component/heading.php:88
+#: component/image_carousel.php:167
+#: component/plan_pricing.php:112
+#: component/team_member.php:106
+#: component/testimonial.php:129
+#: component/wc_featured.php:287
+#: component/wc_mini_product.php:273
+#: component/wc_product.php:218
+#@ tokopress
+msgid "Extra Class"
+msgstr ""
+
+#: component/call-to-action.php:137
+#: component/divider.php:119
+#: component/features.php:117
+#: component/heading.php:89
+#: component/image_carousel.php:168
+#: component/plan_pricing.php:113
+#: component/team_member.php:107
+#: component/testimonial.php:130
+#: component/wc_featured.php:288
+#: component/wc_mini_product.php:274
+#: component/wc_product.php:219
+#@ tokopress
+msgid "If you wish to style particular content element differently, then use this field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: component/divider.php:51
+#@ tokopress
+msgid "Tokopress - Divider"
+msgstr ""
+
+#: component/divider.php:60
+#@ tokopress
+msgid "DISABLE divider Title"
+msgstr ""
+
+#: component/divider.php:93
+#@ tokopress
+msgid "DISABLE divider icon"
+msgstr ""
+
+#: component/divider.php:71
+#@ tokopress
+msgid "Header style"
+msgstr ""
+
+#: component/divider.php:86
+#@ tokopress
+msgid "Divider Text"
+msgstr ""
+
+#: component/divider.php:104
+#: component/features.php:90
+#: component/heading.php:75
+#@ tokopress
+msgid "Icon"
+msgstr ""
+
+#: component/features.php:46
+#@ tokopress
+msgid "TokoPress - Features"
+msgstr ""
+
+#: component/features.php:55
+#@ tokopress
+msgid "Features Title"
+msgstr ""
+
+#: component/features.php:61
+#@ tokopress
+msgid "Icon Position"
+msgstr ""
+
+#: component/features.php:71
+#@ tokopress
+msgid "Heading"
+msgstr ""
+
+#: component/features.php:84
+#: component/testimonial.php:102
+#@ tokopress
+msgid "URL"
+msgstr ""
+
+#: component/features.php:103
+#@ tokopress
+msgid "Icon Color"
+msgstr ""
+
+#: component/features.php:109
+#@ tokopress
+msgid "Description"
+msgstr ""
+
+#: component/heading.php:35
+#@ tokopress
+msgid "Tokopress - Heading Typography"
+msgstr ""
+
+#: component/heading.php:44
+#@ tokopress
+msgid "Heading Text"
+msgstr ""
+
+#: component/heading.php:50
+#@ tokopress
+msgid "Heading Type"
+msgstr ""
+
+#: component/heading.php:64
+#@ tokopress
+msgid "Text Align"
+msgstr ""
+
+#: component/image_carousel.php:96
+#@ tokopress
+msgid "Tokopress - Image Carousel"
+msgstr ""
+
+#: component/image_carousel.php:105
+#@ tokopress
+msgid "Image Carousel ID"
+msgstr ""
+
+#: component/image_carousel.php:106
+#@ tokopress
+msgid "If using more than one, this ID is required."
+msgstr ""
+
+#: component/image_carousel.php:112
+#@ tokopress
+msgid "Images"
+msgstr ""
+
+#: component/image_carousel.php:117
+#@ tokopress
+msgid "Image URL"
+msgstr ""
+
+#: component/image_carousel.php:118
+#@ tokopress
+msgid "Insert url target for image, use | for multiple URL. e.g: http://primathemes.com/|http://tokopress.com/"
+msgstr ""
+
+#: component/image_carousel.php:123
+#@ tokopress
+msgid "Single Image Slider"
+msgstr ""
+
+#: component/image_carousel.php:133
+#@ tokopress
+msgid "Display Image Per Page"
+msgstr ""
+
+#: component/image_carousel.php:140
+#: component/team_member.php:76
+#: component/testimonial.php:79
+#@ tokopress
+msgid "Image Size"
+msgstr ""
+
+#: component/image_carousel.php:152
+#@ tokopress
+msgid "Effect Transition"
+msgstr ""
+
+#: component/plan_pricing.php:14
+#: component/plan_pricing.php:70
+#@ tokopress
+msgid "FREE"
+msgstr ""
+
+#: component/plan_pricing.php:17
+#: component/plan_pricing.php:88
+#@ tokopress
+msgid "per month"
+msgstr ""
+
+#: component/plan_pricing.php:20
+#: component/plan_pricing.php:101
+#@ tokopress
+msgid "CHOOSE PACKAGE"
+msgstr ""
+
+#: component/plan_pricing.php:53
+#@ tokopress
+msgid "Tokopress - Plan & Pricing"
+msgstr ""
+
+#: component/plan_pricing.php:62
+#@ tokopress
+msgid "Plan Featured"
+msgstr ""
+
+#: component/plan_pricing.php:64
+#@ tokopress
+msgid "Make featured plan"
+msgstr ""
+
+#: component/plan_pricing.php:68
+#@ tokopress
+msgid "Plan Title"
+msgstr ""
+
+#: component/plan_pricing.php:74
+#@ tokopress
+msgid "Plan Currencies"
+msgstr ""
+
+#: component/plan_pricing.php:80
+#@ tokopress
+msgid "Plan Value"
+msgstr ""
+
+#: component/plan_pricing.php:86
+#@ tokopress
+msgid "Plan Information"
+msgstr ""
+
+#: component/plan_pricing.php:92
+#@ tokopress
+msgid "Plan Items"
+msgstr ""
+
+#: component/plan_pricing.php:93
+#@ tokopress
+msgid "Insert Plan Items in here, use semicolon (;) for separated value. This Item will be displayed as list."
+msgstr ""
+
+#: component/plan_pricing.php:99
+#@ tokopress
+msgid "Plan Button Text"
+msgstr ""
+
+#: component/plan_pricing.php:105
+#@ tokopress
+msgid "Plan Button URL"
+msgstr ""
+
+#: component/team_member.php:56
+#@ tokopress
+msgid "Tokopress - Team Members"
+msgstr ""
+
+#: component/team_member.php:65
+#@ tokopress
+msgid "Team Member Name"
+msgstr ""
+
+#: component/team_member.php:71
+#@ tokopress
+msgid "Team Members Image"
+msgstr ""
+
+#: component/team_member.php:87
+#: component/testimonial.php:96
+#@ tokopress
+msgid "Skill"
+msgstr ""
+
+#: component/team_member.php:93
+#@ tokopress
+msgid "excerpt"
+msgstr ""
+
+#: component/team_member.php:99
+#@ tokopress
+msgid "Link URL"
+msgstr ""
+
+#: component/testimonial.php:59
+#@ tokopress
+msgid "Tokopress - Testimonial"
+msgstr ""
+
+#: component/testimonial.php:68
+#@ tokopress
+msgid "Name"
+msgstr ""
+
+#: component/testimonial.php:74
+#@ tokopress
+msgid "Avatar"
+msgstr ""
+
+#: component/testimonial.php:90
+#@ tokopress
+msgid "Excerpt"
+msgstr ""
+
+#: component/testimonial.php:108
+#@ tokopress
+msgid "Border"
+msgstr ""
+
+#: component/wc_featured.php:21
+#: component/wc_featured.php:74
+#: component/wc_featured.php:183
+#: component/wc_product.php:21
+#: component/wc_product.php:62
+#: component/wc_product.php:149
+#@ tokopress
+msgid "see all"
+msgstr ""
+
+#: component/wc_featured.php:31
+#: component/wc_featured.php:107
+#: component/wc_featured.php:282
+#@ tokopress
+msgid "detail"
+msgstr ""
+
+#: component/wc_featured.php:153
+#@ tokopress
+msgid "WooCommerce - Featured Products"
+msgstr ""
+
+#: component/wc_featured.php:162
+#: component/wc_mini_product.php:109
+#: component/wc_product.php:128
+#@ tokopress
+msgid "Title"
+msgstr ""
+
+#: component/wc_featured.php:19
+#: component/wc_featured.php:164
+#@ tokopress
+msgid "Featured Product"
+msgstr ""
+
+#: component/wc_featured.php:168
+#: component/wc_mini_product.php:115
+#: component/wc_product.php:134
+#@ tokopress
+msgid "Title Icon"
+msgstr ""
+
+#: component/wc_featured.php:187
+#: component/wc_featured.php:189
+#: component/wc_mini_product.php:128
+#: component/wc_mini_product.php:130
+#: component/wc_product.php:153
+#: component/wc_product.php:155
+#@ tokopress
+msgid "Hide Title"
+msgstr ""
+
+#: component/wc_featured.php:193
+#: component/wc_product.php:159
+#@ tokopress
+msgid "Product Count"
+msgstr ""
+
+#: component/wc_featured.php:227
+#: component/wc_mini_product.php:246
+#: component/wc_product.php:191
+#@ tokopress
+msgid "Product Order Type"
+msgstr ""
+
+#: component/wc_featured.php:237
+#: component/wc_mini_product.php:256
+#: component/wc_product.php:201
+#@ tokopress
+msgid "Product Order By"
+msgstr ""
+
+#: component/wc_mini_product.php:100
+#@ tokopress
+msgid "WooCommerce - Mini Products Thumbnail"
+msgstr ""
+
+#: component/wc_mini_product.php:111
+#: component/wc_product.php:19
+#: component/wc_product.php:130
+#@ tokopress
+msgid "Product"
+msgstr ""
+
+#: component/wc_product.php:109
+#@ tokopress
+msgid "WooCommerce - Product"
+msgstr ""
+
+#: component/wc_product.php:118
+#@ tokopress
+msgid "Product Catalog Style"
+msgstr ""
+
+#: component/wc_product.php:121
+#@ tokopress
+msgid "Alternate Style"
+msgstr ""
+
+#: component/wc_product.php:122
+#@ tokopress
+msgid "Default Style"
+msgstr ""
+
+#: component/wc_product.php:179
+#@ tokopress
+msgid "Product Column"
+msgstr ""
+
+#: component/wc_search.php:16
+#: component/wc_search.php:51
+#@ tokopress
+msgid "Find your product now, type here and hit enter"
+msgstr ""
+
+#: component/wc_search.php:40
+#@ tokopress
+msgid "WooCommerce - Search Products"
+msgstr ""
+
+#: component/wc_search.php:49
+#@ tokopress
+msgid "Search Text"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: plugins.php:0
+#@ tokopress
+msgid "TokoPress Multipurpose Shortcode"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: plugins.php:0
+#@ tokopress
+msgid "http://tokopress.com/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: plugins.php:0
+#@ tokopress
+msgid "TokoPress Multipurpose Shortcodes For Your Visual Composer Element."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: plugins.php:0
+#@ tokopress
+msgid "TokoPress"
+msgstr ""
+
+#: component/wc_featured.php:181
+#: component/wc_product.php:147
+#@ tokopress
+msgid "Link Text"
+msgstr ""
+
+#: component/wc_featured.php:252
+#: component/wc_featured.php:254
+#@ tokopress
+msgid "Hide Product Price"
+msgstr ""
+
+#: component/wc_featured.php:259
+#: component/wc_featured.php:261
+#@ tokopress
+msgid "Hide Product Title"
+msgstr ""
+
+#: component/wc_featured.php:266
+#: component/wc_featured.php:268
+#@ tokopress
+msgid "Hide Product Detail Link"
+msgstr ""
+
+#: component/wc_featured.php:273
+#: component/wc_featured.php:275
+#@ tokopress
+msgid "Hide Product Addtocart Button"
+msgstr ""
+
+#: component/wc_featured.php:280
+#@ tokopress
+msgid "Product Detail Link Text"
+msgstr ""
+
+#: component/wc_mini_product.php:135
+#@ tokopress
+msgid "Number of Products To Show"
+msgstr ""
+
+#: component/wc_mini_product.php:180
+#@ tokopress
+msgid "Number of Columns Per Row (Desktop)"
+msgstr ""
+
+#: component/wc_mini_product.php:181
+#@ tokopress
+msgid "For device width > 992px"
+msgstr ""
+
+#: component/wc_mini_product.php:202
+#@ tokopress
+msgid "Number of Columns Per Row (Tablet)"
+msgstr ""
+
+#: component/wc_mini_product.php:203
+#@ tokopress
+msgid "For device width > 768px and <= 992px"
+msgstr ""
+
+#: component/wc_mini_product.php:224
+#@ tokopress
+msgid "Number of Columns Per Row (Mobile)"
+msgstr ""
+
+#: component/wc_mini_product.php:225
+#@ tokopress
+msgid "For device width <= 768px"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: plugins.php:0
+#@ tokopress
+msgid "2.1"
+msgstr ""
+
