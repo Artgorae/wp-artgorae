@@ -1,0 +1,2645 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketica Child v2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-29 23:03:47+0000\n"
+"Last-Translator: wpthemes <admin@toko.press>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:19
+#@ tokopress
+msgid "Says"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:20
+#@ tokopress
+msgid ". Reply"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:25
+#@ tokopress
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:22
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:39
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:56
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:73
+#@ tokopress
+msgid "Widgets Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:11
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:11
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:11
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:274
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/frontend.php:21
+#@ tokopress
+msgid "Home"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/block-nav.php:11
+#@ tokopress
+msgid "My Shop"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/block-nav.php:18
+#@ tokopress
+msgid "My Settings"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/block-nav.php:29
+#@ tokopress
+msgid "Submit a Product"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-header.php:78
+#@ tokopress
+msgid "Log Out"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:15
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:15
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:15
+#@ tokopress
+msgid "Blog"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:39
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:39
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:39
+#@ tokopress
+msgid "F d, Y"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:43
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:43
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:43
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1240
+#@ tokopress
+msgid "F Y"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:47
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:47
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:47
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:285
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1235
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:197
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:203
+#@ tokopress
+msgid "Y"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:53
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:53
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:53
+#@ tokopress
+msgid "Projects"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:57
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:57
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:57
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:206
+#@ tokopress
+msgid "Shop"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:61
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:61
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:61
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:278
+#@ tokopress
+msgid "Archives"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:75
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:75
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:75
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/dokan/store-reviews.php:39
+#@ tokopress
+msgid "No Result Found"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/content-404.php:9
+#@ tokopress
+msgid "Nothing Found"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/content-404.php:10
+#@ tokopress
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-entry-meta.php:8
+#@ tokopress
+msgid "writen by"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-entry-meta.php:16
+#@ tokopress
+msgid "Filed Under"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/content-page.php:15
+#@ tokopress
+msgid "Pages:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:64
+#@ tokopress
+msgid "Leave a comment"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:70
+#@ tokopress
+msgid "Name"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:71
+#@ tokopress
+msgid "Email"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:72
+#@ tokopress
+msgid "Website"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:76
+#@ tokopress
+msgid "post your comment here!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:78
+#@ tokopress
+msgid "Post comment"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:75
+#@ tokopress
+msgid "Main Widget"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:77
+#@ tokopress
+msgid "Widgets in this area will be shown in Main sidebar(right content)."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:89
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:100
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:111
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:122
+#@ tokopress
+msgid "Widgets in this area will be shown in Footer Widget."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:182
+#@ tokopress
+msgid "Phone Number"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:183
+#@ tokopress
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:185
+#@ tokopress
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:184
+#@ tokopress
+msgid "Google Plus Profil URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:68
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:120
+#@ tokopress
+msgid "Remove"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-framework.php:32
+#@ tokopress
+msgid "General Colors"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:273
+#@ tokopress
+msgid "Browse:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:275
+#, php-format
+#@ tokopress
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:276
+#@ tokopress
+msgid "404 Not Found"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:277
+#, php-format
+#@ tokopress
+msgid "Page %d"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:279
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:185
+#@ tokopress
+msgid "g:i a"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:280
+#, php-format
+#@ tokopress
+msgid "Minute %d"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:281
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:191
+#@ tokopress
+msgid "g a"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:282
+#@ tokopress
+msgid "d"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:283
+#, php-format
+#@ tokopress
+msgid "Week %d"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:284
+#@ tokopress
+msgid "F"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1245
+#@ tokopress
+msgid "F j, Y"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1340
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1376
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1393
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1424
+#@ tokopress
+msgid "Edit"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1368
+#@ tokopress
+msgid "Split"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/breadcrumb.php:1372
+#@ tokopress
+msgid "Merge"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:15
+#@ tokopress
+msgid "Message via the contact form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:19
+#@ tokopress
+msgid "Submit"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:37
+#@ tokopress
+msgid "Please enter your name"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:41
+#@ tokopress
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:45
+#@ tokopress
+msgid "Please enter your message"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:50
+#@ tokopress
+msgid "Your answer was wrong!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:53
+#@ tokopress
+msgid "Please enter your answer"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:57
+#@ tokopress
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:76
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:194
+#@ tokopress
+msgid "Email:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:77
+#@ tokopress
+msgid "Name:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:78
+#@ tokopress
+msgid "IP Address:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:78
+#@ tokopress
+msgid "User Agent:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:88
+#@ tokopress
+msgid "[COPY]"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:97
+#@ tokopress
+msgid "Your email was successfully sent."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:100
+#@ tokopress
+msgid "There were technical error while submitting the form. Sorry for the inconvenience."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:114
+#@ tokopress
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:128
+#@ tokopress
+msgid "Your Name"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:135
+#@ tokopress
+msgid "Your Email"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:144
+#@ tokopress
+msgid "Your Message"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:154
+#@ tokopress
+msgid "Your Answer"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:167
+#@ tokopress
+msgid "Send a copy of this email to you"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:177
+#@ tokopress
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:90
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:91
+#@ tokopress
+msgid "Theme Options"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:197
+#@ tokopress
+msgid "Save Options"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:198
+#@ tokopress
+msgid "Restore Defaults"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:198
+#@ tokopress
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:229
+#@ tokopress
+msgid "Default options restored."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:283
+#@ tokopress
+msgid "Options saved."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:63
+#@ tokopress
+msgid "No file chosen"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:66
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:119
+#@ tokopress
+msgid "Upload"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:71
+#@ tokopress
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:95
+#@ tokopress
+msgid "View File"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:316
+#@ tokopress
+msgid "No Repeat"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:317
+#@ tokopress
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:318
+#@ tokopress
+msgid "Repeat Vertically"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:319
+#@ tokopress
+msgid "Repeat All"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:331
+#@ tokopress
+msgid "Top Left"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:332
+#@ tokopress
+msgid "Top Center"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:333
+#@ tokopress
+msgid "Top Right"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:334
+#@ tokopress
+msgid "Middle Left"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:335
+#@ tokopress
+msgid "Middle Center"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:336
+#@ tokopress
+msgid "Middle Right"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:337
+#@ tokopress
+msgid "Bottom Left"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:338
+#@ tokopress
+msgid "Bottom Center"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:339
+#@ tokopress
+msgid "Bottom Right"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:351
+#@ tokopress
+msgid "Scroll Normally"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:352
+#@ tokopress
+msgid "Fixed in Place"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:424
+#@ tokopress
+msgid "Normal"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:425
+#@ tokopress
+msgid "Italic"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:426
+#@ tokopress
+msgid "Bold"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/option-framework/includes/class-options-sanitization.php:427
+#@ tokopress
+msgid "Bold Italic"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:197
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:149
+#@ tokopress
+msgid "Install Required Plugins"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:198
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:150
+#@ tokopress
+msgid "Install Plugins"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:199
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:151
+#, php-format
+#@ tokopress
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:200
+#@ tokopress
+msgid "Something went wrong."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:201
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:153
+#, php-format
+#@ tokopress
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:202
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:154
+#, php-format
+#@ tokopress
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:203
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:155
+#, php-format
+#@ tokopress
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:204
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:156
+#, php-format
+#@ tokopress
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:205
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:157
+#, php-format
+#@ tokopress
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:206
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:158
+#, php-format
+#@ tokopress
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:207
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:159
+#, php-format
+#@ tokopress
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:208
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:160
+#, php-format
+#@ tokopress
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:209
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:161
+#@ tokopress
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:211
+#@ tokopress
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:212
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:163
+#@ tokopress
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:213
+#@ tokopress
+msgid "Return to the dashboard"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:214
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2037
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:164
+#@ tokopress
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:216
+#, php-format
+#@ tokopress
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:217
+#@ tokopress
+msgid "Dismiss this notice"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:566
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2256
+#@ tokopress
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1220
+#@ tokopress
+msgid "Private Repository"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1223
+#@ tokopress
+msgid "Pre-Packaged"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1228
+#@ tokopress
+msgid "WordPress Repository"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1231
+#@ tokopress
+msgid "Required"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1231
+#@ tokopress
+msgid "Recommended"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1234
+#@ tokopress
+msgid "Not Installed"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1236
+#@ tokopress
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1341
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1477
+#@ tokopress
+msgid "Install"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1365
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1478
+#@ tokopress
+msgid "Activate"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1441
+#, php-format
+#@ tokopress
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1456
+#@ tokopress
+msgid "Plugin"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1457
+#@ tokopress
+msgid "Source"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1458
+#@ tokopress
+msgid "Type"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1459
+#@ tokopress
+msgid "Status"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1589
+#@ tokopress
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1702
+#@ tokopress
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1724
+#@ tokopress
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2020
+#@ tokopress
+msgid "Install package not available."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2021
+#, php-format
+#@ tokopress
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2022
+#@ tokopress
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2023
+#@ tokopress
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2024
+#@ tokopress
+msgid "Plugin install failed."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2025
+#@ tokopress
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2036
+#@ tokopress
+msgid "Plugin activation failed."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2150
+#@ tokopress
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#, php-format
+#@ tokopress
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+#@ tokopress
+msgid "Show Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+#@ tokopress
+msgid "Hide Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2154
+#@ tokopress
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2155
+#, php-format
+#@ tokopress
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2159
+#@ tokopress
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2151
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2160
+#, php-format
+#@ tokopress
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2152
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2161
+#, php-format
+#@ tokopress
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+#, php-format
+#@ tokopress
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2163
+#@ tokopress
+msgid "All installations have been completed."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2164
+#, php-format
+#@ tokopress
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:76
+#@ tokopress
+msgid "Header Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:88
+#@ tokopress
+msgid "Logo Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:218
+#@ tokopress
+msgid "Page Title Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:230
+#@ tokopress
+msgid "Page Title Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:246
+#@ tokopress
+msgid "Breadcrumb Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:258
+#@ tokopress
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:270
+#@ tokopress
+msgid "Breadcrumb Separator Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:288
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:202
+#@ tokopress
+msgid "Footer Widget"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:300
+#@ tokopress
+msgid "Footer Widget Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:312
+#@ tokopress
+msgid "Footer Widget Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:325
+#@ tokopress
+msgid "Footer Widget Link Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:337
+#@ tokopress
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:349
+#@ tokopress
+msgid "Footer Widget Border Separator Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:361
+#@ tokopress
+msgid "Footer Widget Border Top Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:379
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:210
+#@ tokopress
+msgid "Footer Credit"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:391
+#@ tokopress
+msgid "Footer Credit Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:403
+#@ tokopress
+msgid "Footer Credit Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:415
+#@ tokopress
+msgid "Footer Credit Link Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:151
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/loop/pagination.php:24
+#@ tokopress
+msgid "Previous"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:152
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/loop/pagination.php:25
+#@ tokopress
+msgid "Next"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:176
+#@ tokopress
+msgid "404 - Not Found"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:178
+#, php-format
+#@ tokopress
+msgid "Search Results for \"%1$s\""
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:185
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:191
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:194
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:200
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:203
+#, php-format
+#@ tokopress
+msgid "Archive for %1$s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:188
+#, php-format
+#@ tokopress
+msgid "Archive for minute %1$s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:188
+#@ tokopress
+msgid "i"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:194
+#@ tokopress
+msgid "F jS, Y"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:197
+#, php-format
+#@ tokopress
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:197
+#@ tokopress
+msgid "W"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/frontend.php:221
+#, php-format
+#@ tokopress
+msgid "- Page %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:94
+#@ tokopress
+msgid "Header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:123
+#@ tokopress
+msgid "Site Logo"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:252
+#@ tokopress
+msgid "DISABLE Map"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:253
+#@ tokopress
+msgid "DISABLE map from contact"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:260
+#@ tokopress
+msgid "Latitude"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:261
+#@ tokopress
+msgid "Insert map Latitude koordinat"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:267
+#@ tokopress
+msgid "Longitude"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:268
+#@ tokopress
+msgid "Insert map Longitude koordinat"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:274
+#@ tokopress
+msgid "Marker Title"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:275
+#@ tokopress
+msgid "Insert marker title"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:281
+#@ tokopress
+msgid "Marker Description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:282
+#@ tokopress
+msgid "Insert marker description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:192
+#@ tokopress
+msgid "Footer"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:203
+#@ tokopress
+msgid "DISABLE footer widget"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:211
+#@ tokopress
+msgid "DISABLE footer credit"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:218
+#@ tokopress
+msgid "Footer Credit Text"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:152
+#@ tokopress
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:162
+#@ tokopress
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:165
+#, php-format
+#@ tokopress
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:20
+#@ tokopress
+msgid "A custom widget to display the social network icons."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:23
+#@ tokopress
+msgid "Tokopress - Social Connect"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:185
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:81
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:46
+#@ tokopress
+msgid "Title:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:190
+#@ tokopress
+msgid "Rss URL:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:198
+#@ tokopress
+msgid "Twitter Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:202
+#@ tokopress
+msgid "Facebook Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:206
+#@ tokopress
+msgid "Google Plus Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:210
+#@ tokopress
+msgid "Youtube Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:215
+#@ tokopress
+msgid "Flickr Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:219
+#@ tokopress
+msgid "Linkedin Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:223
+#@ tokopress
+msgid "Pinterest Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:228
+#@ tokopress
+msgid "Dribbble Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:232
+#@ tokopress
+msgid "Github Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:236
+#@ tokopress
+msgid "Last FM Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:241
+#@ tokopress
+msgid "Vimeo Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:245
+#@ tokopress
+msgid "Tumblr Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:249
+#@ tokopress
+msgid "Instagram Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:253
+#@ tokopress
+msgid "Soundcloud Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:257
+#@ tokopress
+msgid "Behance Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_social.php:261
+#@ tokopress
+msgid "Deviantart Username:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:16
+#@ tokopress
+msgid "Tokopress - Statistic Product and Users"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:17
+#@ tokopress
+msgid "Display statistic product and users"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:37
+#@ tokopress
+msgid "Marketplace Items"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:41
+#@ tokopress
+msgid "Marketplace Members"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:77
+#@ tokopress
+msgid "Statistics"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:20
+#@ tokopress
+msgid "Tokopress - Subscribe Form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:21
+#@ tokopress
+msgid "Displays your custom MailChimp for WordPress sign-up form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:42
+#@ tokopress
+msgid "Newsletter"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:50
+#@ tokopress
+msgid "Form Description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_subscribe.php:54
+#, php-format
+#@ tokopress
+msgid "You can edit your sign-up form in the %sMailChimp for WordPress form settings%s."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:25
+#@ tokopress
+msgid "Catalog Ordering Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:37
+#@ tokopress
+msgid "Catalog Ordering Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:53
+#@ tokopress
+msgid "Sale Flash Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:65
+#@ tokopress
+msgid "Sale Flash Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:81
+#@ tokopress
+msgid "Product Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:93
+#@ tokopress
+msgid "Product Separator"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:105
+#@ tokopress
+msgid "Product Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:117
+#@ tokopress
+msgid "Product Title Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:129
+#@ tokopress
+msgid "Product Price Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:141
+#@ tokopress
+msgid "Product Old Price Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:153
+#@ tokopress
+msgid "Product Border Price Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:165
+#@ tokopress
+msgid "Product Caption Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:195
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:149
+#@ tokopress
+msgid "Product Rating"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:208
+#@ tokopress
+msgid "Product Rating Active"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:220
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:156
+#@ tokopress
+msgid "Product Price"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:232
+#@ tokopress
+msgid "Product Old Price"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:262
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:316
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:370
+#@ tokopress
+msgid "Title Background Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:274
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:328
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:382
+#@ tokopress
+msgid "Title Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:286
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:340
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:394
+#@ tokopress
+msgid "Title Border Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/frontend.php:103
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/content-product-alt.php:57
+#@ tokopress
+msgid "detail"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/frontend.php:265
+#@ tokopress
+msgid "Item Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:8
+#@ tokopress
+msgid "WooCommerce"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:58
+#@ tokopress
+msgid "Products Per Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:65
+#@ tokopress
+msgid "Products Column Per Row"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:83
+#@ tokopress
+msgid "Products Sale Flash"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:90
+#@ tokopress
+msgid "Products Title"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:104
+#@ tokopress
+msgid "Products Price"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:111
+#@ tokopress
+msgid "Products \"Add To Cart\" Button"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:112
+#@ tokopress
+msgid "DISABLE products \"add to cart\" button"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:51
+#@ tokopress
+msgid "Catalog Ordering"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:52
+#@ tokopress
+msgid "DISABLE catalog ordering dropdown"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:142
+#@ tokopress
+msgid "Product Sale Flash"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:170
+#@ tokopress
+msgid "Product \"Add To Cart\" Button"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:171
+#@ tokopress
+msgid "DISABLE product \"add to cart\" button"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:224
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/related.php:40
+#@ tokopress
+msgid "Related Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:225
+#@ tokopress
+msgid "DISABLE related products on single product page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:231
+#@ tokopress
+msgid "Number of Related Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:258
+#@ tokopress
+msgid "Up-Sells"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:259
+#@ tokopress
+msgid "DISABLE up-sells products on single product page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:265
+#@ tokopress
+msgid "Number of Up-Sells Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:292
+#@ tokopress
+msgid "Cross-Sells"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:293
+#@ tokopress
+msgid "DISABLE Cross-sells products on cart page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/author.php:68
+#, php-format
+#@ tokopress
+msgid "%s does not have personal biography."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-header.php:67
+#@ tokopress
+msgid "My Account"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-header.php:86
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-header.php:93
+#@ tokopress
+msgid "Log In"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/block-more-products.php:41
+#@ tokopress
+msgid "More from this seller&hellip;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/block-nav.php:4
+#@ tokopress
+msgid "My Dashboard"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-search-product.php:8
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-search.php:8
+#@ tokopress
+msgctxt "placeholder"
+msgid "type here and hit enter &hellip;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-search-product.php:8
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-search.php:8
+#@ tokopress
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:45
+#@ tokopress
+msgid "No Comment"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:45
+#@ tokopress
+msgid "One Comment"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/comments.php:45
+#@ tokopress
+msgid "% Comments"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:69
+#@ tokopress
+msgid "Primary Menu - Header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:70
+#@ tokopress
+msgid "Secondary Menu - Below Header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/functions/contact-form.php:14
+#@ tokopress
+msgid "Leave a message"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:210
+#@ tokopress
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugin"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1238
+#@ tokopress
+msgid "Not Updated"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1240
+#@ tokopress
+msgid "Active"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1479
+#@ tokopress
+msgid "Update"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:118
+#@ tokopress
+msgid "Header Section"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:129
+#@ tokopress
+msgid "Search"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:130
+#@ tokopress
+msgid "DISABLE search"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:137
+#@ tokopress
+msgid "Account Navigation"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:138
+#@ tokopress
+msgid "DISABLE account dropdown navigation"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:145
+#@ tokopress
+msgid "Cart Link"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:146
+#@ tokopress
+msgid "DISABLE cart link"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:170
+#@ tokopress
+msgid "Header Scripts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:175
+#@ tokopress
+msgid "Header Script"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:176
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:232
+#@ tokopress
+msgid "You can put any script here, for example your Google Analytics scripts."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:197
+#@ tokopress
+msgid "Footer Section"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:226
+#@ tokopress
+msgid "Footer Scripts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:231
+#@ tokopress
+msgid "Footer Script"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:247
+#@ tokopress
+msgid "Contact Template"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/widget/widget_statistic.php:59
+#@ tokopress
+msgid "Posts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/metabox.php:7
+#@ tokopress
+msgid "Product Item Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:13
+#@ tokopress
+msgid "Redirect URL After Customer Login"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:21
+#@ tokopress
+msgid "WooCommerce - Shop Display Options"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:84
+#@ tokopress
+msgid "DISABLE products sale flash"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:91
+#@ tokopress
+msgid "HIDE products title"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:97
+#@ tokopress
+msgid "Products Rating"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:98
+#@ tokopress
+msgid "DISABLE products rating"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:105
+#@ tokopress
+msgid "DISABLE products price"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:119
+#@ tokopress
+msgid "WooCommerce - Single Product Options"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:143
+#@ tokopress
+msgid "DISABLE product sale flash"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:150
+#@ tokopress
+msgid "DISABLE product rating"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:157
+#@ tokopress
+msgid "DISABLE product price"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:163
+#@ tokopress
+msgid "Product Short Description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:164
+#@ tokopress
+msgid "DISABLE product short description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:300
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:305
+#@ tokopress
+msgid "License Information"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:306
+#@ tokopress
+msgid "SHOW license information on single product page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:313
+#@ tokopress
+msgid "License Information Summary"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:314
+#@ tokopress
+msgid "Use, by you or one client, in a single end product which end users are not charged for. The total price includes the item price and a buyer fee."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:320
+#@ tokopress
+msgid "License Link Text #1"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:323
+#@ tokopress
+msgid "More Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:328
+#@ tokopress
+msgid "License Link URL #1"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:335
+#@ tokopress
+msgid "License Link Text #2"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:342
+#@ tokopress
+msgid "License Link URL #2"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:289
+#@ tokopress
+msgid "Seller info"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:319
+#, php-format
+#@ tokopress
+msgid "Visit &quot;%s&quot; Shop"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:320
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:369
+#@ tokopress
+msgid "Contact this seller"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:384
+#, php-format
+#@ tokopress
+msgid "%s is a seller on &quot;%s&quot; shop."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:385
+#, php-format
+#@ tokopress
+msgid "Visit &quot;%s&quot;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/links.php:1
+#@ tokopress
+msgid "Control Center"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/links.php:4
+#@ tokopress
+msgid "My shop"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/links.php:5
+#@ tokopress
+msgid "My settings"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/links.php:10
+#@ tokopress
+msgid "Submit a product"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/block-top-content.php:21
+#@ tokopress
+msgid "Sort by"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/loop/rating.php:23
+#, php-format
+#@ tokopress
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/dokan/store-reviews.php:59
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/loop/rating.php:24
+#@ tokopress
+msgid "out of 5"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:9
+#@ tokopress
+msgid "Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:13
+#@ tokopress
+msgid "Header (Page Title)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:64
+#@ tokopress
+msgid "Header (Top)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:100
+#@ tokopress
+msgid "Primary Menu (Header Menu) Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:112
+#@ tokopress
+msgid "Primary Menu (Header Menu) Hover Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:124
+#@ tokopress
+msgid "Cart Link - Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:136
+#@ tokopress
+msgid "Cart Link - Icon Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:148
+#@ tokopress
+msgid "Cart Link - Text Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:160
+#@ tokopress
+msgid "Secondary Menu (Below Header) Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:174
+#@ tokopress
+msgid "Secondary Menu (Below Header) Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:186
+#@ tokopress
+msgid "Secondary Menu (Below Header) Border Color"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:198
+#@ tokopress
+msgid "Secondary Menu (Below Header) Hover Submenu Background"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:99
+#@ tokopress
+msgid "Favicon"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:201
+#@ tokopress
+msgid "Marketica - Home"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:206
+#@ tokopress
+msgid "Marketica - Plan &amp; Pricing"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:227
+#@ tokopress
+msgid "Marketica - Team Members"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:16
+#@ tokopress
+msgid "Theme Update"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:24
+#@ tokopress
+msgid "Theme Update Options"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:33
+#@ tokopress
+msgid "License Key"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:37
+#@ tokopress
+msgid "Enter your license key"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:43
+#@ tokopress
+msgid "Note: If you purchase this theme from ThemeForest, License Key is your Purchase Code."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/update.php:124
+#@ tokopress
+msgid "Updating this parent theme will lose any customizations you have made. Please consider using child theme for modifications. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:13
+#@ tokopress
+msgid "WC - Shop"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:183
+#@ tokopress
+msgid "WC - Single Product Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:250
+#@ tokopress
+msgid "WC - Related Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:304
+#@ tokopress
+msgid "WC - Up-Sells Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/designs.php:358
+#@ tokopress
+msgid "WC - Cross-Sells Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:40
+#@ tokopress
+msgid "Product Catalog Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:46
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:138
+#@ tokopress
+msgid "Default Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:47
+#@ tokopress
+msgid "Alternate Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:131
+#@ tokopress
+msgid "Product Image Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:137
+#@ tokopress
+msgid "Slider Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:178
+#@ tokopress
+msgid "WooCommerce - Single Product Item Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:280
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:183
+#@ tokopress
+msgid "Product SKU"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:184
+#@ tokopress
+msgid "HIDE product sku"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:190
+#@ tokopress
+msgid "Product Attributes"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:191
+#@ tokopress
+msgid "HIDE product attributes"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:197
+#@ tokopress
+msgid "Product Meta (Categories/Tags)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:198
+#@ tokopress
+msgid "HIDE product meta (categories/tags)"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:204
+#@ tokopress
+msgid "[DEPRECEATED] Global Product Item Details"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:212
+#@ tokopress
+msgid "[DEPRECEATED] Global Product Item Details Setup"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:219
+#@ tokopress
+msgid "WooCommerce - Related Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:253
+#@ tokopress
+msgid "WooCommerce - Up-Sells Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:287
+#@ tokopress
+msgid "WooCommerce - Cross-Sells Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/cart/cross-sells.php:38
+#@ tokopress
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/product-details-attributes.php:25
+#@ tokopress
+msgid "Weight"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/product-details-attributes.php:29
+#@ tokopress
+msgid "Dimensions"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/product-details-meta.php:15
+#@ tokopress
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/product-details-meta.php:17
+#@ tokopress
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/product-details-sku.php:10
+#@ tokopress
+msgid "SKU:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/woocommerce/single-product/up-sells.php:39
+#@ tokopress
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:20
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:37
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:54
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:71
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:87
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:98
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:109
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:120
+#, php-format
+#@ tokopress
+msgid "Footer Widget %1$s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:22
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:39
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:56
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-footer-widget.php:73
+#, php-format
+#@ tokopress
+msgid "This is \"%1$s\" widget area. Visit your %2$s to add new widget to this area."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:205
+#@ tokopress
+msgid "SHOW global product item details. This is Marketica 1.x feature, provided for backward compatibility."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:213
+#@ tokopress
+msgid "This is Marketica 1.x feature, provided for backward compatibility. Insert your global product item details, separated by new line. It will be available when you edit a product. If you prefer to define it per product, please use WooCommerce Product Attributes instead. <br><br> For example:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:272
+#@ tokopress
+msgid "by"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:215
+#@ tokopress
+msgid "This plugin was activated successfully:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-entry-meta.php:21
+#, php-format
+#@ tokopress
+msgid "View all posts in %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:19
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:19
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:19
+#, php-format
+#@ tokopress
+msgid "Categories: %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-content-title.php:23
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-inner.php:23
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/block-page-header-outer.php:23
+#, php-format
+#@ tokopress
+msgid "Tags: %s"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:96
+#, php-format
+#@ tokopress
+msgid "%s vendor plugins (%s) are active. Please use only one of them!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:101
+#, php-format
+#@ tokopress
+msgid "%s plugin is no longer in active development. Please deactivate and replace it with %s plugin!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/dokan/store-reviews.php:34
+#@ tokopress
+msgid "Seller Review"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/dokan/store-reviews.php:58
+#, php-format
+#@ tokopress
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/dokan/store.php:51
+#@ tokopress
+msgid "No products were found of this seller!"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:186
+#@ tokopress
+msgid "Instagram Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:187
+#@ tokopress
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:188
+#@ tokopress
+msgid "Youtube Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/functions.php:189
+#@ tokopress
+msgid "Flickr Profile URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:20
+#@ tokopress
+msgid "Standard Fonts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:22
+#@ tokopress
+msgid "Google Fonts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:127
+#@ tokopress
+msgid "All"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:128
+#@ tokopress
+msgid "Cyrillic"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:129
+#@ tokopress
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:130
+#@ tokopress
+msgid "Devanagari"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:131
+#@ tokopress
+msgid "Greek"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:132
+#@ tokopress
+msgid "Greek Extended"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:133
+#@ tokopress
+msgid "Khmer"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:134
+#@ tokopress
+msgid "Latin"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:135
+#@ tokopress
+msgid "Latin Extended"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:136
+#@ tokopress
+msgid "Vietnamese"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:196
+#@ tokopress
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:200
+#@ tokopress
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/customizer/customizer-fonts.php:204
+#@ tokopress
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1594
+#@ tokopress
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:25
+#@ tokopress
+msgid "Fonts"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:36
+#@ tokopress
+msgid "Primary Font"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/designs.php:46
+#@ tokopress
+msgid "Secondary Font"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:105
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:110
+#@ tokopress
+msgid "Sticky Header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:111
+#@ tokopress
+msgid "ENABLE sticky header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:153
+#@ tokopress
+msgid "Page Header Section"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/options.php:158
+#@ tokopress
+msgid "Page Header Style"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:61
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:130
+#, php-format
+#@ tokopress
+msgid "\"%s\" page not set"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:69
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:138
+#, php-format
+#@ tokopress
+msgid "\"%s\" page does not exist"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:74
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/functions.php:143
+#, php-format
+#@ tokopress
+msgid "\"%s\" page does not contain the shortcode: <code>%s</code>"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:26
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:124
+#@ tokopress
+msgid "Page Header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:27
+#@ tokopress
+msgid "HIDE page header on the main shop page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:33
+#@ tokopress
+msgid "Shop Sidebar"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:34
+#@ tokopress
+msgid "HIDE shop sidebar"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/options.php:125
+#@ tokopress
+msgid "HIDE page header"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:5
+#@ tokopress
+msgid "WC Vendors"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:10
+#@ tokopress
+msgid "Show Vendor Phone Number"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:16
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:29
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:42
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:61
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:73
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:85
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:97
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:113
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:125
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:137
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:150
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:162
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:174
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:191
+#@ tokopress
+msgid "No"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:17
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:30
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:43
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:60
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:72
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:84
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:96
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:114
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:126
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:138
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:149
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:161
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:173
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:190
+#@ tokopress
+msgid "Yes"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:18
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:31
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:44
+#@ tokopress
+msgid "Logged In Only"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:23
+#@ tokopress
+msgid "Show Vendor Email"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:36
+#@ tokopress
+msgid "Show Vendor URL"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:49
+#@ tokopress
+msgid "WC Vendors - Shop Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:54
+#@ tokopress
+msgid "Vendor Description on Top of Shop Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:66
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:119
+#@ tokopress
+msgid "Show Vendor Avatar in Vendor Description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:78
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:131
+#@ tokopress
+msgid "Show Social and Contact Info in Vendor Description"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:90
+#@ tokopress
+msgid "\"Sold by\" at Product List"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:102
+#@ tokopress
+msgid "WC Vendors - Single Product Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:107
+#@ tokopress
+msgid "Vendor Description on Top of Single Product Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:143
+#@ tokopress
+msgid "\"Seller Info\" at Product Tab"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:155
+#@ tokopress
+msgid "\"More From This Seller\" Products"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:167
+#@ tokopress
+msgid "\"Sold by\" at Product Meta"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:179
+#@ tokopress
+msgid "WC Vendors - Cart Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:184
+#@ tokopress
+msgid "\"Sold by\" at Cart page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:355
+#@ tokopress
+msgid "Sold by:"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:398
+#@ tokopress
+msgid "Shop Banner"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/sidebar-dokan.php:33
+#@ tokopress
+msgid "Store Category"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/sidebar-dokan.php:36
+#@ tokopress
+msgid "Store Location"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/sidebar-dokan.php:40
+#@ tokopress
+msgid "Contact Seller"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/settings/settings.php:1
+#@ tokopress
+msgid "Settings"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/wc-vendors/dashboard/settings/settings.php:47
+#@ tokopress
+msgid "Save"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:197
+#@ tokopress
+msgid "WC Vendors - Frontend Submission"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:201
+#@ tokopress
+msgid "Frontend Submission Page"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/woocommerce/plugin-wcvendors.php:222
+#@ tokopress
+msgid "-- None --"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:243
+#@ tokopress
+msgid "WooCommerce - Frontend Submission"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:252
+#@ tokopress
+msgid "Visibility"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:253
+#@ tokopress
+msgid "Vendor: only vendor can see frontend submission form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:253
+#@ tokopress
+msgid "User: all logged-in users can see frontend submission form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:253
+#@ tokopress
+msgid "All: everyone can see frontend submission form"
+msgstr ""
+
+#: /data/website/tokopress-marketica2-standard.dev/wp-content/themes/marketica-wp/inc/theme/plugins.php:266
+#@ tokopress
+msgid "Product Type"
+msgstr ""
+

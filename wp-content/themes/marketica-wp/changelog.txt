@@ -1,0 +1,74 @@
+2.4.3
+fixed: frontend submission style issue, it is bug on the latest CMB2 plugin
+fixed: Dokan - store address is not displayed properly on store header
+updated: Dokan - subcategory style on product categories widget
+
+2.4.2
+fixed: missing include file in customizer
+
+2.4.1
+fixed: [IMPORTANT] bring 2.3 changes to v2.4, our git issue made v2.3 changes were not captured on v2.4
+added: https support for Google Fonts
+added: show number of vendors / sellers on Statistic widget (if there are minimum 3 vendors/sellers)
+added: Dokan - Store List style
+
+2.4
+updated: Visual Composer 4.5.3, addressing PrettyPhoto security issue
+updated: Revolution Slider 4.6.93
+fixed: Google Plus wrong url on Social widget
+fixed: some minor issue
+
+2.3
+added: WC Frontend Submission – now support standard woocommerce, WC Vendors, Dokan (alternative)
+added: WC Frontend Submission – visibility option (vendor, user, all)
+added: WC Frontend Submission – product type option (physical, virtual, digital, external)
+added: WC Frondend Submission – product sku option (show/hide)
+added: WC Frondend Submission – element for Visual Composer
+fixed: Visual Composer – product column issue on default WooCommerce VC elements
+fixed: Dokan – frontend issue when WC Vendors is also activated
+
+2.2
+added: two different option for Page Header style
+added: Product Categories visual composer element
+added: ability to show/hide sticky header
+added: Dokan - fully compatible now
+added: Dokan - Mini Vendor visual composer element
+added: WC Vendors - basic Frontend Submission
+added: WC Vendors - new Vendor page style with banner support
+added: WC Vendors - Mini Vendor visual composer element
+improved: TGMPA update
+improved: smooth sticky header
+improved: more social media profile (instagram, linkedin, youtube, flickr)
+improved: remove plan&pricing on Homepage VC Template (misleading)
+fixed: possible security issue with add_query_arg
+fixed: some minor responsive issues
+fixed: some minor javascript issues
+
+2.1
+added: option to hide sidebar on shop page
+added: option to hide page header on shop page
+added: option to hide page header on single product page
+added: show archive description when it is available
+added: WC Vendors - option to show vendor phone number
+added: WC Vendors - option to show vendor email
+added: WC Vendors - option to show vendor website
+added: WC Vendors - option to show/hide vendor description on shop page
+added: WC Vendors - option to show/hide sold by info on shop page
+added: WC Vendors - option to show/hide vendor description on single product page
+added: WC Vendors - option to show/hide seller info on single product page
+added: WC Vendors - option to show/hide more products by seller on single product page
+added: WC Vendors - option to show/hide sold by meta on single product page
+improved: complete option for WC Featured Products VC element
+improved: complete option for WC Products VC element
+improved: complete option for WC Mini Products VC element
+improved: more WooCommerce 2.3 styling
+improved: remove some WP_DEBUG warning messages
+fixed: show catalog ordering on product category and tag page
+fixed: show/hide elements on alternate style of shop catalog
+fixed: featured image doesn't show in single product image slider when no gallery
+fixed: catalog button for no price / sold out products
+fixed: TGMPA_Bulk_Installer issue
+fixed: rare bug - invalid woocommerce columns
+
+2.0
+too much to write...
