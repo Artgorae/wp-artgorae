@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-08-10 21:29:57+00:00\n"
+"POT-Creation-Date: 2015-08-14 02:36:09+00:00\n"
 "PO-Revision-Date: 2015-08-07 16:32+0000\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/woothemes/woocommerce/language/ko_KR/)\n"
@@ -177,8 +177,8 @@ msgid "Last warning, are you sure?"
 msgstr "마지막 경고입니다. 정말인가요?"
 
 #: includes/admin/class-wc-admin-assets.php:182
-#: includes/admin/class-wc-admin-taxonomies.php:129
-#: includes/admin/class-wc-admin-taxonomies.php:220
+#: includes/admin/class-wc-admin-taxonomies.php:131
+#: includes/admin/class-wc-admin-taxonomies.php:222
 msgid "Choose an image"
 msgstr "이미지를 선택하세요"
 
@@ -348,7 +348,7 @@ msgstr "고객의 배송 정보를 로드할까요? 이것은 현재 입력된 �
 
 #: includes/admin/class-wc-admin-assets.php:234
 #: includes/admin/class-wc-admin-post-types.php:225
-#: includes/admin/class-wc-admin-post-types.php:2109
+#: includes/admin/class-wc-admin-post-types.php:2114
 #: includes/admin/views/html-bulk-edit-product.php:197
 #: includes/admin/views/html-quick-edit-product.php:155
 msgid "Featured"
@@ -506,7 +506,7 @@ msgstr "용어"
 #: includes/admin/class-wc-admin-attributes.php:372
 #: includes/admin/class-wc-admin-post-types.php:431
 #: includes/admin/class-wc-admin-post-types.php:559
-#: includes/admin/class-wc-admin-post-types.php:2113
+#: includes/admin/class-wc-admin-post-types.php:2118
 #: includes/admin/class-wc-admin-webhooks-table-list.php:99
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:235
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:319
@@ -961,8 +961,8 @@ msgid ""
 msgstr "이 설정은 상품에 사용된 고유주소를 제어합니다. 이 설정은 <strong>위의 \"기본\" 고유주소를 사용하지 않을 경우</strong>에만 적용됩니다."
 
 #: includes/admin/class-wc-admin-permalink-settings.php:116
-#: includes/admin/class-wc-admin-taxonomies.php:93
-#: includes/admin/class-wc-admin-taxonomies.php:182
+#: includes/admin/class-wc-admin-taxonomies.php:95
+#: includes/admin/class-wc-admin-taxonomies.php:184
 msgid "Default"
 msgstr "기본"
 
@@ -1298,7 +1298,7 @@ msgstr[0] ""
 
 #: includes/admin/class-wc-admin-post-types.php:210
 #: includes/admin/class-wc-admin-post-types.php:211
-#: includes/admin/class-wc-admin-taxonomies.php:298
+#: includes/admin/class-wc-admin-taxonomies.php:300
 msgid "Image"
 msgstr "이미지"
 
@@ -1678,73 +1678,73 @@ msgstr "모든 형태 보이기"
 msgid "Search for a customer&hellip;"
 msgstr "고객 검색&hellip;"
 
-#: includes/admin/class-wc-admin-post-types.php:2042
+#: includes/admin/class-wc-admin-post-types.php:2047
 msgid "Product name"
 msgstr "상품 이름"
 
-#: includes/admin/class-wc-admin-post-types.php:2045
+#: includes/admin/class-wc-admin-post-types.php:2050
 msgid "Coupon code"
 msgstr "쿠폰 코드"
 
-#: includes/admin/class-wc-admin-post-types.php:2060
+#: includes/admin/class-wc-admin-post-types.php:2065
 msgid "Description (optional)"
 msgstr "설명 (선택적)"
 
-#: includes/admin/class-wc-admin-post-types.php:2077
+#: includes/admin/class-wc-admin-post-types.php:2082
 msgid "Insert into %s"
 msgstr "%s에 삽입하기"
 
-#: includes/admin/class-wc-admin-post-types.php:2078
+#: includes/admin/class-wc-admin-post-types.php:2083
 msgid "Uploaded to this %s"
 msgstr "이 %s로 업로드 됨"
 
-#: includes/admin/class-wc-admin-post-types.php:2098
+#: includes/admin/class-wc-admin-post-types.php:2103
 msgid "Catalog/search"
 msgstr "카탈로그/검색"
 
-#: includes/admin/class-wc-admin-post-types.php:2099
+#: includes/admin/class-wc-admin-post-types.php:2104
 #: includes/admin/views/html-bulk-edit-product.php:185
 #: includes/admin/views/html-quick-edit-product.php:142
 msgid "Catalog"
 msgstr "카탈로그"
 
-#: includes/admin/class-wc-admin-post-types.php:2100
+#: includes/admin/class-wc-admin-post-types.php:2105
 #: includes/admin/views/html-bulk-edit-product.php:186
 #: includes/admin/views/html-quick-edit-product.php:143
 msgid "Search"
 msgstr "검색"
 
-#: includes/admin/class-wc-admin-post-types.php:2101
+#: includes/admin/class-wc-admin-post-types.php:2106
 #: includes/admin/views/html-bulk-edit-product.php:187
 #: includes/admin/views/html-quick-edit-product.php:144
 msgid "Hidden"
 msgstr "숨겨짐"
 
-#: includes/admin/class-wc-admin-post-types.php:2105
+#: includes/admin/class-wc-admin-post-types.php:2110
 msgid "Catalog visibility:"
 msgstr "카탈로그 가시성:"
 
-#: includes/admin/class-wc-admin-post-types.php:2121
+#: includes/admin/class-wc-admin-post-types.php:2126
 msgid ""
 "Define the loops this product should be visible in. The product will still "
 "be accessible directly."
 msgstr "이 상품이 보이게 될 페이지를 정하세요. 상품은 직접 접근이 가능하기도 합니다."
 
-#: includes/admin/class-wc-admin-post-types.php:2127
+#: includes/admin/class-wc-admin-post-types.php:2132
 msgid "Enable this option to feature this product."
 msgstr "이 상품에 특성화하기 위해 이 옵션을 활성화"
 
-#: includes/admin/class-wc-admin-post-types.php:2129
+#: includes/admin/class-wc-admin-post-types.php:2134
 msgid "Featured Product"
 msgstr "특성 상품"
 
-#: includes/admin/class-wc-admin-post-types.php:2132
+#: includes/admin/class-wc-admin-post-types.php:2137
 msgid "OK"
 msgstr "OK"
 
-#: includes/admin/class-wc-admin-post-types.php:2133
+#: includes/admin/class-wc-admin-post-types.php:2138
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:175
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:725
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:728
 #: includes/admin/meta-boxes/views/html-order-items.php:257
 #: includes/admin/meta-boxes/views/html-order-items.php:303
 msgid "Cancel"
@@ -2550,51 +2550,51 @@ msgid ""
 "upgrade for your language if a translation is available."
 msgstr "<strong class=\"red\">주의:</strong> 이 옵션은 번역이 가능할 경우 언어의 번역을 강제로 업그레이드 합니다."
 
-#: includes/admin/class-wc-admin-taxonomies.php:91
-#: includes/admin/class-wc-admin-taxonomies.php:179
+#: includes/admin/class-wc-admin-taxonomies.php:93
+#: includes/admin/class-wc-admin-taxonomies.php:181
 msgid "Display type"
 msgstr "보이기 형식"
 
-#: includes/admin/class-wc-admin-taxonomies.php:94
-#: includes/admin/class-wc-admin-taxonomies.php:183
+#: includes/admin/class-wc-admin-taxonomies.php:96
+#: includes/admin/class-wc-admin-taxonomies.php:185
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:99
 #: includes/admin/settings/class-wc-settings-products.php:28
 #: includes/admin/views/html-admin-page-addons.php:32
 msgid "Products"
 msgstr "상품"
 
-#: includes/admin/class-wc-admin-taxonomies.php:95
-#: includes/admin/class-wc-admin-taxonomies.php:184
+#: includes/admin/class-wc-admin-taxonomies.php:97
+#: includes/admin/class-wc-admin-taxonomies.php:186
 msgid "Subcategories"
 msgstr "하위 카테고리"
 
-#: includes/admin/class-wc-admin-taxonomies.php:96
-#: includes/admin/class-wc-admin-taxonomies.php:185
+#: includes/admin/class-wc-admin-taxonomies.php:98
+#: includes/admin/class-wc-admin-taxonomies.php:187
 msgid "Both"
 msgstr "둘다"
 
-#: includes/admin/class-wc-admin-taxonomies.php:100
-#: includes/admin/class-wc-admin-taxonomies.php:190
-#: includes/admin/class-wc-admin-taxonomies.php:329
+#: includes/admin/class-wc-admin-taxonomies.php:102
+#: includes/admin/class-wc-admin-taxonomies.php:192
+#: includes/admin/class-wc-admin-taxonomies.php:331
 msgid "Thumbnail"
 msgstr "썸네일"
 
-#: includes/admin/class-wc-admin-taxonomies.php:104
-#: includes/admin/class-wc-admin-taxonomies.php:195
+#: includes/admin/class-wc-admin-taxonomies.php:106
+#: includes/admin/class-wc-admin-taxonomies.php:197
 msgid "Upload/Add image"
 msgstr "업로드/ 이미지 추가"
 
-#: includes/admin/class-wc-admin-taxonomies.php:105
-#: includes/admin/class-wc-admin-taxonomies.php:196
+#: includes/admin/class-wc-admin-taxonomies.php:107
+#: includes/admin/class-wc-admin-taxonomies.php:198
 msgid "Remove image"
 msgstr "이미지 제거"
 
-#: includes/admin/class-wc-admin-taxonomies.php:131
-#: includes/admin/class-wc-admin-taxonomies.php:222
+#: includes/admin/class-wc-admin-taxonomies.php:133
+#: includes/admin/class-wc-admin-taxonomies.php:224
 msgid "Use image"
 msgstr "이미지 사용하기"
 
-#: includes/admin/class-wc-admin-taxonomies.php:272
+#: includes/admin/class-wc-admin-taxonomies.php:274
 msgid ""
 "Product categories for your store can be managed here. To change the order "
 "of categories on the front-end you can drag and drop to sort them. To see "
@@ -2602,14 +2602,14 @@ msgid ""
 "page."
 msgstr "상점의 상품 카테고리는 이곳에서 관리할 수 있습니다. 사이트의 카테고리 순서를 변경하려면 분류하기 위해 끌어놓기 할 수 있습니다. 카테고리 목록을 더 보려면 페이지 상단의 \"화면 옵션\" 링크를 클릭하세요."
 
-#: includes/admin/class-wc-admin-taxonomies.php:279
+#: includes/admin/class-wc-admin-taxonomies.php:281
 msgid ""
 "Shipping classes can be used to group products of similar type. These groups"
 " can then be used by certain shipping methods to provide different rates to "
 "different products."
 msgstr "배송 클래스는 비슷한 형태의 상품을 그룹화하는데 사용될 수 있습니다. 이 그룹은 다른 상품에 다른 세율을 제공하기 위해서 특정한 배송 방법에 의해 사용될 수 있습니다."
 
-#: includes/admin/class-wc-admin-taxonomies.php:286
+#: includes/admin/class-wc-admin-taxonomies.php:288
 msgid ""
 "Attribute terms can be assigned to products and "
 "variations.<br/><br/><b>Note</b>: Deleting a term will remove it from all "
@@ -3843,87 +3843,87 @@ msgid "Go"
 msgstr "가기"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:697
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:728
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:731
 msgid "%s item"
 msgid_plural "%s items"
 msgstr[0] ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:699
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:730
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:733
 msgid "Expand"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:699
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:730
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:733
 msgid "Close"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:702
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:733
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:736
 msgid "Go to the first page"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:703
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:734
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:737
 msgid "Go to the previous page"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:705
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:736
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:739
 msgid "Select Page"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:706
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:737
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:740
 msgid "Current page"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:713
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:744
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:747
 msgid "Go to the next page"
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:714
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:745
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:748
 msgid "Go to the last page"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:724
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:727
 #: includes/admin/settings/views/html-keys-edit.php:96
 #: includes/admin/views/html-admin-page-status-tools.php:69
 msgid "Save Changes"
 msgstr "변경 사항 저장"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:845
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:848
 msgid "Product SKU must be unique."
 msgstr "상품 SKU는 독특해야합니다."
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1164
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1167
 msgid ""
 "The downloadable file %s cannot be used as it does not have an allowed file "
 "type. Allowed types include: %s"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1177
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1180
 msgid ""
 "The downloadable file %s cannot be used as it does not exist on the server."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1285
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1288
 msgid "Variation #%s of %s"
 msgstr "옵션 %s 중 #%s"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1329
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1332
 msgid "#%s &ndash; Variation SKU must be unique."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1449
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1452
 msgid ""
 "#%s &ndash; The downloadable file %s cannot be used as it does not have an "
 "allowed file type. Allowed types include: %s"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1456
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1459
 msgid ""
 "#%s &ndash; The downloadable file %s cannot be used as it does not exist on "
 "the server."
@@ -7165,7 +7165,7 @@ msgid "None"
 msgstr "없음"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:711
-#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:742
+#: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:745
 msgctxt "number of pages"
 msgid "of"
 msgstr ""
