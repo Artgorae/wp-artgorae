@@ -23,17 +23,41 @@ defined('ABSPATH') or die("You can't access this file directly.");
  * @since: 4.0
  */
 ?>
-<div class='item asp_isotopic_item'>
+<li class="product type-product status-publish purchasable product-type-simple instock">
 
     <?php do_action('asp_res_isotopic_begin_item'); ?>
 
-    <?php if (!empty($r->image)): ?>
-    <div class='asp_item_img' imgsrc='<?php echo $r->image; ?>' style="background-image: url('<?php echo $r->image; ?>');"></div>
-    <?php endif; ?>
+    <div class="thumbnail-loop-wrap">
+        <?php if (!empty($r->image)): ?>
+        <a href="http://wp-artgorae-env.elasticbeanstalk.com/product/custom-order-product-8/">
+            <img src='<?php echo $r->image; ?>' alt="플레이스홀더" width="600" class="woocommerce-placeholder wp-post-image" height="420">
+        </a>
+        <?php endif; ?>
 
-    <?php do_action('asp_res_isotopic_after_image'); ?>
+        <?php do_action('asp_res_isotopic_after_image'); ?>
 
+        <div class="add-to-cart-loop-wrap">
+            <a href='<?php echo $r->link; ?>' rel="nofollow" class="button detail_button_loop">
+                detail
+            </a>
+        </div>
+    </div>
+
+    <div class="price-loop-wrap">
+        <span class="price"><?php echo get_post_meta( $r->id, '_price', true ); ?></span>
+    </div>
+
+    <div class="title-rating-loop-wrap">
+        <h3>
+            <a href='<?php echo $r->link; ?>'><?php echo $r->title; ?></a>
+        </h3>
+
+    </div>
+    <?php 
+    /*
     <div class='asp_content'>
+
+    
 
         <h3><a href='<?php echo $r->link; ?>'<?php echo ($s_options['results_click_blank'])?" target='_blank'":""; ?>>
                 <?php echo $r->title; ?>
@@ -59,11 +83,12 @@ defined('ABSPATH') or die("You can't access this file directly.");
         <?php endif; ?>
 
     </div>
-
+    */
+    ?>
     <?php do_action('asp_res_isotopic_after_content'); ?>
 
     <div class='clear'></div>
 
     <?php do_action('asp_res_isotopic_end_item'); ?>
-
-</div>
+    
+</li>

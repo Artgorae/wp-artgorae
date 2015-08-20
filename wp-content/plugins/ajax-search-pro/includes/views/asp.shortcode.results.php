@@ -28,8 +28,8 @@ defined('ABSPATH') or die("You can't access this file directly.");
 
         <?php do_action('asp_layout_before_first_result', $id); ?>
 
-        <div class="resdrg">
-        </div>
+        <ul class="products resdrg">
+        </ul>
 
         <?php do_action('asp_layout_after_last_result', $id); ?>
 
