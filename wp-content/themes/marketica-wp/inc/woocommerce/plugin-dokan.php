@@ -29,9 +29,14 @@ function tokopress_dokan_quicknav_account() {
     if ( ! dokan_is_user_seller( $user_id ) )
 		return;
 
-    $nav_urls = dokan_get_dashboard_nav();
+    // $nav_urls = dokan_get_dashboard_nav();
 
-    foreach ($nav_urls as $key => $item) {
-        printf( '<li><a href="%s">%s %s</a></li>', $item['url'], $item['title'], $item['icon'] );
-    }
+    // foreach ($nav_urls as $key => $item) {
+    //     printf( '<li><a href="%s">%s %s</a></li>', $item['url'], $item['title'], $item['icon'] );
+    // }
+
+    $title = __( 'Dashboard', 'dokan' );
+    $icon = '<i class="fa fa-tachometer"></i>';
+    $url = dokan_get_navigation_url();
+    printf( '<li><a href="%s">%s %s</a></li>', $url, $title, $icon );
 }
