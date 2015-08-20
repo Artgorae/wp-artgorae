@@ -4,6 +4,10 @@ if (!isset($render_reply)) {
     $render_reply = true;
 }
 ?>
+<div id='lean_overlay'></div>
+<?php $this->render_partial('shortcode/_reply_form', array(
+    'message' => $message
+)); ?>
 <div class="ig-container">
     <section class="message-content">
         <div class="message-content-actions pull-right">
@@ -43,9 +47,6 @@ if (!isset($render_reply)) {
                 <i class="glyphicon glyphicon-trash"></i>
             </button>-->
         </div>
-        <?php $this->render_partial('shortcode/_reply_form', array(
-            'message' => $message
-        )); ?>
         <div class="clearfix"></div>
         <div class="page-header">
             <h3 class="mm-message-subject"><?php echo $message->subject ?></h3>
