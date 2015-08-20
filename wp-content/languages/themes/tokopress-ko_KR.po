@@ -1,0 +1,2699 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketica v2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-20 18:55+0900\n"
+"PO-Revision-Date: 2015-08-20 18:57+0900\n"
+"Last-Translator: admin <admin@admin.com>\n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr_x\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ tokopress
+#: marketica-wp/author.php:68
+#, php-format
+msgid "%s does not have personal biography."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:11
+#: marketica-wp/block-page-header-inner.php:11
+#: marketica-wp/block-page-header-outer.php:11
+#: marketica-wp/inc/functions/breadcrumb.php:274
+#: marketica-wp/inc/woocommerce/frontend.php:21
+msgid "Home"
+msgstr "홈"
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:15
+#: marketica-wp/block-page-header-inner.php:15
+#: marketica-wp/block-page-header-outer.php:15
+msgid "Blog"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:19
+#: marketica-wp/block-page-header-inner.php:19
+#: marketica-wp/block-page-header-outer.php:19
+#, php-format
+msgid "Categories: %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:23
+#: marketica-wp/block-page-header-inner.php:23
+#: marketica-wp/block-page-header-outer.php:23
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:39
+#: marketica-wp/block-page-header-inner.php:39
+#: marketica-wp/block-page-header-outer.php:39
+msgid "F d, Y"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:43
+#: marketica-wp/block-page-header-inner.php:43
+#: marketica-wp/block-page-header-outer.php:43
+msgid "F Y"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:47
+#: marketica-wp/block-page-header-inner.php:47
+#: marketica-wp/block-page-header-outer.php:47
+#: marketica-wp/inc/functions/breadcrumb.php:285
+#: marketica-wp/inc/functions/breadcrumb.php:1235
+#: marketica-wp/inc/theme/frontend.php:197
+#: marketica-wp/inc/theme/frontend.php:203
+msgid "Y"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:53
+#: marketica-wp/block-page-header-inner.php:53
+#: marketica-wp/block-page-header-outer.php:53
+msgid "Projects"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:57
+#: marketica-wp/block-page-header-inner.php:57
+#: marketica-wp/block-page-header-outer.php:57
+#: marketica-wp/inc/theme/frontend.php:206
+msgid "Shop"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:61
+#: marketica-wp/block-page-header-inner.php:61
+#: marketica-wp/block-page-header-outer.php:61
+#: marketica-wp/inc/functions/breadcrumb.php:278
+msgid "Archives"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-content-title.php:75
+#: marketica-wp/block-page-header-inner.php:75
+#: marketica-wp/block-page-header-outer.php:75
+#: marketica-wp/dokan/store-reviews.php:39
+msgid "No Result Found"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-entry-meta.php:8
+msgid "writen by"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-entry-meta.php:16
+msgid "Filed Under"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-entry-meta.php:21
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-footer-widget.php:20
+#: marketica-wp/block-footer-widget.php:37
+#: marketica-wp/block-footer-widget.php:54
+#: marketica-wp/block-footer-widget.php:71 marketica-wp/functions.php:87
+#: marketica-wp/functions.php:98 marketica-wp/functions.php:109
+#: marketica-wp/functions.php:120
+#, php-format
+msgid "Footer Widget %1$s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-footer-widget.php:22
+#: marketica-wp/block-footer-widget.php:39
+#: marketica-wp/block-footer-widget.php:56
+#: marketica-wp/block-footer-widget.php:73
+#, php-format
+msgid ""
+"This is \"%1$s\" widget area. Visit your %2$s to add new widget to this area."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-footer-widget.php:22
+#: marketica-wp/block-footer-widget.php:39
+#: marketica-wp/block-footer-widget.php:56
+#: marketica-wp/block-footer-widget.php:73
+msgid "Widgets Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/block-header.php:67
+msgid "My Account"
+msgstr "나의 계정"
+
+# @ tokopress
+#: marketica-wp/block-header.php:78
+msgid "Log Out"
+msgstr "로그아웃"
+
+# @ tokopress
+#: marketica-wp/block-header.php:86 marketica-wp/block-header.php:93
+msgid "Log In"
+msgstr "로그인"
+
+#: marketica-wp/block-search-product.php:8 marketica-wp/block-search.php:8
+msgid "type here and hit enter &hellip;"
+msgstr "검색할 내용을 입력하고 enter를 누르세요 &hellip;"
+
+#: marketica-wp/block-search-product.php:8 marketica-wp/block-search.php:8
+msgid "Search for:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:19
+msgid "Says"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:20
+msgid ". Reply"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:25
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:45
+msgid "No Comment"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:45
+msgid "One Comment"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:45
+msgid "% Comments"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:64
+msgid "Leave a comment"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:70
+msgid "Name"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:71
+msgid "Email"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:72
+msgid "Website"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:76
+msgid "post your comment here!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/comments.php:78
+msgid "Post comment"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/content-404.php:9
+msgid "Nothing Found"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/content-404.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/content-page.php:15
+msgid "Pages:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/dokan/store-reviews.php:34
+msgid "Seller Review"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/dokan/store-reviews.php:58
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/dokan/store-reviews.php:59
+#: marketica-wp/woocommerce/loop/rating.php:24
+msgid "out of 5"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/dokan/store.php:51
+msgid "No products were found of this seller!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:69
+msgid "Primary Menu - Header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:70
+msgid "Secondary Menu - Below Header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:75
+msgid "Main Widget"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:77
+msgid "Widgets in this area will be shown in Main sidebar(right content)."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:89 marketica-wp/functions.php:100
+#: marketica-wp/functions.php:111 marketica-wp/functions.php:122
+msgid "Widgets in this area will be shown in Footer Widget."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:187
+msgid "Phone Number"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:188
+msgid "Facebook Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:189
+msgid "Google Plus Profil URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:190
+msgid "Twitter Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:191
+msgid "Instagram Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:192
+msgid "Linkedin Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:193
+msgid "Youtube Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/functions.php:194
+msgid "Flickr Profile URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:20
+msgid "Standard Fonts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:22
+msgid "Google Fonts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:127
+msgid "All"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:128
+msgid "Cyrillic"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:129
+msgid "Cyrillic Extended"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:130
+msgid "Devanagari"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:131
+msgid "Greek"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:132
+msgid "Greek Extended"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:133
+msgid "Khmer"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:134
+msgid "Latin"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:135
+msgid "Latin Extended"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:136
+msgid "Vietnamese"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:196
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:200
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-fonts.php:204
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/customizer/customizer-framework.php:41
+msgid "General Colors"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:273
+msgid "Browse:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:275
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:276
+msgid "404 Not Found"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:277
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:279
+#: marketica-wp/inc/theme/frontend.php:185
+msgid "g:i a"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:280
+#, php-format
+msgid "Minute %d"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:281
+#: marketica-wp/inc/theme/frontend.php:191
+msgid "g a"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:282
+msgid "d"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:283
+#, php-format
+msgid "Week %d"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:284
+msgid "F"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:1340
+#: marketica-wp/inc/functions/breadcrumb.php:1376
+#: marketica-wp/inc/functions/breadcrumb.php:1393
+#: marketica-wp/inc/functions/breadcrumb.php:1424
+msgid "Edit"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:1368
+msgid "Split"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/breadcrumb.php:1372
+msgid "Merge"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:14
+msgid "Leave a message"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:15
+msgid "Message via the contact form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:19
+msgid "Submit"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:37
+msgid "Please enter your name"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:41
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:45
+msgid "Please enter your message"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:50
+msgid "Your answer was wrong!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:53
+msgid "Please enter your answer"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:57
+msgid "There were one or more errors while submitting the form."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:76
+#: marketica-wp/inc/widget/widget_social.php:194
+msgid "Email:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:77
+msgid "Name:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:78
+msgid "IP Address:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:78
+msgid "User Agent:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:88
+msgid "[COPY]"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:97
+msgid "Your email was successfully sent."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:100
+msgid ""
+"There were technical error while submitting the form. Sorry for the "
+"inconvenience."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:114
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:128
+msgid "Your Name"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:135
+msgid "Your Email"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:144
+msgid "Your Message"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:154
+msgid "Your Answer"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:167
+msgid "Send a copy of this email to you"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/functions/contact-form.php:177
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:90
+#: marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:91
+msgid "Theme Options"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:198
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:229
+msgid "Default options restored."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-framework-admin.php:283
+msgid "Options saved."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:66
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:68
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:426
+msgid "Bold"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/option-framework/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:197
+#: marketica-wp/inc/theme/plugins.php:147
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:198
+#: marketica-wp/inc/theme/plugins.php:148
+msgid "Install Plugins"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:199
+#: marketica-wp/inc/theme/plugins.php:149
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:200
+msgid "Something went wrong."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:201
+#: marketica-wp/inc/theme/plugins.php:151
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:202
+#: marketica-wp/inc/theme/plugins.php:152
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:203
+#: marketica-wp/inc/theme/plugins.php:153
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:204
+#: marketica-wp/inc/theme/plugins.php:154
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:205
+#: marketica-wp/inc/theme/plugins.php:155
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:206
+#: marketica-wp/inc/theme/plugins.php:156
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:207
+#: marketica-wp/inc/theme/plugins.php:157
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:208
+#: marketica-wp/inc/theme/plugins.php:158
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:209
+#: marketica-wp/inc/theme/plugins.php:159
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:210
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugin"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:211
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:212
+#: marketica-wp/inc/theme/plugins.php:161
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:213
+msgid "Return to the dashboard"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:214
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2037
+#: marketica-wp/inc/theme/plugins.php:162
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:215
+msgid "This plugin was activated successfully:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:216
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:217
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:566
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2256
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1220
+msgid "Private Repository"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1223
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1228
+msgid "WordPress Repository"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1231
+msgid "Required"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1231
+msgid "Recommended"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1234
+msgid "Not Installed"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1236
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1238
+msgid "Not Updated"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1240
+msgid "Active"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1341
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1477
+msgid "Install"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1365
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1478
+msgid "Activate"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1441
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1456
+msgid "Plugin"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1457
+msgid "Source"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1458
+msgid "Type"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1459
+msgid "Status"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1479
+msgid "Update"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1589
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1594
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1702
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:1724
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2020
+msgid "Install package not available."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2021
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2022
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2023
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2024
+msgid "Plugin install failed."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2025
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2036
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2150
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2151
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2160
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2152
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2161
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+msgid "Show Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2153
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+msgid "Hide Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2154
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2155
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2159
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2162
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2163
+msgid "All installations have been completed."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/tgm/class-tgm-plugin-activation.php:2164
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:9
+msgid "Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:13
+msgid "Header (Page Title)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:27 marketica-wp/inc/theme/options.php:94
+msgid "Header"
+msgstr ""
+
+#: marketica-wp/inc/theme/designs.php:28
+msgid "Customize your header sections"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:41
+msgid "Fonts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:52
+msgid "Primary Font"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:62
+msgid "Secondary Font"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:80
+msgid "Header (Top)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:93
+msgid "Header Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:105
+msgid "Logo Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:117
+msgid "Primary Menu (Header Menu) Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:129
+msgid "Primary Menu (Header Menu) Hover Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:141
+msgid "Cart Link - Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:153
+msgid "Cart Link - Icon Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:165
+msgid "Cart Link - Text Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:177
+msgid "Secondary Menu (Below Header) Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:191
+msgid "Secondary Menu (Below Header) Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:203
+msgid "Secondary Menu (Below Header) Border Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:215
+msgid "Secondary Menu (Below Header) Hover Submenu Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:235
+msgid "Page Title Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:247
+msgid "Page Title Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:263
+msgid "Breadcrumb Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:275
+msgid "Breadcrumb Link Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:287
+msgid "Breadcrumb Separator Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:306
+#: marketica-wp/inc/theme/options.php:192
+msgid "Footer"
+msgstr ""
+
+#: marketica-wp/inc/theme/designs.php:307
+msgid "Customize your footer sections"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:320
+#: marketica-wp/inc/theme/options.php:202
+msgid "Footer Widget"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:333
+msgid "Footer Widget Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:345
+msgid "Footer Widget Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:358
+msgid "Footer Widget Link Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:370
+msgid "Footer Widget Title Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:382
+msgid "Footer Widget Border Separator Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:394
+msgid "Footer Widget Border Top Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:412
+#: marketica-wp/inc/theme/options.php:210
+msgid "Footer Credit"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:425
+msgid "Footer Credit Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:437
+msgid "Footer Credit Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/designs.php:449
+msgid "Footer Credit Link Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:151
+#: marketica-wp/woocommerce/loop/pagination.php:24
+msgid "Previous"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:152
+#: marketica-wp/woocommerce/loop/pagination.php:25
+msgid "Next"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:176
+msgid "404 - Not Found"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:178
+#, php-format
+msgid "Search Results for \"%1$s\""
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:185
+#: marketica-wp/inc/theme/frontend.php:191
+#: marketica-wp/inc/theme/frontend.php:194
+#: marketica-wp/inc/theme/frontend.php:200
+#: marketica-wp/inc/theme/frontend.php:203
+#, php-format
+msgid "Archive for %1$s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:188
+#, php-format
+msgid "Archive for minute %1$s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:188
+msgid "i"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:194
+msgid "F jS, Y"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:197
+#, php-format
+msgid "Archive for week %1$s of %2$s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:197
+msgid "W"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/frontend.php:221
+#, php-format
+msgid "- Page %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:99
+msgid "Favicon"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:105
+#: marketica-wp/inc/theme/options.php:110
+msgid "Sticky Header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:111
+msgid "ENABLE sticky header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:118
+msgid "Header Section"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:123
+msgid "Site Logo"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:129
+msgid "Search"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:130
+msgid "DISABLE search"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:137
+msgid "Account Navigation"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:138
+msgid "DISABLE account dropdown navigation"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:145
+msgid "Cart Link"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:146
+msgid "DISABLE cart link"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:153
+msgid "Page Header Section"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:158
+msgid "Page Header Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:170
+msgid "Header Scripts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:175
+msgid "Header Script"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:176
+#: marketica-wp/inc/theme/options.php:232
+msgid "You can put any script here, for example your Google Analytics scripts."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:197
+msgid "Footer Section"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:203
+msgid "DISABLE footer widget"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:211
+msgid "DISABLE footer credit"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:218
+msgid "Footer Credit Text"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:226
+msgid "Footer Scripts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:231
+msgid "Footer Script"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:247
+msgid "Contact Template"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:252
+msgid "DISABLE Map"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:253
+msgid "DISABLE map from contact"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:260
+msgid "Latitude"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:261
+msgid "Insert map Latitude koordinat"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:267
+msgid "Longitude"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:268
+msgid "Insert map Longitude koordinat"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:274
+msgid "Marker Title"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:275
+msgid "Insert marker title"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:281
+msgid "Marker Description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/options.php:282
+msgid "Insert marker description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:150
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:160
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:163
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:199
+msgid "Marketica - Home"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:204
+msgid "Marketica - Plan &amp; Pricing"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:225
+msgid "Marketica - Team Members"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:241
+msgid "WooCommerce - Frontend Submission"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:250
+msgid "Visibility"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:251
+msgid "Vendor: only vendor can see frontend submission form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:251
+msgid "User: all logged-in users can see frontend submission form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:251
+msgid "All: everyone can see frontend submission form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:264
+msgid "Product Type"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/plugins.php:278
+#: marketica-wp/inc/woocommerce/options.php:183
+msgid "Product SKU"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:16
+msgid "Theme Update"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:24
+msgid "Theme Update Options"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:33
+msgid "License Key"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:37
+msgid "Enter your license key"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:43
+msgid ""
+"Note: If you purchase this theme from ThemeForest, License Key is your "
+"Purchase Code."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/theme/update.php:124
+msgid ""
+"Updating this parent theme will lose any customizations you have made. "
+"Please consider using child theme for modifications. 'Cancel' to stop, 'OK' "
+"to update."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:20
+msgid "A custom widget to display the social network icons."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:23
+msgid "Tokopress - Social Connect"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:185
+#: marketica-wp/inc/widget/widget_statistic.php:98
+#: marketica-wp/inc/widget/widget_subscribe.php:46
+msgid "Title:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:190
+msgid "Rss URL:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:198
+msgid "Twitter Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:202
+msgid "Facebook Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:206
+msgid "Google Plus Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:210
+msgid "Youtube Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:215
+msgid "Flickr Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:219
+msgid "Linkedin Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:223
+msgid "Pinterest Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:228
+msgid "Dribbble Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:232
+msgid "Github Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:236
+msgid "Last FM Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:241
+msgid "Vimeo Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:245
+msgid "Tumblr Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:249
+msgid "Instagram Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:253
+msgid "Soundcloud Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:257
+msgid "Behance Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_social.php:261
+msgid "Deviantart Username:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:16
+msgid "Tokopress - Statistic Product and Users"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:17
+msgid "Display statistic product and users"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:40
+msgid "Marketplace Members"
+msgstr "가입된 회원 수"
+
+#: marketica-wp/inc/widget/widget_statistic.php:59
+msgid "Marketplace Sellers"
+msgstr "입점된 작가 수"
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:69
+msgid "Marketplace Items"
+msgstr "입점된 상품 수"
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:76
+msgid "Posts"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_statistic.php:94
+msgid "Statistics"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_subscribe.php:20
+msgid "Tokopress - Subscribe Form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_subscribe.php:21
+msgid "Displays your custom MailChimp for WordPress sign-up form"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_subscribe.php:42
+msgid "Newsletter"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_subscribe.php:50
+msgid "Form Description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/widget/widget_subscribe.php:54
+#, php-format
+msgid ""
+"You can edit your sign-up form in the %sMailChimp for WordPress form settings"
+"%s."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:14
+#: marketica-wp/inc/woocommerce/options.php:8
+msgid "WooCommerce"
+msgstr ""
+
+#: marketica-wp/inc/woocommerce/designs.php:15
+msgid "Customize your woocommerce sections"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:28
+msgid "WC - Shop"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:41
+msgid "Catalog Ordering Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:53
+msgid "Catalog Ordering Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:69
+msgid "Sale Flash Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:81
+msgid "Sale Flash Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:97
+msgid "Product Background"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:109
+msgid "Product Separator"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:121
+msgid "Product Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:133
+msgid "Product Title Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:145
+msgid "Product Price Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:157
+msgid "Product Old Price Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:169
+msgid "Product Border Price Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:181
+msgid "Product Caption Background"
+msgstr ""
+
+#: marketica-wp/inc/woocommerce/designs.php:193
+msgid "Product Rating Color"
+msgstr ""
+
+#: marketica-wp/inc/woocommerce/designs.php:205
+msgid "Product Rating Color (active)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:223
+msgid "WC - Single Product Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:236
+#: marketica-wp/inc/woocommerce/options.php:149
+msgid "Product Rating"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:249
+msgid "Product Rating Active"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:261
+#: marketica-wp/inc/woocommerce/options.php:156
+msgid "Product Price"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:273
+msgid "Product Old Price"
+msgstr ""
+
+#: marketica-wp/inc/woocommerce/designs.php:285
+msgid "Gallery Arrow Background Color"
+msgstr ""
+
+#: marketica-wp/inc/woocommerce/designs.php:296
+msgid "Gallery Arrow Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:314
+msgid "WC - Related Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:327
+#: marketica-wp/inc/woocommerce/designs.php:382
+#: marketica-wp/inc/woocommerce/designs.php:437
+msgid "Title Background Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:339
+#: marketica-wp/inc/woocommerce/designs.php:394
+#: marketica-wp/inc/woocommerce/designs.php:449
+msgid "Title Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:351
+#: marketica-wp/inc/woocommerce/designs.php:406
+#: marketica-wp/inc/woocommerce/designs.php:461
+msgid "Title Border Color"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:369
+msgid "WC - Up-Sells Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/designs.php:424
+msgid "WC - Cross-Sells Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/frontend.php:103
+#: marketica-wp/woocommerce/content-product-alt.php:57
+msgid "detail"
+msgstr "자세히"
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/frontend.php:265
+msgid "Item Details"
+msgstr "상품 상세정보"
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/functions.php:61
+#: marketica-wp/inc/woocommerce/functions.php:130
+#, php-format
+msgid "\"%s\" page not set"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/functions.php:69
+#: marketica-wp/inc/woocommerce/functions.php:138
+#, php-format
+msgid "\"%s\" page does not exist"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/functions.php:74
+#: marketica-wp/inc/woocommerce/functions.php:143
+#, php-format
+msgid "\"%s\" page does not contain the shortcode: <code>%s</code>"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/functions.php:96
+#, php-format
+msgid "%s vendor plugins (%s) are active. Please use only one of them!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/functions.php:101
+#, php-format
+msgid ""
+"%s plugin is no longer in active development. Please deactivate and replace "
+"it with %s plugin!"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/metabox.php:7
+msgid "Product Item Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:13
+msgid "Redirect URL After Customer Login"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:21
+msgid "WooCommerce - Shop Display Options"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:26
+#: marketica-wp/inc/woocommerce/options.php:124
+msgid "Page Header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:27
+msgid "HIDE page header on the main shop page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:33
+msgid "Shop Sidebar"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:34
+msgid "HIDE shop sidebar"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:40
+msgid "Product Catalog Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:46
+#: marketica-wp/inc/woocommerce/options.php:138
+msgid "Default Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:47
+msgid "Alternate Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:51
+msgid "Catalog Ordering"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:52
+msgid "DISABLE catalog ordering dropdown"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:58
+msgid "Products Per Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:65
+msgid "Products Column Per Row"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:83
+msgid "Products Sale Flash"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:84
+msgid "DISABLE products sale flash"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:90
+msgid "Products Title"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:91
+msgid "HIDE products title"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:97
+msgid "Products Rating"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:98
+msgid "DISABLE products rating"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:104
+msgid "Products Price"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:105
+msgid "DISABLE products price"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:111
+msgid "Products \"Add To Cart\" Button"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:112
+msgid "DISABLE products \"add to cart\" button"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:119
+msgid "WooCommerce - Single Product Options"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:125
+msgid "HIDE page header"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:131
+msgid "Product Image Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:137
+msgid "Slider Style"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:142
+msgid "Product Sale Flash"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:143
+msgid "DISABLE product sale flash"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:150
+msgid "DISABLE product rating"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:157
+msgid "DISABLE product price"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:163
+msgid "Product Short Description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:164
+msgid "DISABLE product short description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:170
+msgid "Product \"Add To Cart\" Button"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:171
+msgid "DISABLE product \"add to cart\" button"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:178
+msgid "WooCommerce - Single Product Item Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:184
+msgid "HIDE product sku"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:190
+msgid "Product Attributes"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:191
+msgid "HIDE product attributes"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:197
+msgid "Product Meta (Categories/Tags)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:198
+msgid "HIDE product meta (categories/tags)"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:204
+msgid "[DEPRECEATED] Global Product Item Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:205
+msgid ""
+"SHOW global product item details. This is Marketica 1.x feature, provided "
+"for backward compatibility."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:212
+msgid "[DEPRECEATED] Global Product Item Details Setup"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:213
+msgid ""
+"This is Marketica 1.x feature, provided for backward compatibility. Insert "
+"your global product item details, separated by new line. It will be "
+"available when you edit a product. If you prefer to define it per product, "
+"please use WooCommerce Product Attributes instead. <br><br> For example:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:219
+msgid "WooCommerce - Related Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:224
+#: marketica-wp/woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr "관련 상품"
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:225
+msgid "DISABLE related products on single product page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:231
+msgid "Number of Related Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:253
+msgid "WooCommerce - Up-Sells Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:258
+msgid "Up-Sells"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:259
+msgid "DISABLE up-sells products on single product page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:265
+msgid "Number of Up-Sells Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:287
+msgid "WooCommerce - Cross-Sells Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:292
+msgid "Cross-Sells"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:293
+msgid "DISABLE Cross-sells products on cart page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:300
+#: marketica-wp/inc/woocommerce/options.php:305
+msgid "License Information"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:306
+msgid "SHOW license information on single product page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:313
+msgid "License Information Summary"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:314
+msgid ""
+"Use, by you or one client, in a single end product which end users are not "
+"charged for. The total price includes the item price and a buyer fee."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:320
+msgid "License Link Text #1"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:323
+msgid "More Details"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:328
+msgid "License Link URL #1"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:335
+msgid "License Link Text #2"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/options.php:342
+msgid "License Link URL #2"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:5
+msgid "WC Vendors"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:10
+msgid "Show Vendor Phone Number"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:16
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:29
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:42
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:61
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:73
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:85
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:97
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:113
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:125
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:137
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:150
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:162
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:174
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:191
+msgid "No"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:17
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:30
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:43
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:60
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:72
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:84
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:96
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:114
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:126
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:138
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:149
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:161
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:173
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:190
+msgid "Yes"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:18
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:31
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:44
+msgid "Logged In Only"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:23
+msgid "Show Vendor Email"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:36
+msgid "Show Vendor URL"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:49
+msgid "WC Vendors - Shop Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:54
+msgid "Vendor Description on Top of Shop Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:66
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:119
+msgid "Show Vendor Avatar in Vendor Description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:78
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:131
+msgid "Show Social and Contact Info in Vendor Description"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:90
+msgid "\"Sold by\" at Product List"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:102
+msgid "WC Vendors - Single Product Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:107
+msgid "Vendor Description on Top of Single Product Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:143
+msgid "\"Seller Info\" at Product Tab"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:155
+msgid "\"More From This Seller\" Products"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:167
+msgid "\"Sold by\" at Product Meta"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:179
+msgid "WC Vendors - Cart Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:184
+msgid "\"Sold by\" at Cart page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:197
+msgid "WC Vendors - Frontend Submission"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:201
+msgid "Frontend Submission Page"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:222
+msgid "-- None --"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:272
+msgid "by"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:289
+msgid "Seller info"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:319
+#, php-format
+msgid "Visit &quot;%s&quot; Shop"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:320
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:369
+msgid "Contact this seller"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:355
+msgid "Sold by:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:384
+#, php-format
+msgid "%s is a seller on &quot;%s&quot; shop."
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:385
+#, php-format
+msgid "Visit &quot;%s&quot;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/inc/woocommerce/plugin-wcvendors.php:398
+msgid "Shop Banner"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/sidebar-dokan.php:33
+msgid "Store Category"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/sidebar-dokan.php:36
+msgid "Store Location"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/sidebar-dokan.php:40
+msgid "Contact Seller"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/block-more-products.php:41
+msgid "More from this seller&hellip;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/block-nav.php:4
+msgid "My Dashboard"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/block-nav.php:11
+msgid "My Shop"
+msgstr "나의 상점"
+
+# @ tokopress
+#: marketica-wp/wc-vendors/block-nav.php:18
+msgid "My Settings"
+msgstr "나의 설정"
+
+# @ tokopress
+#: marketica-wp/wc-vendors/block-nav.php:29
+msgid "Submit a Product"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/links.php:1
+msgid "Control Center"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/links.php:4
+msgid "My shop"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/links.php:5
+msgid "My settings"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/links.php:10
+msgid "Submit a product"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/settings/settings.php:1
+msgid "Settings"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/wc-vendors/dashboard/settings/settings.php:47
+msgid "Save"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/block-top-content.php:21
+msgid "Sort by"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/loop/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/product-details-attributes.php:25
+msgid "Weight"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/product-details-attributes.php:29
+msgid "Dimensions"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/product-details-meta.php:15
+msgid "Category"
+msgid_plural "Categories"
+msgstr[0] "카테고리"
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/product-details-meta.php:17
+msgid "Tag"
+msgid_plural "Tags"
+msgstr[0] "태그"
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/product-details-sku.php:10
+msgid "SKU:"
+msgstr ""
+
+# @ tokopress
+#: marketica-wp/woocommerce/single-product/up-sells.php:39
+msgid "You may also like&hellip;"
+msgstr ""

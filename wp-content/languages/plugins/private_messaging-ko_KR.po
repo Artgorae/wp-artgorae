@@ -1,0 +1,683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-20 17:54+0900\n"
+"PO-Revision-Date: 2015-08-20 18:05+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:2
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3716
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:2
+msgid "Paste your text inside the following box:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:2
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3717
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3819
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3878
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3911
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3945
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:4085
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:2
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "Insert"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:2
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3817
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:2
+msgid "Rows:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:2
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3818
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:2
+msgid "Cols:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3875
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3943
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "URL:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3876
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "Width (optional):"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3877
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "Height (optional):"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3910
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "E-mail:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:3944
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "Description (optional):"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:4060
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "More"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:4060
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "<a class=\"sceditor-more\">{0}</a>"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.min.js:4084
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+msgid "Video URL:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/plugins/bbcode.js:2
+#: app/addons/wysiwyg/sceditor/minified/plugins/xhtml.js:2
+msgid "Enter the image URL:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/plugins/bbcode.js:2
+#: app/addons/wysiwyg/sceditor/minified/plugins/xhtml.js:2
+msgid "Enter the e-mail address:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/plugins/bbcode.js:2
+#: app/addons/wysiwyg/sceditor/minified/plugins/xhtml.js:2
+msgid "Enter the displayed text:"
+msgstr ""
+
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.bbcode.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/jquery.sceditor.xhtml.min.js:3
+#: app/addons/wysiwyg/sceditor/minified/plugins/bbcode.js:2
+#: app/addons/wysiwyg/sceditor/minified/plugins/xhtml.js:2
+msgid "Enter URL:"
+msgstr ""
+
+#: app/addons/block-list.php:102
+msgid "Block users list, separate by commas"
+msgstr ""
+
+#: app/addons/capatibility.php:107
+msgid "Settings saved!"
+msgstr "설정이 저장되었습니다!"
+
+#: app/addons/capatibility.php:127 app/addons/capatibility.php:228
+msgid "Capability Settings"
+msgstr "호환성 설정"
+
+#: app/addons/capatibility.php:193 app/views/backend/setting/attachment.php:36
+#: app/views/backend/setting/email.php:60
+#: app/views/backend/setting/general.php:75 app/views/shortcode/setting.php:59
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: app/addons/mm-broadcast-messages.php:55
+msgid "Send this message to all users"
+msgstr "모든 사용자에게 메시지 보내기"
+
+#: app/components/ig-uploader/app/controllers/ig-uploader-controller.php:193
+msgid "Upload Attachment"
+msgstr "첨부파일 업로드"
+
+#: app/components/ig-uploader/app/controllers/ig-uploader-controller.php:212
+msgid "Please select a file"
+msgstr "파일을 선택하십시오."
+
+#: app/components/ig-uploader/app/models/ig-uploader-model.php:123
+#: app/components/ig-uploader/app/views/footer_modal.php:56
+#: app/views/shortcode/_inbox_message.php:146
+msgid "Link"
+msgstr "링크"
+
+#: app/components/ig-uploader/app/models/ig-uploader-model.php:133
+#: app/components/ig-uploader/app/models/ig-uploader-model.php:134
+msgid "Url or File required"
+msgstr ""
+
+#: app/components/ig-uploader/app/views/_extend_form.php:13
+msgid "Add"
+msgstr "추가"
+
+#: app/components/ig-uploader/app/views/_extend_form.php:26
+#: app/components/ig-uploader/app/views/show_media.php:26
+msgid "No sample file."
+msgstr "첨부된 파일 없음."
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:14
+msgid "Choose File"
+msgstr "파일 선택"
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:19
+msgid "File attached, upload new file will replace the current file."
+msgstr ""
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:27
+msgid "Url"
+msgstr ""
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:34
+msgid "Content"
+msgstr "내용"
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:43
+msgid "Cancel"
+msgstr "취소"
+
+#: app/components/ig-uploader/app/views/_uploader_form.php:44
+msgid "Submit"
+msgstr "보내기"
+
+#: app/components/ig-uploader/app/views/footer_modal.php:32
+#: app/views/shortcode/_inbox_message.php:122
+msgid "Size"
+msgstr "크기"
+
+#: app/components/ig-uploader/app/views/footer_modal.php:40
+#: app/views/shortcode/_inbox_message.php:130
+msgid "N/A"
+msgstr ""
+
+#: app/components/ig-uploader/app/views/footer_modal.php:46
+#: app/views/shortcode/_inbox_message.php:136
+msgid "Type"
+msgstr "유형"
+
+#: app/components/ig-uploader/app/views/footer_modal.php:68
+#: app/views/shortcode/_inbox_message.php:158
+msgid "Visit Link"
+msgstr "링크 방문하기"
+
+#: app/components/ig-uploader/app/views/footer_modal.php:73
+#: app/views/shortcode/_inbox_message.php:163
+msgid "Download File"
+msgstr "파일 다운로드"
+
+#: app/components/mm-addon-table.php:35
+msgid "Name"
+msgstr "이름"
+
+#: app/components/mm-addon-table.php:36
+msgid "Description"
+msgstr "설명"
+
+#: app/components/mm-addon-table.php:61
+msgid ""
+"Deactivate <i class=\"fa fa-circle-o-notch fa-spin loader-ani hide\"></i>"
+msgstr ""
+
+#: app/components/mm-addon-table.php:63
+msgid "Activate <i class=\"fa fa-circle-o-notch fa-spin loader-ani hide\"></i>"
+msgstr ""
+
+#: app/components/mm-addon-table.php:71
+msgid "Created by: "
+msgstr "만든이:"
+
+#: app/components/mm-messages-table.php:35
+msgid "Last Message"
+msgstr "마지막 메시지"
+
+#: app/components/mm-messages-table.php:36
+msgid "Users"
+msgstr "사용자"
+
+#: app/components/mm-messages-table.php:37
+msgid "Total Messages"
+msgstr "총 메시지"
+
+#: app/components/mm-messages-table.php:132 app/views/shortcode/inbox.php:23
+msgid "Search"
+msgstr "검색"
+
+#: app/controllers/admin-bar-notification-controller.php:28
+msgid ""
+"<div class=\"ig-container mm-admin-bar\"><i class=\"fa fa-envelope\"></"
+"i>&nbsp;<span>"
+msgstr ""
+
+#: app/controllers/admin-bar-notification-controller.php:43
+msgid "Send New Message"
+msgstr "새 메시지 보내기"
+
+#: app/controllers/admin-bar-notification-controller.php:54
+msgid "View Inbox"
+msgstr ""
+
+#: app/controllers/backend/mmessage-backend-controller.php:22
+msgid ""
+"Please visit settings > messaging to choose your inbox page and complete "
+"setup"
+msgstr ""
+
+#: app/controllers/backend/mmessage-backend-controller.php:76
+msgid "Deactivate"
+msgstr "비활성화"
+
+#: app/controllers/backend/mmessage-backend-controller.php:85
+msgid "Activate"
+msgstr "활성화"
+
+#: app/controllers/backend/mmessage-backend-controller.php:93
+#: app/controllers/mm-upgrade-controller.php:210
+msgid "Messaging"
+msgstr "메시징"
+
+#: app/controllers/backend/mmessage-backend-controller.php:94
+msgid "View Messages"
+msgstr "메시지 보기"
+
+#: app/controllers/backend/mmessage-backend-controller.php:95
+#: app/views/backend/setting.php:4 app/views/layout/main.php:38
+#: app/views/layout/main.php:51
+msgid "Settings"
+msgstr "설정"
+
+#: app/controllers/backend/mmessage-backend-controller.php:115
+msgid "Your settings have been successfully updated."
+msgstr ""
+
+#: app/controllers/backend/mmessage-backend-controller.php:130
+msgid "Conversation not found!"
+msgstr "대화가 없습니다!"
+
+#: app/controllers/inbox-shortcode-controller.php:56
+msgid "Your settings have been successfully updated"
+msgstr ""
+
+#: app/controllers/inbox-shortcode-controller.php:231
+#: app/controllers/inbox-shortcode-controller.php:249
+msgid "Your message has been sent."
+msgstr "메시지가 발송되었습니다."
+
+#: app/controllers/inbox-shortcode-controller.php:277
+msgid "Re:"
+msgstr "답장:"
+
+#: app/controllers/message-me-shortcode-controller.php:21
+msgid "Message me"
+msgstr "나에게 메시지 보내기"
+
+#: app/controllers/message-me-shortcode-controller.php:23
+msgid "You have new message!"
+msgstr "새로운 메시지가 있습니다!"
+
+#: app/views/backend/main.php:8
+msgid "Messages"
+msgstr "메시지"
+
+#: app/views/backend/setting.php:17
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: app/views/backend/setting.php:22 app/views/backend/setting/email.php:3
+#: app/views/shortcode/setting.php:29
+msgid "Email Settings"
+msgstr "이메일 설정"
+
+#: app/views/backend/setting.php:27 app/views/backend/setting/shortcode.php:2
+msgid "Shortcodes"
+msgstr ""
+
+#: app/views/backend/setting.php:31
+msgid "Attachments"
+msgstr ""
+
+#: app/views/backend/setting/attachment.php:1
+msgid "Which roles can upload attachments"
+msgstr ""
+
+#: app/views/backend/setting/attachment.php:8
+msgid "Role name"
+msgstr ""
+
+#: app/views/backend/setting/attachment.php:9
+msgid "Can upload"
+msgstr ""
+
+#: app/views/backend/setting/general.php:3
+msgid "General Options"
+msgstr ""
+
+#: app/views/backend/setting/general.php:9
+msgid "Enable Message Receipt"
+msgstr ""
+
+#: app/views/backend/setting/general.php:16
+msgid "Tick this box to enable email notifications of read messages."
+msgstr ""
+
+#: app/views/backend/setting/general.php:23
+msgid "Allow the user to disable read message receipts?"
+msgstr ""
+
+#: app/views/backend/setting/general.php:30
+msgid "This will allow the user to enable or disable read receipts."
+msgstr ""
+
+#: app/views/backend/setting/general.php:37
+#: app/views/backend/setting/general.php:55
+#: app/views/backend/setting/general.php:121
+msgid "Create Page"
+msgstr ""
+
+#: app/views/backend/setting/general.php:40
+#: app/views/backend/setting/shortcode.php:6
+msgid "Inbox Page"
+msgstr ""
+
+#: app/views/backend/setting/general.php:49
+msgid "--Choose--"
+msgstr ""
+
+#: app/views/backend/setting/general.php:64
+msgid "Add-ons"
+msgstr ""
+
+#: app/views/backend/setting/general.php:113
+msgid "Creating..."
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:14
+msgid ""
+"This shortcode will display the private message interface.There are no "
+"parameters for this shortcode."
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:20
+msgid "PM User"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:28
+msgid "user_id"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:29
+msgid "The id of the user who is the message recipient."
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:32
+msgid "user_name"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:33
+msgid ""
+"The user name of the message recipient. User ID will be given higher "
+"priority than user_name."
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:36
+msgid "in_the_loop"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:37
+msgid ""
+"Use 1 for true, 0 for false. This shortcode is used for case when there is "
+"no user ID or user_name. This shortcode will pull the author user_ID if the "
+"shortcode is inside the loop."
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:40
+msgid "text"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:41
+msgid "The button text to display, default is \"Message me.\""
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:44
+msgid "class"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:45
+msgid ""
+"If you want to style the message button, use this shortcodes parameter to "
+"define the class of the message button. "
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:48
+msgid "subject"
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:49
+msgid ""
+"This will define the subject of the message sent, if one is not added by the "
+"user. "
+msgstr ""
+
+#: app/views/backend/setting/shortcode.php:52
+msgid ""
+"Please note that <strong>user_id</strong> or <strong>user_name</strong> or "
+"<strong>in_the_loop</strong> must be defined."
+msgstr ""
+
+#: app/views/backend/upgrade.php:8
+msgid "Diagnose Center"
+msgstr ""
+
+#: app/views/backend/upgrade.php:20
+msgid "Table"
+msgstr ""
+
+#: app/views/backend/upgrade.php:21
+msgid "Status"
+msgstr "상태"
+
+#: app/views/backend/upgrade.php:31 app/views/backend/upgrade.php:51
+msgid "Healthy"
+msgstr ""
+
+#: app/views/backend/upgrade.php:35 app/views/backend/upgrade.php:55
+msgid "Fail"
+msgstr ""
+
+#: app/views/backend/upgrade.php:42 app/views/backend/upgrade.php:62
+msgid "Fix"
+msgstr ""
+
+#: app/views/backend/upgrade.php:73
+msgid "Note:"
+msgstr ""
+
+#: app/views/backend/upgrade.php:79
+msgid ""
+"If the diagnose tool cannot create table, that means the database user "
+"doesn't have enough permission to do that, you will need to copy the below "
+"sql code to create the tables."
+msgstr ""
+
+#: app/views/backend/view.php:6
+msgid "Message #"
+msgstr "메시지 #"
+
+#: app/views/bar/_compose_form.php:10 app/views/message_me/modal.php:20
+#: app/views/shortcode/_compose_form.php:10
+#: app/views/shortcode/message_me.php:51
+msgid "Compose Message"
+msgstr "작성"
+
+#: app/views/bar/_compose_form.php:69 app/views/message_me/modal.php:56
+#: app/views/shortcode/_compose_form.php:70
+#: app/views/shortcode/_reply_form.php:46
+msgid "Attach media or other files."
+msgstr "미디어 또는 파일 첨부"
+
+#: app/views/bar/_compose_form.php:75 app/views/message_me/modal.php:63
+#: app/views/shortcode/_compose_form.php:76
+#: app/views/shortcode/_reply_form.php:53
+#: app/views/shortcode/message_me.php:87
+msgid "Close"
+msgstr "닫기"
+
+#: app/views/bar/_compose_form.php:77 app/views/message_me/modal.php:65
+#: app/views/shortcode/_compose_form.php:78
+#: app/views/shortcode/_reply_form.php:55
+#: app/views/shortcode/message_me.php:89
+msgid "Send"
+msgstr "보내기"
+
+#: app/views/layout/main.php:10 app/views/layout/main.php:16
+#: app/views/layout/main.php:17 app/views/layout/main.php:23
+#: app/views/layout/main.php:24
+msgid "message(s)"
+msgstr "메시지"
+
+#: app/views/layout/main.php:11
+msgid "Inbox"
+msgstr "수신함"
+
+#: app/views/layout/main.php:18
+msgid "Unread"
+msgstr "읽지않음"
+
+#: app/views/layout/main.php:25
+msgid "Read"
+msgstr "읽음"
+
+#: app/views/layout/main.php:30
+msgid "Sent"
+msgstr "발신함"
+
+#: app/views/layout/main.php:34 app/views/shortcode/_inbox_message.php:33
+msgid "Archive"
+msgstr "보관"
+
+#: app/views/layout/main.php:44 app/views/layout/main.php:54
+msgid "Compose"
+msgstr "작성"
+
+#: app/views/message_me/modal.php:24 app/views/shortcode/message_me.php:55
+msgid "Your message has been sent"
+msgstr "메시지가 발송되었습니다"
+
+#: app/views/shortcode/_inbox_message.php:17
+msgid "Unarchive"
+msgstr ""
+
+#: app/views/shortcode/_inbox_message.php:21 framework/database/ig-grid.php:42
+#: framework/database/ig-grid.php:116
+msgid "Delete"
+msgstr "삭제"
+
+#: app/views/shortcode/_inbox_message.php:63
+msgid "me"
+msgstr "나"
+
+#: app/views/shortcode/_reply_form.php:11
+msgid "Reply"
+msgstr "회신"
+
+#: app/views/shortcode/inbox.php:85 app/views/shortcode/inbox.php:88
+msgid "Previous"
+msgstr ""
+
+#: app/views/shortcode/inbox.php:92 app/views/shortcode/inbox.php:95
+msgid "Next"
+msgstr ""
+
+#: app/views/shortcode/inbox.php:138
+msgid "Are you sure?"
+msgstr ""
+
+#: app/views/shortcode/inbox.php:192
+msgid "No message found!"
+msgstr "메시지가 없습니다!"
+
+#: app/views/shortcode/login.php:6
+msgid "Sign in"
+msgstr ""
+
+#: app/views/shortcode/login.php:14
+msgid "Sign Up"
+msgstr "회원가입"
+
+#: app/views/shortcode/login.php:16
+msgid "Sign up to become a registered member of the site"
+msgstr ""
+
+#: app/views/shortcode/login.php:17
+msgid "Create Account"
+msgstr "계정 생성"
+
+#: app/views/shortcode/setting.php:17
+msgid "This feature has been disabled by admin"
+msgstr ""
+
+#: app/views/shortcode/setting.php:37
+msgid "Email me when my sent messages are read"
+msgstr ""
+
+#: app/views/shortcode/setting.php:39
+msgid ""
+"An email will be sent to you when a user reads your message, this "
+"functionality won’t work, if they have disabled tracking within their "
+"account."
+msgstr ""
+
+#: app/views/shortcode/setting.php:47
+msgid "Prevent others tracking my message"
+msgstr ""
+
+#: app/views/shortcode/setting.php:49
+msgid ""
+"When you open a message, there won't be an email back to the sender to "
+"inform them you've read the message."
+msgstr ""
+
+#: framework/database/ig-grid.php:116
+msgid "Edit"
+msgstr "편집"
+
+#: framework/request/ig-request.php:66
+msgid "View not found!"
+msgstr ""
+
+#: functions.php:94
+msgid "Username"
+msgstr "사용자 이름"
+
+#: functions.php:95
+msgid "Password"
+msgstr "암호"
+
+#: functions.php:96
+msgid "Remember Me"
+msgstr "기억하기"
+
+#: functions.php:97
+msgid "Sign In"
+msgstr "로그인"
+
+#: functions.php:169
+msgid "Forgot password?"
+msgstr "비밀번호 찾기"
