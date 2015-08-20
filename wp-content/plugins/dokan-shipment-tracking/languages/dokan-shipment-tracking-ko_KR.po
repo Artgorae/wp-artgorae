@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-17 22:41+0900\n"
+"PO-Revision-Date: 2015-08-17 22:41+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ../dokan-shipment-tracking\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/order-shipment-tracking-html.php:6
+msgid "Shipment Tracking"
+msgstr "배송추적"
+
+#: templates/order-shipment-tracking-html.php:17
+msgid "Provider Name:"
+msgstr "택배사:"
+
+#: templates/order-shipment-tracking-html.php:21
+msgid "Tracking Number:"
+msgstr "송장번호:"
+
+#: templates/order-shipment-tracking-html.php:28
+msgid "Save changes"
+msgstr "변경사항 저장"
