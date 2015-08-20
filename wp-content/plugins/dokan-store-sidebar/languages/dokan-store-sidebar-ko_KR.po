@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-08-20 17:14+0900\n"
+"PO-Revision-Date: 2015-08-20 17:15+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dokan-store-sidebar.php:28
+msgid "About this seller"
+msgstr "작가의 한마디"
+
+#: dokan-store-sidebar.php:66
+msgid "View Portfolio"
+msgstr "포트폴리오 보기"
+
+#: dokan-store-sidebar.php:80
+msgid "Ask to Seller"
+msgstr "작가에게 문의하기"
+
+#: dokan-store-sidebar.php:83
+msgid "You have new message!"
+msgstr "새로운 메시지가 도착했습니다!"
