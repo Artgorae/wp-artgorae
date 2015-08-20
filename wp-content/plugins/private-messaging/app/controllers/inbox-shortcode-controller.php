@@ -274,7 +274,16 @@ class Inbox_Shortcode_Controller extends IG_Request
         $m->conversation_id = $conversation->id;
         $m->status = MM_Message_Model::UNREAD;
         $mess = MM_Message_Model::model()->find($message_id);
+
+        if ( !empty( $m->subject ) && is_numeric( $m->subject) ) {
+            $price = $m->subject;
+        }
+
         $m->subject = __("Re:", mmg()->domain) . ' ' . $mess->subject;
+
+        if ( isset ( $price ) ) {
+            $m->content = $m->content . '<br/><br/>' . get_custom_order_button( $price );
+        }
 
         $m->save();
         //update status for send to

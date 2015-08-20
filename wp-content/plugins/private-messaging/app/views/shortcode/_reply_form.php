@@ -17,6 +17,20 @@
                         )
                     )); ?>
                     <div class="modal-body">
+                        <div style="margin-bottom: 0"
+                             class="form-group <?php echo $model->has_error("subject") ? "has-error" : null ?>">
+                            <?php $form->label("subject", array(
+                                "text" => __("Estimates", mmg()->domain),
+                                "attributes" => array("class" => "control-label col-sm-2 hidden-xs hidden-sm")
+                            )) ?>
+                            <div class="col-md-10 col-sm-12 col-xs-12">
+                                <?php $form->number("subject", array("attributes" => array("class" => "form-control", "placeholder" => __("Enter estimates to send", mmg()->domain)))) ?>
+                                <?php do_action('mm_compose_form_after_subject', $form, $model) ?>
+                                <span class="help-block m-b-none error-subject"><?php $form->error("subject") ?></span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+
                         <div class="form-group <?php echo $model->has_error("content") ? "has-error" : null ?>">
                             <?php /*$form->label("content", array("text" => "Content", "attributes" => array("class" => "col-lg-2 control-label"))) */ ?>
                             <div class="col-lg-12">
