@@ -14,13 +14,4 @@ function tokopress_load_childtheme_languages() {
 
 /* Please add your custom functions code below this line. */
 
-add_action( 'tokopress_quicknav_account', 'tokopress_messages_quicknav_account' );
-function tokopress_messages_quicknav_account() {
-	if ( ! is_user_logged_in() )
-		return;
 
-    $url = get_permalink( get_page_by_path( 'inbox' )->ID );
-    $title = __( 'Messages', 'dokan' );
-    $icon = '<i class="fa fa-envelope"></i>';
-    printf( '<li><a href="%s">%s %s</a></li>', $url, $title, $icon );
-}
