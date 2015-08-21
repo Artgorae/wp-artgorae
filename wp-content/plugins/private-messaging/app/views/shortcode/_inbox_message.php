@@ -27,6 +27,13 @@ if (!isset($render_reply)) {
                            data-type="<?php echo MM_Message_Status_Model::STATUS_DELETE ?>"
                            class="btn btn-sm btn-danger mm-status"><i class="fa fa-trash"></i></a>
                     <?php else: ?>
+                        <a href="#estimates-form-c"
+                           data-username="<?php echo esc_attr($from_data->user_login) ?>"
+                           data-parentid="<?php echo esc_attr(mmg()->encrypt($message->conversation_id)) ?>"
+                           data-id="<?php echo esc_attr(mmg()->encrypt($message->id)) ?>" type="button"
+                           class="btn btn-info btn-sm mm-reply">
+                            <i class="fa fa-file-text-o"></i>
+                        </a>
                         <a href="#reply-form-c"
                            data-username="<?php echo esc_attr($from_data->user_login) ?>"
                            data-parentid="<?php echo esc_attr(mmg()->encrypt($message->conversation_id)) ?>"

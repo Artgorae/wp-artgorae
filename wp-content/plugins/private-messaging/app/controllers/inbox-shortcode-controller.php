@@ -275,14 +275,27 @@ class Inbox_Shortcode_Controller extends IG_Request
         $m->status = MM_Message_Model::UNREAD;
         $mess = MM_Message_Model::model()->find($message_id);
 
-        if ( !empty( $m->subject ) && is_numeric( $m->subject) ) {
-            $price = $m->subject;
+        if ( !empty( $m->reply_to ) ) {
+            if ( !is_numeric( $m->reply_to ) ) {
+                wp_send_json(array(
+                    'status' => 'fail',
+                    'errors' => $model->get_errors()
+                ));
+                exit;
+            }
+
+            $title = $m->subject;
+            $description = $m->content;
+            $price = $m->reply_to;
+
+            $product_html = get_custom_order_button( $title, $description, $price );
         }
 
         $m->subject = __("Re:", mmg()->domain) . ' ' . $mess->subject;
 
-        if ( isset ( $price ) ) {
-            $m->content = $m->content . '<br/><br/>' . get_custom_order_button( $price );
+        if ( isset ( $product_html ) ) {
+            $m->subject = __( 'You have new estimates!', 'artgorae' );
+            $m->content = __( 'You have new estimates!', 'artgorae' ) . '<br/><br/>' . $product_html;
         }
 
         $m->save();

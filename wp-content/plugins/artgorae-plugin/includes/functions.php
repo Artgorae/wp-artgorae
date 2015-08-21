@@ -56,12 +56,17 @@ function add_contact_info_to_purchase_note( $product_id )
  * Create custom order button
  */
 
-function create_custom_order( $price )
+function create_custom_order( $title, $content, $price )
 {
+	$title = empty( $title ) ? __( 'Custom-order product', 'artgorae' ) : $title;
+	$content = empty( $content ) ? __( 'This is a custom-order product.', 'artgorae' ) : $content;
+
     $post = array(
-        'post_title'    => __( 'Custom-order product', 'artgorae' ),
-        'post_status'   => 'publish',
-        'post_type'     => 'product'
+    	'post_content'  => $content,
+        'post_title'    => $title,
+        'post_status'	=> 'publish',
+        'comment_status'=> 'close',
+        'post_type'		=> 'product'
     );
     $post_id = wp_insert_post( $post );
     update_post_meta( $post_id, '_visibility', 'hidden' );
@@ -69,9 +74,9 @@ function create_custom_order( $price )
     return $post_id;
 }
 
-function get_custom_order_button( $price )
+function get_custom_order_button( $title, $content, $price )
 {
-    $post_id = create_custom_order( $price );
+    $post_id = create_custom_order( $title, $content, $price );
 
     $button_link = esc_url( get_permalink( $post_id ) );
     $button_class = 'button alt';
