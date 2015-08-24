@@ -1,6 +1,23 @@
 <?php
 
-/*
+/**
+ * Save the default product data meta.
+ */
+
+add_action( 'dokan_new_product_added', 'new_process_product_meta', 10, 2 );
+
+function new_process_product_meta( $product_id )
+{
+	update_post_meta( $product_id, '_visibility', 'visible' );
+
+	wp_update_post( array(
+		'ID'             => $product_id,
+		'comment_status' => 'open'
+	) );
+}
+
+
+/**
  * Follow button
  */
 
@@ -34,7 +51,7 @@ function bp_follow_get_add_follow_button_add_icon( $button, $leader_id, $followe
 }
 
 
-/*
+/**
  * Add contact info to purchase note
  */
 
@@ -52,7 +69,7 @@ function add_contact_info_to_purchase_note( $product_id )
 }
 
 
-/*
+/**
  * Create custom order button
  */
 
@@ -89,7 +106,7 @@ function get_custom_order_button( $title, $content, $price )
 }
 
 
-/*
+/**
  * Contact to seller button
  */
 
