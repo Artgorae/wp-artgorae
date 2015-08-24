@@ -69,6 +69,8 @@ function create_custom_order( $title, $content, $price )
         'post_type'		=> 'product'
     );
     $post_id = wp_insert_post( $post );
+    $custom_term = get_term_by( 'slug', 'custom-order', 'product_cat' );
+    wp_set_object_terms( $post_id, $custom_term->term_id, 'product_cat' );
     update_post_meta( $post_id, '_visibility', 'hidden' );
     update_post_meta( $post_id, '_price', $price );
     return $post_id;
