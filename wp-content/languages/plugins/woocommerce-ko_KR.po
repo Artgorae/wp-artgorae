@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2015-08-14 02:36:08+00:00\n"
-"PO-Revision-Date: 2015-08-07 13:21+0000\n"
+"POT-Creation-Date: 2015-08-24 16:25:50+00:00\n"
+"PO-Revision-Date: 2015-08-24 16:33+0000\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
 "Language-Team: Korean (Korea) (http://www.transifex.com/woothemes/woocommerce/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
@@ -995,6 +995,10 @@ msgstr "Zambia"
 #: i18n/countries.php:261
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
+
+#: i18n/locale-info.php:351
+msgid "Consumption tax"
+msgstr ""
 
 #: i18n/states/AR.php:13
 msgid "Ciudad Aut&oacute;noma de Buenos Aires"
@@ -5087,7 +5091,7 @@ msgstr "Western Cape"
 
 #: includes/abstracts/abstract-wc-integration.php:29
 #: includes/abstracts/abstract-wc-settings-api.php:77
-#: includes/class-wc-install.php:688 includes/emails/class-wc-email.php:711
+#: includes/class-wc-install.php:692 includes/emails/class-wc-email.php:711
 msgid "Settings"
 msgstr "설정"
 
@@ -5104,7 +5108,7 @@ msgstr "&nbsp;<small>%s - %s</small>"
 #: includes/abstracts/abstract-wc-product.php:964
 #: includes/abstracts/abstract-wc-product.php:970
 #: includes/class-wc-cart.php:1538 includes/class-wc-product-variable.php:335
-#: includes/class-wc-product-variation.php:306
+#: includes/class-wc-product-variation.php:307
 msgid "Free!"
 msgstr "무료!"
 
@@ -5125,35 +5129,41 @@ msgid "Fee"
 msgstr "수수료"
 
 #: includes/abstracts/abstract-wc-order.php:1892
-#: includes/shortcodes/class-wc-shortcode-checkout.php:141
+#: includes/shortcodes/class-wc-shortcode-checkout.php:143
 #: templates/checkout/thankyou.php:53
 msgid "Payment Method:"
 msgstr "지불 방법:"
 
 #: includes/abstracts/abstract-wc-order.php:1898
-#: includes/shortcodes/class-wc-shortcode-checkout.php:136
+#: includes/shortcodes/class-wc-shortcode-checkout.php:138
 #: templates/checkout/thankyou.php:48
 msgid "Total:"
 msgstr "총계:"
 
-#: includes/abstracts/abstract-wc-order.php:2134
-msgid "Download file%s"
-msgstr "%s 파일 내려받기"
+#: includes/abstracts/abstract-wc-order.php:2135
+#: templates/emails/plain/email-order-items.php:49
+msgid "Download %d"
+msgstr "%d 다운로드"
+
+#: includes/abstracts/abstract-wc-order.php:2135
+#: templates/emails/plain/email-order-items.php:51
+msgid "Download"
+msgstr "내려받기"
 
 #. Plugin Name of the plugin/theme
 msgid "WooCommerce"
 msgstr "우커머스"
 
-#: includes/abstracts/abstract-wc-order.php:2219
+#: includes/abstracts/abstract-wc-order.php:2222
 msgid "Order status changed from %s to %s."
 msgstr "주문 상태가 %s에서 %s로 변경됐습니다."
 
-#: includes/abstracts/abstract-wc-order.php:2477
+#: includes/abstracts/abstract-wc-order.php:2480
 msgid "Item #%s variation #%s stock reduced from %s to %s."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2479
-#: includes/class-wc-ajax.php:1374
+#: includes/abstracts/abstract-wc-order.php:2482
+#: includes/class-wc-ajax.php:1415
 msgid "Item #%s stock reduced from %s to %s."
 msgstr "아이템 #%s 재고 감소됨 %s에서 %s로."
 
@@ -5180,7 +5190,7 @@ msgstr "CVC"
 
 #: includes/abstracts/abstract-wc-product.php:537
 #: includes/class-wc-product-simple.php:47
-#: includes/class-wc-product-variation.php:186
+#: includes/class-wc-product-variation.php:187
 msgid "Add to cart"
 msgstr "장바구니"
 
@@ -5191,40 +5201,40 @@ msgstr "더 보기"
 #: includes/abstracts/abstract-wc-product.php:626
 #: includes/abstracts/abstract-wc-product.php:637
 #: includes/abstracts/abstract-wc-product.php:659
-#: includes/class-wc-ajax.php:782 includes/class-wc-ajax.php:2451
-#: includes/class-wc-product-variation.php:527
-#: includes/class-wc-product-variation.php:537
-#: includes/class-wc-product-variation.php:553
+#: includes/class-wc-ajax.php:829 includes/class-wc-ajax.php:2492
+#: includes/class-wc-product-variation.php:526
+#: includes/class-wc-product-variation.php:536
+#: includes/class-wc-product-variation.php:552
 msgid "In stock"
 msgstr "재고있음"
 
 #: includes/abstracts/abstract-wc-product.php:631
-#: includes/class-wc-product-variation.php:531
+#: includes/class-wc-product-variation.php:530
 msgid "Only %s left in stock"
 msgstr "%s 만 재고로 남았습니다"
 
 #: includes/abstracts/abstract-wc-product.php:634
 #: includes/abstracts/abstract-wc-product.php:645
-#: includes/class-wc-product-variation.php:534
-#: includes/class-wc-product-variation.php:544
+#: includes/class-wc-product-variation.php:533
+#: includes/class-wc-product-variation.php:543
 msgid "(can be backordered)"
 msgstr "(미재고 주문 가능)"
 
 #: includes/abstracts/abstract-wc-product.php:642
-#: includes/class-wc-product-variation.php:541
+#: includes/class-wc-product-variation.php:540
 msgid "%s in stock"
 msgstr "%s개가 재고로 있습니다"
 
 #: includes/abstracts/abstract-wc-product.php:654
-#: includes/class-wc-product-variation.php:550 templates/cart/cart.php:82
+#: includes/class-wc-product-variation.php:549 templates/cart/cart.php:82
 msgid "Available on backorder"
 msgstr "미재고 주문이 가능합"
 
 #: includes/abstracts/abstract-wc-product.php:664
 #: includes/abstracts/abstract-wc-product.php:670
-#: includes/class-wc-ajax.php:783 includes/class-wc-ajax.php:2452
-#: includes/class-wc-product-variation.php:556
-#: includes/class-wc-product-variation.php:560
+#: includes/class-wc-ajax.php:830 includes/class-wc-ajax.php:2493
+#: includes/class-wc-product-variation.php:555
+#: includes/class-wc-product-variation.php:559
 msgid "Out of stock"
 msgstr "품절"
 
@@ -6054,108 +6064,108 @@ msgstr "고객 비밀번호가 없습니다"
 msgid "Invalid product SKU"
 msgstr "유효하지 않은 상품 SKU"
 
-#: includes/class-wc-ajax.php:195
+#: includes/class-wc-ajax.php:201
 msgid "Sorry there was a problem removing this coupon."
 msgstr "이 쿠폰을 제거하는데 문제가 발생했습니다."
 
-#: includes/class-wc-ajax.php:201
+#: includes/class-wc-ajax.php:207
 msgid "Coupon has been removed."
 msgstr "쿠폰이 제거됐습니다."
 
-#: includes/class-wc-ajax.php:252
+#: includes/class-wc-ajax.php:258
 msgid "Sorry, your session has expired."
 msgstr "죄송합니다. 고객님의 세션이 만료됐습니다."
 
-#: includes/class-wc-ajax.php:252
+#: includes/class-wc-ajax.php:258
 msgid "Return to homepage"
 msgstr "홈페이지로 돌아가기"
 
-#: includes/class-wc-ajax.php:767 includes/class-wc-ajax.php:2434
+#: includes/class-wc-ajax.php:812 includes/class-wc-ajax.php:2475
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:210
 msgid "Standard"
 msgstr "표준"
 
-#: includes/class-wc-ajax.php:776 includes/class-wc-ajax.php:2444
+#: includes/class-wc-ajax.php:822 includes/class-wc-ajax.php:2485
 msgid "Do not allow"
 msgstr "허용하지 않음"
 
-#: includes/class-wc-ajax.php:777 includes/class-wc-ajax.php:2445
+#: includes/class-wc-ajax.php:823 includes/class-wc-ajax.php:2486
 msgid "Allow, but notify customer"
 msgstr "허용하지만 고객에게 알림"
 
-#: includes/class-wc-ajax.php:778 includes/class-wc-ajax.php:2446
+#: includes/class-wc-ajax.php:824 includes/class-wc-ajax.php:2487
 msgid "Allow"
 msgstr "허용함"
 
-#: includes/class-wc-ajax.php:1075
+#: includes/class-wc-ajax.php:1116
 msgid "File %d"
 msgstr "파일 %d"
 
-#: includes/class-wc-ajax.php:1385
+#: includes/class-wc-ajax.php:1426
 msgid ""
 "No products had their stock reduced - they may not have stock management "
 "enabled."
 msgstr "상품 재고 감소가 이루어지지 않았습니다 - 재고 관리가 활성화되지 않은 것 같습니다."
 
-#: includes/class-wc-ajax.php:1426 includes/class-wc-ajax.php:2237
+#: includes/class-wc-ajax.php:1467 includes/class-wc-ajax.php:2278
 msgid "Item #%s stock increased from %s to %s."
 msgstr "아이템 #%s 재고 증가됨. %s에서 %s로."
 
-#: includes/class-wc-ajax.php:1436
+#: includes/class-wc-ajax.php:1477
 msgid ""
 "No products had their stock increased - they may not have stock management "
 "enabled."
 msgstr "상품 재고 증가가 이루어지지 않았습니다 - 재고 관리가 활성화되지 않은 것 같습니다."
 
-#: includes/class-wc-ajax.php:1455
+#: includes/class-wc-ajax.php:1496
 #: includes/widgets/class-wc-widget-product-categories.php:52
 #: templates/single-product-reviews.php:65
 msgid "Name"
 msgstr "이름"
 
-#: includes/class-wc-ajax.php:1455
+#: includes/class-wc-ajax.php:1496
 msgid "Value"
 msgstr "값"
 
-#: includes/class-wc-ajax.php:1705
+#: includes/class-wc-ajax.php:1746
 msgid "Delete note"
 msgstr "메모 삭제"
 
-#: includes/class-wc-ajax.php:2177
+#: includes/class-wc-ajax.php:2218
 msgid "Invalid refund amount"
 msgstr "유효하지 않은 환불 금액"
 
-#: includes/class-wc-ajax.php:2222
+#: includes/class-wc-ajax.php:2263
 msgid "Refund failed"
 msgstr "환불 실패함"
 
-#: includes/class-wc-ajax.php:2319
+#: includes/class-wc-ajax.php:2360
 msgid "Description is missing."
 msgstr ""
 
-#: includes/class-wc-ajax.php:2322
+#: includes/class-wc-ajax.php:2363
 msgid "User is missing."
 msgstr ""
 
-#: includes/class-wc-ajax.php:2325
+#: includes/class-wc-ajax.php:2366
 msgid "Permissions is missing."
 msgstr ""
 
-#: includes/class-wc-ajax.php:2354
+#: includes/class-wc-ajax.php:2395
 msgid "API Key updated successfully."
 msgstr ""
 
-#: includes/class-wc-ajax.php:2385
+#: includes/class-wc-ajax.php:2426
 msgid ""
 "API Key generated successfully. Make sure to copy your new API keys now. You"
 " won't be able to see it again!"
 msgstr ""
 
-#: includes/class-wc-ajax.php:2386
+#: includes/class-wc-ajax.php:2427
 msgid "Revoke Key"
 msgstr ""
 
-#: includes/class-wc-ajax.php:2602
+#: includes/class-wc-ajax.php:2643
 msgid "Dismiss this notice."
 msgstr ""
 
@@ -6657,7 +6667,7 @@ msgstr "유효하지 않은 다운로드 링크"
 
 #: includes/class-wc-download-handler.php:98
 #: includes/class-wc-form-handler.php:558
-#: includes/shortcodes/class-wc-shortcode-checkout.php:163
+#: includes/shortcodes/class-wc-shortcode-checkout.php:165
 #: includes/shortcodes/class-wc-shortcode-my-account.php:108
 msgid "Invalid order."
 msgstr "유효하지 않는 주문."
@@ -6828,61 +6838,57 @@ msgid ""
 "assistance."
 msgstr "고객님의 주문이 더 이상 취소될 수 없습니다. 도움이 필요하시면 저희에게 연락주세요."
 
-#: includes/class-wc-form-handler.php:588
-msgid "Sorry, this product is unavailable."
-msgstr "죄송합니다. 해당 상품은 가능하지 않습니다."
-
-#: includes/class-wc-form-handler.php:635
-msgid "%s is a required field"
-msgid_plural "%s are required fields"
-msgstr[0] "필드값을 입력해주십시오 : %s"
-
-#: includes/class-wc-form-handler.php:638
-msgid "Please choose product options&hellip;"
-msgstr "상품 옵션을 선택해주세요&hellip;"
-
-#: includes/class-wc-form-handler.php:683
+#: includes/class-wc-form-handler.php:666
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr "고객님의 장바구니에 추가하고자 하는 아이템의 수량을 선택해주세요&hellip;"
 
-#: includes/class-wc-form-handler.php:690
+#: includes/class-wc-form-handler.php:674
 msgid "Please choose a product to add to your cart&hellip;"
 msgstr "고객님의 장바구니에 추가하려는 상품을 선택해주세요&hellip;"
 
-#: includes/class-wc-form-handler.php:754
-#: includes/class-wc-form-handler.php:758
-#: includes/class-wc-form-handler.php:762
-#: includes/class-wc-form-handler.php:771
-#: includes/class-wc-form-handler.php:902
+#: includes/class-wc-form-handler.php:727
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "필드값을 입력해주십시오 : %s"
+
+#: includes/class-wc-form-handler.php:729
+msgid "Please choose product options&hellip;"
+msgstr "상품 옵션을 선택해주세요&hellip;"
+
+#: includes/class-wc-form-handler.php:755
+#: includes/class-wc-form-handler.php:759
+#: includes/class-wc-form-handler.php:763
+#: includes/class-wc-form-handler.php:772
+#: includes/class-wc-form-handler.php:903
 msgid "Error"
 msgstr "에러"
 
-#: includes/class-wc-form-handler.php:758
+#: includes/class-wc-form-handler.php:759
 msgid "Username is required."
 msgstr "사용자 ID은 필수입니다."
 
-#: includes/class-wc-form-handler.php:762
+#: includes/class-wc-form-handler.php:763
 msgid "Password is required."
 msgstr "비밀번호는 필수입니다."
 
-#: includes/class-wc-form-handler.php:771
+#: includes/class-wc-form-handler.php:772
 msgid "A user could not be found with this email address."
 msgstr "사용자를 해당 이메일 주소에서 찾을 수 없습니다."
 
-#: includes/class-wc-form-handler.php:798
+#: includes/class-wc-form-handler.php:799
 msgid "You are now logged in as <strong>%s</strong>"
 msgstr "현재 <strong>%s</strong>로 로그인 돼있습니다"
 
-#: includes/class-wc-form-handler.php:842
+#: includes/class-wc-form-handler.php:843
 msgid "Please enter your password."
 msgstr "비밀번호를 입력하세요."
 
-#: includes/class-wc-form-handler.php:846
+#: includes/class-wc-form-handler.php:847
 msgid "Passwords do not match."
 msgstr "비밀번호가 일치하지 않습니다."
 
-#: includes/class-wc-form-handler.php:885
+#: includes/class-wc-form-handler.php:886
 msgid "Anti-spam field was filled in."
 msgstr "스팸방지 란이 채워졌습니다."
 
@@ -6922,33 +6928,57 @@ msgstr "고객"
 msgid "Shop Manager"
 msgstr "상점 매니저"
 
-#: includes/class-wc-install.php:688
+#: includes/class-wc-install.php:692
 msgid "View WooCommerce Settings"
 msgstr "우커머스 설정 보기"
 
-#: includes/class-wc-install.php:704
+#: includes/class-wc-install.php:708
 msgid "View WooCommerce Documentation"
 msgstr "우커머스 문서 보기"
 
-#: includes/class-wc-install.php:704
+#: includes/class-wc-install.php:708
 msgid "Docs"
 msgstr "문서"
 
-#: includes/class-wc-install.php:705
+#: includes/class-wc-install.php:709
 msgid "View WooCommerce API Docs"
 msgstr "우커머스 API 문서 보기"
 
-#: includes/class-wc-install.php:705
+#: includes/class-wc-install.php:709
 msgid "API Docs"
 msgstr "API 문서"
 
-#: includes/class-wc-install.php:706
+#: includes/class-wc-install.php:710
 msgid "Visit Premium Customer Support Forum"
 msgstr "프리미엄 고객 지원 포럼 방문하기"
 
-#: includes/class-wc-install.php:706
+#: includes/class-wc-install.php:710
 msgid "Premium Support"
 msgstr "프리미엄 지원"
+
+#: includes/class-wc-language-pack-upgrader.php:254
+#: includes/class-wc-language-pack-upgrader.php:257
+#: includes/class-wc-language-pack-upgrader.php:260
+msgid "Failed to install/update the translation:"
+msgstr "번역 설치/업데이트 실패:"
+
+#: includes/class-wc-language-pack-upgrader.php:254
+msgid "Seems you don't have permission to do this!"
+msgstr "이것을 할 권한이 없는 것 같습니다!"
+
+#: includes/class-wc-language-pack-upgrader.php:257
+msgid ""
+"An authentication error occurred while updating the translation. Please try "
+"again or configure your %sUpgrade Constants%s."
+msgstr "번역 업데이트 중 인증 에러가 발생했습니다. 다시 하거나 % 상수 업그레이드% 설정을 해주세요."
+
+#: includes/class-wc-language-pack-upgrader.php:260
+msgid "Sorry but there is no translation available for your language =/"
+msgstr "죄송하지만 사용중인 언어의 번역이 없습니다 =/"
+
+#: includes/class-wc-language-pack-upgrader.php:267
+msgid "Translations installed/updated successfully!"
+msgstr "번역 설치/업데이트 성공!"
 
 #: includes/class-wc-order.php:40 includes/wc-cart-functions.php:246
 msgid "(Includes %s)"
@@ -7400,7 +7430,7 @@ msgid "Buy product"
 msgstr "상품 구매하기"
 
 #: includes/class-wc-product-simple.php:47
-#: includes/class-wc-product-variation.php:186
+#: includes/class-wc-product-variation.php:187
 msgid "Read More"
 msgstr "더 보기"
 
@@ -7408,13 +7438,13 @@ msgstr "더 보기"
 msgid "Select options"
 msgstr "옵션"
 
-#: includes/class-wc-product-variable.php:684
+#: includes/class-wc-product-variable.php:693
 msgid ""
 "This variable product has no active variations so cannot be published. "
 "Changing status to draft."
 msgstr "이 옵션 상품은 활성화된 옵션이 없으므로 발행될 수 없습니다. 상태를 임시 글로 변경합니다."
 
-#: includes/class-wc-product-variation.php:659
+#: includes/class-wc-product-variation.php:658
 msgid "%s &ndash; %s%s"
 msgstr "%s &ndash; %s%s"
 
@@ -7471,7 +7501,7 @@ msgstr "[{site_title}] 취소된 주문 ({order_number})"
 
 #: includes/emails/class-wc-email-cancelled-order.php:110
 #: includes/emails/class-wc-email-customer-completed-order.php:138
-#: includes/emails/class-wc-email-customer-refunded-order.php:171
+#: includes/emails/class-wc-email-customer-refunded-order.php:174
 #: includes/emails/class-wc-email-new-order.php:117
 #: includes/emails/class-wc-email.php:475
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:74
@@ -7485,7 +7515,7 @@ msgstr "활성화/비활성화"
 
 #: includes/emails/class-wc-email-cancelled-order.php:112
 #: includes/emails/class-wc-email-customer-completed-order.php:140
-#: includes/emails/class-wc-email-customer-refunded-order.php:173
+#: includes/emails/class-wc-email-customer-refunded-order.php:176
 #: includes/emails/class-wc-email-new-order.php:119
 #: includes/emails/class-wc-email.php:477
 msgid "Enable this email notification"
@@ -7533,7 +7563,7 @@ msgstr "이것은 이메일 알림에 포함된 메인 헤딩을 제어합니다
 
 #: includes/emails/class-wc-email-cancelled-order.php:137
 #: includes/emails/class-wc-email-customer-completed-order.php:172
-#: includes/emails/class-wc-email-customer-refunded-order.php:205
+#: includes/emails/class-wc-email-customer-refunded-order.php:208
 #: includes/emails/class-wc-email-new-order.php:144
 #: includes/emails/class-wc-email.php:495
 msgid "Email type"
@@ -7542,7 +7572,7 @@ msgstr "이메일 타입"
 #: includes/emails/class-wc-email-cancelled-order.php:139
 #: includes/emails/class-wc-email-customer-completed-order.php:174
 #: includes/emails/class-wc-email-customer-invoice.php:175
-#: includes/emails/class-wc-email-customer-refunded-order.php:207
+#: includes/emails/class-wc-email-customer-refunded-order.php:210
 #: includes/emails/class-wc-email-new-order.php:146
 #: includes/emails/class-wc-email.php:497
 msgid "Choose which format of email to send."
@@ -7583,10 +7613,10 @@ msgstr "고객님의 {order_date} {site_title} 주문이 완료됐습니다 - �
 #: includes/emails/class-wc-email-customer-invoice.php:154
 #: includes/emails/class-wc-email-customer-invoice.php:161
 #: includes/emails/class-wc-email-customer-invoice.php:168
-#: includes/emails/class-wc-email-customer-refunded-order.php:179
-#: includes/emails/class-wc-email-customer-refunded-order.php:186
-#: includes/emails/class-wc-email-customer-refunded-order.php:193
-#: includes/emails/class-wc-email-customer-refunded-order.php:200
+#: includes/emails/class-wc-email-customer-refunded-order.php:182
+#: includes/emails/class-wc-email-customer-refunded-order.php:189
+#: includes/emails/class-wc-email-customer-refunded-order.php:196
+#: includes/emails/class-wc-email-customer-refunded-order.php:203
 #: includes/emails/class-wc-email.php:483
 #: includes/emails/class-wc-email.php:490
 msgid "Defaults to <code>%s</code>"
@@ -7643,21 +7673,21 @@ msgstr ""
 msgid "Email Type"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-new-account.php:32
+#: includes/emails/class-wc-email-customer-new-account.php:33
 msgid "New account"
 msgstr "새 계정"
 
-#: includes/emails/class-wc-email-customer-new-account.php:33
+#: includes/emails/class-wc-email-customer-new-account.php:34
 msgid ""
 "Customer \"new account\" emails are sent to the customer when a customer "
 "signs up via checkout or account pages."
 msgstr "고객의 \"새 계정\" 이메일은 고객이 결제 또는 계정 페이지를 통해서 회원가입 할 경우 보내집니다."
 
-#: includes/emails/class-wc-email-customer-new-account.php:38
+#: includes/emails/class-wc-email-customer-new-account.php:39
 msgid "Your account on {site_title}"
 msgstr "{site_title}의 고객님의 계정"
 
-#: includes/emails/class-wc-email-customer-new-account.php:39
+#: includes/emails/class-wc-email-customer-new-account.php:40
 msgid "Welcome to {site_title}"
 msgstr "{site_title}에 오신 것을 환영합니다"
 
@@ -7695,55 +7725,55 @@ msgstr "고객님의 주문에 감사드립니다"
 msgid "Your {site_title} order receipt from {order_date}"
 msgstr "고객님의 {order_date} {site_title} 주문 영수증"
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:37
+#: includes/emails/class-wc-email-customer-refunded-order.php:40
 msgid "Your {site_title} order from {order_date} has been partially refunded"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:38
+#: includes/emails/class-wc-email-customer-refunded-order.php:41
 msgid "Your {site_title} order from {order_date} has been refunded"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:40
+#: includes/emails/class-wc-email-customer-refunded-order.php:43
 msgid "Your order has been fully refunded"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:41
+#: includes/emails/class-wc-email-customer-refunded-order.php:44
 msgid "Your order has been partially refunded"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:45
+#: includes/emails/class-wc-email-customer-refunded-order.php:48
 msgid "Partially Refunded order"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:46
+#: includes/emails/class-wc-email-customer-refunded-order.php:49
 msgid ""
 "Order partially refunded emails are sent to customers when their orders are "
 "partially refunded."
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:54
+#: includes/emails/class-wc-email-customer-refunded-order.php:57
 msgid "Refunded order"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:55
+#: includes/emails/class-wc-email-customer-refunded-order.php:58
 msgid ""
 "Order refunded emails are sent to customers when their orders are marked "
 "refunded."
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:177
+#: includes/emails/class-wc-email-customer-refunded-order.php:180
 msgid "Full Refund Subject"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:184
+#: includes/emails/class-wc-email-customer-refunded-order.php:187
 msgid "Partial Refund Subject"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:191
+#: includes/emails/class-wc-email-customer-refunded-order.php:194
 msgid "Full Refund Email Heading"
 msgstr ""
 
-#: includes/emails/class-wc-email-customer-refunded-order.php:198
+#: includes/emails/class-wc-email-customer-refunded-order.php:201
 msgid "Partial Refund Email Heading"
 msgstr ""
 
@@ -8649,14 +8679,14 @@ msgid "Flat Rate Shipping lets you charge a fixed rate for shipping."
 msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:7
-msgid "Enter a cost (excl. tax) or sum, e.g. <code>10 * [qty]</code>."
+msgid "Enter a cost (excl. tax) or sum, e.g. <code>10.00 * [qty]</code>."
 msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:7
 msgid ""
 "Supports the following placeholders: <code>[qty]</code> = number of items, "
 "<code>[cost]</code> = cost of items, <code>[fee percent=\"10\" "
-"min=\"20\"]</code> = Percentage based fee."
+"min_fee=\"20\"]</code> = Percentage based fee."
 msgstr ""
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:16
@@ -8889,9 +8919,8 @@ msgid "Allowed Zip/Post Codes"
 msgstr "허용된 우편번호"
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:125
-#: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:81
-msgid "What zip/post codes are available for local pickup?"
-msgstr "지역 배송이 가능한 우편번호?"
+msgid "What zip/post codes are available for local delivery?"
+msgstr ""
 
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:127
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:83
@@ -8916,43 +8945,47 @@ msgstr "방문 수령은 고객 자신이 주문 상품을 가져가도록 하�
 msgid "Enable local pickup"
 msgstr "방문 수령 활성화"
 
+#: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:81
+msgid "What zip/post codes are available for local pickup?"
+msgstr "지역 배송이 가능한 우편번호?"
+
 #: includes/shortcodes/class-wc-shortcode-cart.php:42
 msgid "Shipping costs updated."
 msgstr "배송 비용이 업데이트됐습니다."
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:88
+#: includes/shortcodes/class-wc-shortcode-checkout.php:90
 msgid "Invalid order. If you have an account please log in and try again."
 msgstr "유효하지 않은 주문. 계정이 있으면 로그인 하고 다시 해주세요."
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:88
+#: includes/shortcodes/class-wc-shortcode-checkout.php:90
 #: includes/shortcodes/class-wc-shortcode-my-account.php:108
 #: templates/checkout/thankyou.php:30
 msgid "My Account"
 msgstr "나의 계정"
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:107
-#: includes/shortcodes/class-wc-shortcode-checkout.php:155
+#: includes/shortcodes/class-wc-shortcode-checkout.php:109
+#: includes/shortcodes/class-wc-shortcode-checkout.php:157
 msgid ""
 "This order&rsquo;s status is &ldquo;%s&rdquo;&mdash;it cannot be paid for. "
 "Please contact us if you need assistance."
 msgstr "이 주문 상태는 &ldquo;%s&rdquo;입니다 &mdash; 지불할 수 없습니다. 도움이 필요하면 저희에게 연락해주세요."
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:111
-#: includes/shortcodes/class-wc-shortcode-checkout.php:159
+#: includes/shortcodes/class-wc-shortcode-checkout.php:113
+#: includes/shortcodes/class-wc-shortcode-checkout.php:161
 msgid "Sorry, this order is invalid and cannot be paid for."
 msgstr "죄송합니다. 이 주문은 유효하지 않으며 지불될 수 없습니다."
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:128
+#: includes/shortcodes/class-wc-shortcode-checkout.php:130
 #: templates/checkout/thankyou.php:40
 msgid "Order Number:"
 msgstr "주문 번호"
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:132
+#: includes/shortcodes/class-wc-shortcode-checkout.php:134
 #: templates/checkout/thankyou.php:44
 msgid "Date:"
 msgstr "날짜:"
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:227
+#: includes/shortcodes/class-wc-shortcode-checkout.php:231
 msgid ""
 "The order totals have been updated. Please confirm your order by pressing "
 "the Place Order button at the bottom of the page."
@@ -9293,19 +9326,19 @@ msgstr "지불되지 않은 주문이 취소됐습니다 - 시간 제한에 이�
 msgid "Refund &ndash; %s"
 msgstr "환불 &ndash; %s"
 
-#: includes/wc-product-functions.php:510
+#: includes/wc-product-functions.php:508
 msgid "Simple product"
 msgstr "단순 상품"
 
-#: includes/wc-product-functions.php:511
+#: includes/wc-product-functions.php:509
 msgid "Grouped product"
 msgstr "그룹 상품"
 
-#: includes/wc-product-functions.php:512
+#: includes/wc-product-functions.php:510
 msgid "External/Affiliate product"
 msgstr "외부/연계 상품"
 
-#: includes/wc-product-functions.php:513
+#: includes/wc-product-functions.php:511
 msgid "Variable product"
 msgstr "옵션 상품"
 
@@ -10143,16 +10176,6 @@ msgstr "청구 주소"
 msgid "Shipping address"
 msgstr "배송 주소"
 
-#: templates/emails/email-order-items.php:54
-#: templates/emails/plain/email-order-items.php:49
-msgid "Download %d"
-msgstr "%d 다운로드"
-
-#: templates/emails/email-order-items.php:56
-#: templates/emails/plain/email-order-items.php:51
-msgid "Download"
-msgstr "내려받기"
-
 #: templates/emails/plain/admin-cancelled-order.php:21
 #: templates/emails/plain/admin-new-order.php:22
 #: templates/emails/plain/customer-completed-order.php:22
@@ -10885,7 +10908,7 @@ msgstr "없음"
 
 #: includes/wc-cart-functions.php:100
 msgctxt "Item name in quotes"
-msgid "&ldquo;%s&ldquo;"
+msgid "&ldquo;%s&rdquo;"
 msgstr ""
 
 #: includes/wc-core-functions.php:78 includes/wc-order-functions.php:629
