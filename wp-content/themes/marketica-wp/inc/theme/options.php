@@ -35,7 +35,7 @@ function optionsframework_defaults() {
     $options = null;
     $location = apply_filters( 'options_framework_location', array(get_template_directory() . '/inc/theme/options.php') );
     if ( $optionsfile = locate_template( $location ) ) {
-        $maybe_options = require_once $optionsfile;
+        $maybe_options = tokopress_require_file( $optionsfile );
         if ( is_array( $maybe_options ) ) {
 			$options = $maybe_options;
         } else if ( function_exists( 'optionsframework_options' ) ) {
@@ -95,11 +95,20 @@ function tokopress_header_settings( $options ) {
 		'type' 	=> 'heading'
 	);
 
-		$options[] = array(
-			'name' 	=> __( 'Favicon', 'tokopress' ),
-			'id' 	=> 'tokopress_favicon',
-			'type' 	=> 'upload'
-		);
+		if ( function_exists( 'wp_site_icon' ) ) {
+			$options[] = array(
+				'name' 	=> __( 'Favicon', 'tokopress' ),
+				'type' 	=> 'info',
+				'desc' 	=> sprintf( __( 'Go to <a href="%s">Appearance - Customize - Site Identity</a> to customize Favicon (Site Icon).', 'tokopress' ), admin_url( 'customize.php?autofocus[control]=site_icon' ) ),
+			);
+		}
+		else {
+			$options[] = array(
+				'name' 	=> __( 'Favicon', 'tokopress' ),
+				'id' 	=> 'tokopress_favicon',
+				'type' 	=> 'upload',
+			);
+		}
 
 		$options[] = array(
 			'name' 	=> __( 'Sticky Header', 'tokopress' ),

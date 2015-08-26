@@ -1,21 +1,17 @@
 /**
  * Custom Style Option Framework
  */
-
+ 
 #optionsframework .section.section-info {
-	background: #f1f1f1;
 	padding: 0;
-	margin-top: 15px;
+	margin: 30px 0 0;
 }
 #optionsframework .section.section-info h4 {
+	background: #f1f1f1;
 	font-size: 14px;
-	padding: 10px 12px;
+	padding: 10px 10px;
 	margin: 0;
 }
-
-#optionsframework #section-tokopress_page_header_style.section .controls {
-	width: 100%;
-}
-#optionsframework .controls .of-radio-img-selected {
-	border: 3px solid #0074a2;
+#optionsframework .section.section-info .desc {
+	padding: 10px 10px 0;
 }

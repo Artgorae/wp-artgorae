@@ -1,3 +1,30 @@
+2.5
+added: Dokan 2.4 compatibility
+added: Dokan 2.4 - support Dokan seller TOC page
+added: Dokan 2.4 - styling for Dokan shipping calculator
+added: submenu indicator on header menu
+added: touch device friendly header menu 
+added: styling for map marker on contact page template
+added: Customizer - option to change some colors, via Appearance - Customize - Content panel
+added: Customizer - option to change WC button colors, via Appearance - Customize - WooCommerce - WC Buttons
+added: Visual Composer - Heading - option to change title color&background, icon color
+added: Visual Composer - Divider - option to change icon color
+added: Visual Composer - Plan&Pricing - option to change featured plan background color
+added: Visual Composer - WC Featured - option to change title color&background, icon color, link color
+added: Visual Composer - WC Products - option to change title color&background, icon color, link color
+added: Visual Composer - WC Categories - option to change title color&background, icon color
+added: Visual Composer - WC Mini Products - option to change title color&background, icon color
+added: Visual Composer - WC Mini Vendors - option to change title color&background, icon color
+added: Visual Composer - WC Search - option to change color&background, icon color
+updated: use WP4.3 Site Icon feature to replace favicon uploader
+updated: WooCommerce 2.4 compatibility
+updated: use OwlCarousel2 for image gallery
+updated: Slidebar 1.0.2 and use push style for Slidebar menu
+updated: header account menu use hover for dropdown
+updated: improvement on responsive Cart page
+fixed: VC product categories issue, show all categories
+fixed: inconsistent behavior on header search
+
 2.4.3
 fixed: frontend submission style issue, it is bug on the latest CMB2 plugin
 fixed: Dokan - store address is not displayed properly on store header

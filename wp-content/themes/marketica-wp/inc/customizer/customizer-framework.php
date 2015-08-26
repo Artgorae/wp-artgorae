@@ -97,7 +97,8 @@ function tokopress_theme_customizer_register( $wp_customize ) {
 		if ( isset ( $color['transport'] ) ) {
 			$transport = $color['transport'];
 		} else {
-			$transport = 'postMessage';
+			$transport = 'refresh';
+			// $transport = 'postMessage';
 		}
 
 		if ( isset ( $color['priority'] ) ) {

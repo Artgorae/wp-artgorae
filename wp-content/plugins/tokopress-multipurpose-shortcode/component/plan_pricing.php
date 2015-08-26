@@ -17,6 +17,7 @@ function tpvc_pricing_shortcode( $atts ) {
 		'tpvc_plantable_info'			=> __( 'per month', 'tokopress' ),
 		'tpvc_plantable_items'			=> '',
 		'tpvc_plantable_featured'		=> '',
+		'tpvc_plantable_featured_bg'	=> '',
 		'tpvc_plantable_btn_text'		=> __( 'CHOOSE PACKAGE', 'tokopress' ),
 		'tpvc_plantable_btn_url'		=> '',
 		'tpvc_plantable_extra_class'	=> ''
@@ -24,7 +25,7 @@ function tpvc_pricing_shortcode( $atts ) {
 
 	$plan_items = explode(';', $tpvc_plantable_items);
 	
-	$output = "\t" . '<div class="tpvc-plan-pricing ' . $tpvc_plantable_featured . '">' . "\n";
+	$output = "\t" . '<div class="tpvc-plan-pricing ' . $tpvc_plantable_featured . '" ' . ( $tpvc_plantable_featured && $tpvc_plantable_featured_bg ? 'style="background:'.$tpvc_plantable_featured_bg.'"' : '' ). '>' . "\n";
     
     $output .= "\t\t" . '<div class="plan-head">' . "\n";
     $output .= "\t\t\t" . '<span class="plan-type">' . $tpvc_plantable_title . '</span>' . "\n";
@@ -61,9 +62,9 @@ function tpvc_pricing_vcmap() {
 	   'params'				=> array(
 	   							array(
 									'type'			=> 'checkbox',
-									'heading'		=> __( 'Plan Featured', 'tokopress' ),
+									'heading'		=> __( 'Featured Plan', 'tokopress' ),
 									'param_name'	=> 'tpvc_plantable_featured',
-									'value'			=> array( __( "Make featured plan", "tokopress" ) => 'featured' )
+									'value'			=> array( __( "Make it featured plan", "tokopress" ) => 'featured' )
 								),
 								array(
 									'type'			=> 'textfield',
@@ -109,6 +110,11 @@ function tpvc_pricing_vcmap() {
 									'value'			=> ''
 								),
 
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Featured Plan Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_plantable_featured_bg'
+								),
 								array(
 									'type'			=> 'textfield',
 									'heading'		=> __( 'Extra Class', 'tokopress' ),

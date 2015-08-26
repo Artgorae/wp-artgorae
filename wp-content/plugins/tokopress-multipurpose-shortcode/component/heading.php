@@ -20,11 +20,14 @@ function tpvc_shortcode_heading( $atts ) {
 		'text'			=> 'Heading Text',
 		'text_align'	=> 'text-left',
 		'heading_icon'	=> '',
+		'bg_color'	=> '',
+		'text_color'	=> '',
+		'icon_color'	=> '',
 		'extra_class'	=> ''
 	), $atts ) );
 
-	$output = "\t" . '<div class="tpvc-heading ' . $text_align . ' ' . $extra_class . '">' . "\n";
-	$output .= "\t\t" . '<' . $heading . ' class="heading-title"><i class="' . tpvc_icon( $heading_icon ) . '"></i>' . $text . '</' . $heading . '>' . "\n";
+	$output = "\t" . '<div class="tpvc-heading ' . $text_align . ' ' . $extra_class . '" ' . ( $bg_color ? 'style="background:'.$bg_color.'"' : '' ). '>' . "\n";
+	$output .= "\t\t" . '<' . $heading . ' class="heading-title" ' . ( $text_color ? 'style="color:'.$text_color.'"' : '' ). '><i class="' . tpvc_icon( $heading_icon ) . '" ' . ( $icon_color ? 'style="color:'.$icon_color.'"' : '' ). '></i>' . $text . '</' . $heading . '>' . "\n";
 	$output .= "\t" . '</div>' . "\n";
 
 	return $output;
@@ -85,6 +88,24 @@ function tpvc_heading_vcmap() {
 										'value' => 'fontawesome',
 									),
 								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Background Color', 'tokopress' ),
+									'param_name'	=> 'bg_color'
+								),
+
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Text Color', 'tokopress' ),
+									'param_name'	=> 'text_color'
+								),
+
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Icon Color', 'tokopress' ),
+									'param_name'	=> 'icon_color'
+								),
+
 								array(
 									'type'			=> 'textfield',
 									'heading'		=> __( 'Extra Class', 'tokopress' ),

@@ -23,7 +23,7 @@
 
 	</div>
 	<div id="back-top" style="display:block;"><i class="fa fa-angle-up"></i></div>
-	<div class="sb-slidebar sb-left"></div>
+	<div class="sb-slidebar sb-left sb-style-push"></div>
     <?php wp_footer(); ?>
     </body>
 </html>

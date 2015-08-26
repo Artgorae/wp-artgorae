@@ -64,7 +64,7 @@ get_header( 'shop' );
                                             <p>
                                                 <strong itemprop="author"><?php echo $single_comment->comment_author; ?></strong>
                                                 <em class="verified"><?php echo $single_comment->user_id == 0 ? '(Guest)' : ''; ?></em>
-                                                –
+                                                -
                                                 <a href="<?php echo $permalink; ?>">
                                                     <time datetime="<?php echo date( 'c', strtotime( $comment_date ) ); ?>" itemprop="datePublished"><?php echo $comment_date; ?></time>
                                                 </a>

@@ -37,7 +37,6 @@ class Options_Framework_Interface {
 	static function optionsframework_fields() {
 
 		global $allowedtags;
-		$allowedtags['br'] = array();
 		$optionsframework_settings = get_option( 'optionsframework' );
 
 		// Gets the unique option id
@@ -355,7 +354,7 @@ class Options_Framework_Interface {
 			// Editor
 			case 'editor':
 				$output .= '<div class="explain">' . wp_kses( $explain_value, $allowedtags ) . '</div>'."\n";
-				printf( '%s', $output );
+				printf ( '%s', $output );
 				$textarea_name = esc_attr( $option_name . '[' . $value['id'] . ']' );
 				$default_editor_settings = array(
 					'textarea_name' => $textarea_name,
@@ -390,7 +389,7 @@ class Options_Framework_Interface {
 					$output .= '<h4 class="heading">' . esc_html( $value['name'] ) . '</h4>' . "\n";
 				}
 				if ( isset( $value['desc'] ) ) {
-					$output .= $value['desc'] . "\n";
+					$output .= '<div class="desc">' . $value['desc'] . '</div>' . "\n";
 				}
 				$output .= '</div>' . "\n";
 				break;
@@ -417,7 +416,7 @@ class Options_Framework_Interface {
 				$output .= '</div></div>'."\n";
 			}
 
-			printf( '%s', $output );
+			printf ( '%s', $output );
 		}
 
 		// Outputs closing div if there tabs

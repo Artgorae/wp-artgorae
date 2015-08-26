@@ -17,7 +17,10 @@ function tpvc_wc_mini_vendors_dokan_shortcode( $atts ) {
 
 	extract( shortcode_atts( array(
 		'tpvc_wc_vendor_title'		=> 'Vendors',
+		'tpvc_wc_vendor_title_color'		=> '',
+		'tpvc_wc_vendor_title_bg'			=> '',
 		'tpvc_wc_vendor_title_icon'	=> '',
+		'tpvc_wc_vendor_title_icon_color'	=> '',
 		'tpvc_wc_vendor_numbers' 	=> 36,
 		'tpvc_wc_vendor_columns' 	=> 12,
 		'tpvc_wc_vendor_columns_tablet' => 9,
@@ -81,7 +84,12 @@ function tpvc_wc_mini_vendors_dokan_shortcode( $atts ) {
 	<div class="tpvc-mini-product woocommerce <?php echo $tpvc_wc_vendor_class; ?>">
 
 		<?php if( "hide" != $tpvc_wc_vendor_hide_title ) : ?>
-			<div class="tpvc-title"><h2><?php if( "" != $tpvc_wc_vendor_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_vendor_title_icon ) . '"></i>'; ?><?php echo $tpvc_wc_vendor_title; ?></h2></div>
+			<div class="tpvc-title" <?php if( "" !== $tpvc_wc_vendor_title_bg ) echo 'style="background-color:' . $tpvc_wc_vendor_title_bg . '"'; ?>>
+				<h2 <?php if( "" !== $tpvc_wc_vendor_title_color ) echo 'style="color:' . $tpvc_wc_vendor_title_color . '"'; ?>>
+					<?php if( "" != $tpvc_wc_vendor_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_vendor_title_icon ) . '" ' . ( $tpvc_wc_vendor_title_icon_color ? 'style="color:'.$tpvc_wc_vendor_title_icon_color.'"' : '' ). '></i>'; ?>
+					<?php echo $tpvc_wc_vendor_title; ?>
+				</h2>
+			</div>
 		<?php endif; ?>
 
 		<ul class="products">
@@ -90,7 +98,7 @@ function tpvc_wc_mini_vendors_dokan_shortcode( $atts ) {
 
                 <?php 
                 $store_info = dokan_get_store_info( $vendor->ID );
-                $vendor_name = isset( $store_info['store_name'] ) ? esc_html( $store_info['store_name'] ) : __( 'N/A', 'dokan' );
+                $vendor_name = isset( $store_info['store_name'] ) ? esc_html( $store_info['store_name'] ) : __( 'N/A', 'tokopress' );
                 $vendor_link  = dokan_get_store_url( $vendor->ID );
                 ?>
 
@@ -140,6 +148,16 @@ function tpvc_wc_mini_vendors_dokan_vcmap() {
 									'value'			=> __( 'Vendors', 'tokopress' )
 								),
 								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_vendor_title_color'
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_vendor_title_bg',
+								),
+								array(
 									'type' => 'iconpicker',
 									'heading' => __( 'Title Icon', 'tokopress' ),
 									'param_name' => 'tpvc_wc_vendor_title_icon',
@@ -151,6 +169,11 @@ function tpvc_wc_mini_vendors_dokan_vcmap() {
 										'element' => 'type',
 										'value' => 'fontawesome',
 									),
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_vendor_title_icon_color',
 								),
 								array(
 									'type' 			=> 'checkbox',

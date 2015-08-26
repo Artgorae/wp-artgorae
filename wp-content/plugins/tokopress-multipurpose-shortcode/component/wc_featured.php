@@ -16,20 +16,24 @@ function tpvc_wc_product_featured_shortcode( $atts ) {
 	global $woocommerce_loop;
 
 	extract( shortcode_atts( array(
-		'tpvc_wc_featured_title'		=> __( 'Featured Product', 'tokopress' ),
-		'tpvc_wc_featured_title_icon'	=> '',
-		'tpvc_wc_featured_link'			=> __( 'see all', 'tokopress' ),
-		'tpvc_wc_featured_number' 		=> '6',
+		'tpvc_wc_featured_title'			=> __( 'Featured Product', 'tokopress' ),
+		'tpvc_wc_featured_title_color'		=> '',
+		'tpvc_wc_featured_title_bg'			=> '',
+		'tpvc_wc_featured_title_icon'		=> '',
+		'tpvc_wc_featured_title_icon_color'	=> '',
+		'tpvc_wc_featured_link'				=> __( 'see all', 'tokopress' ),
+		'tpvc_wc_featured_link_color'		=> '',
+		'tpvc_wc_featured_number' 			=> '6',
 		// 'tpvc_wc_featured_columns' 		=> '1',
-		'tpvc_wc_featured_orderby' 		=> 'date',
-		'tpvc_wc_featured_order' 		=> 'desc',
-		'tpvc_wc_featured_hide_title'	=> '',
+		'tpvc_wc_featured_orderby' 			=> 'date',
+		'tpvc_wc_featured_order' 			=> 'desc',
+		'tpvc_wc_featured_hide_title'		=> '',
 		'tpvc_wc_featured_hide_prodprice'	=> '',
 		'tpvc_wc_featured_hide_prodtitle'	=> '',
 		'tpvc_wc_featured_hide_prodlink'	=> '',
 		'tpvc_wc_featured_hide_prodcart'	=> '',
 		'tpvc_wc_featured_hide_prodlink_text'	=> __( 'detail', 'tokopress' ),
-		'tpvc_wc_featured_class'		=> ''
+		'tpvc_wc_featured_class'				=> ''
 	), $atts ) );
 
 	$tpvc_wc_featured_columns = 1;
@@ -64,9 +68,18 @@ function tpvc_wc_product_featured_shortcode( $atts ) {
 	<div class="tpvc-featured-product woocommerce woocommerce-product-col-<?php echo $tpvc_wc_featured_columns; ?> <?php echo $tpvc_wc_featured_class; ?>">
 
 		<?php if( "hide" != $tpvc_wc_featured_hide_title ) : ?>
-			<div class="tpvc-title">
-				<h2>
-					<?php if( "" != $tpvc_wc_featured_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_featured_title_icon ) . '"></i>'; ?>
+			<?php 
+			if ( $tpvc_wc_featured_link_color ) {
+				echo '<style>';
+				echo '.tpvc-featured-product.woocommerce .tpvc-title a.button.alt { color:'.$tpvc_wc_featured_link_color.'; box-shadow: '.$tpvc_wc_featured_link_color.' 0 0px 0px 2px inset; }';
+				echo '.tpvc-featured-product.woocommerce .tpvc-title a.button.alt:hover { color: #fff; box-shadow: '.$tpvc_wc_featured_link_color.' 0 0px 0px 40px inset; }';
+				echo '</style>';
+			}
+			?>
+
+			<div class="tpvc-title" <?php if( "" != $tpvc_wc_featured_title_bg ) echo 'style="background-color:' . $tpvc_wc_featured_title_bg . '"'; ?>>
+				<h2 <?php if( "" != $tpvc_wc_featured_title_color ) echo 'style="color:' . $tpvc_wc_featured_title_color . '"'; ?>>
+					<?php if( "" != $tpvc_wc_featured_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_featured_title_icon ) . '" ' . ( $tpvc_wc_featured_title_icon_color ? 'style="color:'.$tpvc_wc_featured_title_icon_color.'"' : '' ). '></i>'; ?>
 					<?php echo $tpvc_wc_featured_title; ?>
 				</h2>
 				<a href="<?php echo get_permalink( wc_get_page_id( 'shop' ) ); ?>" class="button alt">
@@ -168,23 +181,43 @@ function tpvc_wc_product_featured_vcmap() {
 									'value'			=> __( 'Featured Product', 'tokopress' )
 								),
 								array(
-									'type' => 'iconpicker',
-									'heading' => __( 'Title Icon', 'tokopress' ),
-									'param_name' => 'tpvc_wc_featured_title_icon',
-									'settings' => array(
-										'emptyIcon' => false, 
-										'iconsPerPage' => 100, 
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_featured_title_color'
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_featured_title_bg',
+								),
+								array(
+									'type' 			=> 'iconpicker',
+									'heading' 		=> __( 'Title Icon', 'tokopress' ),
+									'param_name' 	=> 'tpvc_wc_featured_title_icon',
+									'settings' 		=> array(
+										'emptyIcon' 	=> false, 
+										'iconsPerPage' 	=> 100, 
 									),
-									'dependency' => array(
-										'element' => 'type',
-										'value' => 'fontawesome',
+									'dependency' 	=> array(
+										'element' 		=> 'type',
+										'value' 		=> 'fontawesome',
 									),
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_featured_title_icon_color',
 								),
 								array(
 									'type'			=> 'textfield',
 									'heading'		=> __( 'Link Text', 'tokopress' ),
 									'param_name'	=> 'tpvc_wc_featured_link',
 									'value'			=> __( 'see all', 'tokopress' )
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Link Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_featured_link_color',
 								),
 								array(
 									'type' 			=> 'checkbox',

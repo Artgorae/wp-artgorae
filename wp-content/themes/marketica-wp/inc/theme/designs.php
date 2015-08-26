@@ -92,7 +92,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 1,
 		'label'		=> __( 'Header Background', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header, .site-header .header-menu li .sub-menu, .site-header .quicknav-account .account-menu',
 		'property'	=> 'background-color'
@@ -104,7 +103,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 2,
 		'label'		=> __( 'Logo Background', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .site-logo',
 		'property'	=> 'background-color'
@@ -116,7 +114,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 3,
 		'label'		=> __( 'Primary Menu (Header Menu) Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .header-menu li a, .site-header .header-right a, .site-header .header-right-search a, .site-header .search-form .search-field',
 		'property'	=> 'color',
@@ -128,7 +125,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 4,
 		'label'		=> __( 'Primary Menu (Header Menu) Hover Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .header-menu li a:hover, .site-header .header-right a:hover, .site-header .header-right-search a:hover, .site-header .quicknav-account .account-menu li a:hover',
 		'property'	=> 'color',
@@ -140,7 +136,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 5,
 		'label'		=> __( 'Cart Link - Background', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .quicknav-cart',
 		'property'	=> 'background-color'
@@ -152,7 +147,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 6,
 		'label'		=> __( 'Cart Link - Icon Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .quicknav-cart .quicknav-icon',
 		'property'	=> 'color',
@@ -164,7 +158,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 7,
 		'label'		=> __( 'Cart Link - Text Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-header .quicknav-cart .cart-subtotal',
 		'property'	=> 'color',
@@ -176,7 +169,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 11,
 		'label'		=> __( 'Secondary Menu (Below Header) Background', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-navigation-wrap, .site-navigation-megamenu-wrap, .site-navigation, .site-navigation ul li .sub-menu li a, .hideshow ul',
 		'property'	=> 'background-color',
@@ -190,7 +182,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 12,
 		'label'		=> __( 'Secondary Menu (Below Header) Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-navigation ul li a',
 		'property'	=> 'color'
@@ -202,7 +193,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 13,
 		'label'		=> __( 'Secondary Menu (Below Header) Border Color', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-navigation ul li .sub-menu, .site-navigation ul li .sub-menu li ul, .site-navigation .site-navigation-menu > li:hover, .site-navigation .site-navigation-menu > li.current-menu-item ',
 		'property'	=> 'border-color'
@@ -214,7 +204,6 @@ function tokopress_header_top_color( $tk_colors ) {
 		'priority'	=> 14,
 		'label'		=> __( 'Secondary Menu (Below Header) Hover Submenu Background', 'tokopress' ),
 		'section'	=> 'tokopress_header_top_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.site-navigation ul li .sub-menu li:hover a',
 		'property'	=> 'background-color'
@@ -234,7 +223,6 @@ function tokopress_page_title_color( $tk_colors ) {
 		'priority'	=> 11,
 		'label'		=> __( 'Page Title Background', 'tokopress' ),
 		'section'	=> 'header_image',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.page-header',
 		'property'	=> 'background-color'
@@ -246,7 +234,6 @@ function tokopress_page_title_color( $tk_colors ) {
 		'priority'	=> 12,
 		'label'		=> __( 'Page Title Color', 'tokopress' ),
 		'section'	=> 'header_image',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.page-header .page-title',
 		'property'	=> 'color'
@@ -262,7 +249,6 @@ function tokopress_breadcrumb_color( $tk_colors ) {
 		'priority'	=> 13,
 		'label'		=> __( 'Breadcrumb Color', 'tokopress' ),
 		'section'	=> 'header_image',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.breadcrumbs',
 		'property'	=> 'color'
@@ -274,7 +260,6 @@ function tokopress_breadcrumb_color( $tk_colors ) {
 		'priority'	=> 14,
 		'label'		=> __( 'Breadcrumb Link Color', 'tokopress' ),
 		'section'	=> 'header_image',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.breadcrumbs a',
 		'property'	=> 'color'
@@ -286,13 +271,209 @@ function tokopress_breadcrumb_color( $tk_colors ) {
 		'priority'	=> 15,
 		'label'		=> __( 'Breadcrumb Separator Color', 'tokopress' ),
 		'section'	=> 'header_image',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.breadcrumbs .sep .fa',
 		'property'	=> 'color'
 	);
 
 	return $tk_colors;
+}
+
+/**
+ * Content Panel
+ */
+add_filter( 'tokopress_customizer_panels', 'tokopress_customize_content_panel' );
+function tokopress_customize_content_panel( $tk_panels ) {
+	$tk_panels[] = array(
+			'ID'			=> 'tokopress_content_panel',
+			'priority'		=> 147,
+			'title'			=> __( 'Content', 'tokopress' ),
+			'description'	=> __( 'Customize your content sections', 'tokopress' )
+		);
+
+	return $tk_panels;
+}
+
+/**
+ * Content 
+ */
+add_filter( 'tokopress_customizer_sections', 'tokopress_customize_content_section' );
+function tokopress_customize_content_section( $tk_sections ) {
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_general_section',
+			'label'		=> __( 'General', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_blog_section',
+			'label'		=> __( 'Blog', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_section_section',
+			'label'		=> __( 'Section Title', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_widget_section',
+			'label'		=> __( 'Widget', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_pagination_section',
+			'label'		=> __( 'Pagination', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_content_table_section',
+			'label'		=> __( 'Table', 'tokopress' ),
+			'priority'	=> 10,
+			'panel_id'	=> 'tokopress_content_panel'
+		);
+
+	return $tk_sections;
+}
+add_filter( 'tokopress_customizer_data', 'tokopress_customize_content_color' );
+function tokopress_customize_content_color( $tk_colors ) {
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_body_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Body Text Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_general_section',
+		'type' 		=> 'color',
+		'selector'	=> 'body',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_link_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Link Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_general_section',
+		'type' 		=> 'color',
+		'selector'	=> 'a',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_blog_title_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Blog Title Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_blog_section',
+		'type' 		=> 'color',
+		'selector'	=> '.blog-list .entry-content .blog-title a, .blog-list .entry-content .blog-title:before',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_blog_meta_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Blog Meta Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_blog_section',
+		'type' 		=> 'color',
+		'selector'	=> '.blog-list .entry-meta',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_blog_meta_link color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Blog Meta Link Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_blog_section',
+		'type' 		=> 'color',
+		'selector'	=> '.blog-list .entry-meta a',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_section_title_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Section Title Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_section_section',
+		'type' 		=> 'color',
+		'selector'	=> '.section-title, .blog-single #respond #reply-title, #respond #reply-title, .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2, .woocommerce .checkout .woocommerce-billing-fields h3, .woocommerce-page .checkout .woocommerce-billing-fields h3, .woocommerce .checkout .woocommerce-shipping-fields h3, .woocommerce-page .checkout .woocommerce-shipping-fields h3, .woocommerce .checkout #order_review_heading, .woocommerce-page .checkout #order_review_heading, .woocommerce .upsells.products h2, .woocommerce .related.products h2, .woocommerce-page .upsells.products h2, .woocommerce-page .related.products h2, .woocommerce div.product div.woocommerce-tabs .panel h2, .woocommerce div.product div.woocommerce-tabs .panel h3, .woocommerce #content div.product div.woocommerce-tabs .panel h2, .woocommerce #content div.product div.woocommerce-tabs .panel h3, .woocommerce-page div.product div.woocommerce-tabs .panel h2, .woocommerce-page div.product div.woocommerce-tabs .panel h3, .woocommerce-page #content div.product div.woocommerce-tabs .panel h2, .woocommerce-page #content div.product div.woocommerce-tabs .panel h3, .tpvc-mini-product.woocommerce .tpvc-title h1, .tpvc-mini-product.woocommerce .tpvc-title h2, .tpvc-heading .heading-title',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_section_title_icon_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Section Title Icon Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_section_section',
+		'type' 		=> 'color',
+		'selector'	=> '.commentlist .section-title:before, .commentlist #respond #reply-title:before, #respond .commentlist #reply-title:before, .woocommerce .checkout .woocommerce-billing-fields h3:before, .woocommerce-page .checkout .woocommerce-billing-fields h3:before, .woocommerce .checkout .woocommerce-shipping-fields h3:before, .woocommerce-page .checkout .woocommerce-shipping-fields h3:before, .woocommerce .checkout #order_review_heading:before, .woocommerce-page .checkout #order_review_heading:before, #respond .section-title:before, .blog-single #respond #reply-title:before, #respond #reply-title:before, .tpvc-mini-product.woocommerce .tpvc-title h1 i, .tpvc-mini-product.woocommerce .tpvc-title h2 i, .tpvc-heading .heading-title i',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_widget_title_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Widget Title Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_widget_section',
+		'type' 		=> 'color',
+		'selector'	=> '.widget .widget-title',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_widget_stat_number_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Statistic Widget - Number Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_widget_section',
+		'type' 		=> 'color',
+		'selector'	=> '.widget_widget_statistic .widget-statistic .market-members .statistic, .widget_widget_statistic .widget-statistic .market-sellers .statistic, .widget_widget_statistic .widget-statistic .market-items .statistic, .widget_tokopress_widget_statistics .widget-statistic .market-members .statistic, .widget_tokopress_widget_statistics .widget-statistic .market-sellers .statistic, .widget_tokopress_widget_statistics .widget-statistic .market-items .statistic',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_pagination_link_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Pagination - Link Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_pagination_section',
+		'type' 		=> 'color',
+		'selector'	=> '.pagination a.page-numbers',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_pagination_active_color',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Pagination - Active Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_pagination_section',
+		'type' 		=> 'color',
+		'selector'	=> '.pagination .current',
+		'property'	=> 'color'
+	);
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_table_thead_bg',
+		'default'	=> '',
+		'priority'	=> 10,
+		'label'		=> __( 'Table Heading Background Color', 'tokopress' ),
+		'section'	=> 'tokopress_content_table_section',
+		'type' 		=> 'color',
+		'selector'	=> '.woocommerce .shop_table thead, .woocommerce-page .shop_table thead, .woocommerce .checkout #order_review .shop_table .order-total, .woocommerce-page .checkout #order_review .shop_table .order-total',
+		'property'	=> 'background'
+	);
+	return $tk_colors;
+}
+
+add_action( 'tokopress_custom_styles', 'tokopress_customizer_css_content', 10 );
+function tokopress_customizer_css_content() { 
+	$color = get_theme_mod( 'tokopress_pagination_link_color' );
+	if ( $color ) {
+		echo '.pagination a.page-numbers { box-shadow: '.$color.' 0 0px 0px 2px inset; }';
+		echo '.pagination a.page-numbers:hover { box-shadow: '.$color.' 0 0px 0px 40px inset; }';
+	}
+	$color = get_theme_mod( 'tokopress_pagination_active_color' );
+	if ( $color ) {
+		echo '.pagination .current { box-shadow: '.$color.' 0 0px 0px 2px inset; }';
+	}
 }
 
 /**
@@ -332,7 +513,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 1,
 		'label'		=> __( 'Footer Widget Background', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '#footer',
 		'property'	=> 'background-color'
@@ -344,7 +524,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 2,
 		'label'		=> __( 'Footer Widget Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '#footer, #footer p',
 		'property'	=> 'color',
@@ -357,7 +536,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 3,
 		'label'		=> __( 'Footer Widget Link Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '#footer a',
 		'property'	=> 'color'
@@ -369,7 +547,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 4,
 		'label'		=> __( 'Footer Widget Title Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.widget .widget-title',
 		'property'	=> 'color'
@@ -381,7 +558,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 5,
 		'label'		=> __( 'Footer Widget Border Separator Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.footer-widgets',
 		'property'	=> 'border-right-color'
@@ -393,7 +569,6 @@ function tokopress_footer_widget_color( $tk_colors ) {
 		'priority'	=> 6,
 		'label'		=> __( 'Footer Widget Border Top Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_widget_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.footer-widgets',
 		'property'	=> 'border-top-color'
@@ -424,7 +599,6 @@ function tokopress_footer_credit_color( $tk_colors ) {
 		'priority'	=> 1,
 		'label'		=> __( 'Footer Credit Background', 'tokopress' ),
 		'section'	=> 'tokopress_footer_credit_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.footer-credits',
 		'property'	=> 'background-color'
@@ -436,7 +610,6 @@ function tokopress_footer_credit_color( $tk_colors ) {
 		'priority'	=> 2,
 		'label'		=> __( 'Footer Credit Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_credit_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.footer-credits .copyright',
 		'property'	=> 'color'
@@ -448,9 +621,49 @@ function tokopress_footer_credit_color( $tk_colors ) {
 		'priority'	=> 3,
 		'label'		=> __( 'Footer Credit Link Color', 'tokopress' ),
 		'section'	=> 'tokopress_footer_credit_section',
-		'transport'	=> 'postMessage',
 		'type' 		=> 'color',
 		'selector'	=> '.footer-credits .copyright a',
+		'property'	=> 'color'
+	);
+
+	return $tk_colors;
+}
+
+/**
+ * Footer Back To Top
+ */
+add_filter( 'tokopress_customizer_sections', 'tokopress_footer_backtotop_section' );
+function tokopress_footer_backtotop_section( $tk_sections ) {
+	$tk_sections[] = array(
+			'slug'		=> 'tokopress_footer_backtotop_section',
+			'label'		=> __( 'Back To Top', 'tokopress' ),
+			'priority'	=> 2,
+			'panel_id'	=> 'tokopress_footer_panel'
+		);
+
+	return $tk_sections;
+}
+add_filter( 'tokopress_customizer_data', 'tokopress_footer_backtotop_color' );
+function tokopress_footer_backtotop_color( $tk_colors ) {
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_footer_backtotop_bg',
+		'default'	=> '',
+		'priority'	=> 1,
+		'label'		=> __( 'Back To Top Background', 'tokopress' ),
+		'section'	=> 'tokopress_footer_backtotop_section',
+		'type' 		=> 'color',
+		'selector'	=> '#back-top',
+		'property'	=> 'background-color'
+	);
+
+	$tk_colors[] = array(
+		'slug'		=> 'tokopress_footer_backtotop_color',
+		'default'	=> '',
+		'priority'	=> 2,
+		'label'		=> __( 'Back To Top Icon Color', 'tokopress' ),
+		'section'	=> 'tokopress_footer_backtotop_section',
+		'type' 		=> 'color',
+		'selector'	=> '#back-top',
 		'property'	=> 'color'
 	);
 

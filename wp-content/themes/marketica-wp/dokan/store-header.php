@@ -1,6 +1,8 @@
 <?php
 $store_user = get_userdata( get_query_var( 'author' ) );
 $store_info = dokan_get_store_info( $store_user->ID );
+$store_tabs    = dokan_get_store_tabs( $store_user->ID );
+$social_fields = dokan_get_social_profile_fields();
 
 $store_banner = isset( $store_info['banner'] ) && !empty( $store_info['banner'] ) ? $store_info['banner'] : '';
 ?>
@@ -28,9 +30,11 @@ $store_banner = isset( $store_info['banner'] ) && !empty( $store_info['banner'] 
                 <?php } ?>
 
                 <?php if ( isset( $store_info['address'] ) && !empty( $store_info['address'] ) ) { ?>
-                    <li class="dokan-store-address"><i class="fa fa-map-marker"></i> 
-                        <?php echo dokan_get_seller_address( $store_user->ID ); ?>
-                    </li>
+                    <?php if ( $address = dokan_get_seller_address( $store_user->ID ) ) { ?>
+                        <li class="dokan-store-address"><i class="fa fa-map-marker"></i>
+                            <?php echo dokan_get_seller_address( $store_user->ID ); ?>
+                        </li>
+                    <?php } ?>
                 <?php } ?>
 
                 <?php if ( isset( $store_info['phone'] ) && !empty( $store_info['phone'] ) ) { ?>
@@ -53,50 +57,32 @@ $store_banner = isset( $store_info['banner'] ) && !empty( $store_info['banner'] 
                 </li>
             </ul>
 
-            <ul class="store-social">
-                <?php if ( isset( $store_info['social']['fb'] ) && !empty( $store_info['social']['fb'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['fb'] ); ?>" target="_blank"><i class="fa fa-facebook-square"></i></a>
-                    </li>
-                <?php } ?>
+            <?php do_action( 'dokan_store_before_social', $store_user, $store_info ); ?>
 
-                <?php if ( isset( $store_info['social']['gplus'] ) && !empty( $store_info['social']['gplus'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['gplus'] ); ?>" target="_blank"><i class="fa fa-google-plus-square"></i></a>
-                    </li>
-                <?php } ?>
-
-                <?php if ( isset( $store_info['social']['twitter'] ) && !empty( $store_info['social']['twitter'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['twitter'] ); ?>" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                    </li>
-                <?php } ?>
-
-                <?php if ( isset( $store_info['social']['linkedin'] ) && !empty( $store_info['social']['linkedin'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['linkedin'] ); ?>" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                    </li>
-                <?php } ?>
-
-                <?php if ( isset( $store_info['social']['youtube'] ) && !empty( $store_info['social']['youtube'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['youtube'] ); ?>" target="_blank"><i class="fa fa-youtube-square"></i></a>
-                    </li>
-                <?php } ?>
-
-                <?php if ( isset( $store_info['social']['flickr'] ) && !empty( $store_info['social']['flickr'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['flickr'] ); ?>" target="_blank"><i class="fa fa-flickr"></i></a>
-                    </li>
-                <?php } ?>
-
-                <?php if ( isset( $store_info['social']['instagram'] ) && !empty( $store_info['social']['instagram'] ) ) { ?>
-                    <li>
-                        <a href="<?php echo esc_url( $store_info['social']['instagram'] ); ?>" target="_blank"><i class="fa fa-instagram"></i></a>
-                    </li>
-                <?php } ?>
-
-            </ul>
+            <?php if ( $social_fields ) { ?>
+                <ul class="store-social">
+                    <?php foreach( $social_fields as $key => $field ) { ?>
+                        <?php if ( isset( $store_info['social'][ $key ] ) && !empty( $store_info['social'][ $key ] ) ) { ?>
+                            <li>
+                                <a href="<?php echo esc_url( $store_info['social'][ $key ] ); ?>" target="_blank"><i class="fa fa-<?php echo $field['icon']; ?>"></i></a>
+                            </li>
+                        <?php } ?>
+                    <?php } ?>
+                </ul>
+            <?php } ?>
         </div> <!-- .profile-info -->
     </div> <!-- .profile-info-box -->
 </div> <!-- .profile-frame -->
+
+<?php if ( $store_tabs ) { ?>
+<div class="dokan-single-store">
+    <div class="dokan-store-tabs">
+        <ul class="dokan-list-inline">
+            <?php foreach( $store_tabs as $key => $tab ) { ?>
+                <li><a href="<?php echo esc_url( $tab['url'] ); ?>"><?php echo $tab['title']; ?></a></li>
+            <?php } ?>
+            <?php do_action( 'dokan_after_store_tabs', $store_user->ID ); ?>
+        </ul>
+    </div>
+</div>
+<?php } ?>

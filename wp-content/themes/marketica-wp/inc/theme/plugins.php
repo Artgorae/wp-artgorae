@@ -7,7 +7,7 @@
 /**
  * Include the TGM_Plugin_Activation class.
  */
-require_once get_template_directory() . '/inc/tgm/class-tgm-plugin-activation.php';
+tokopress_require_file( get_template_directory() . '/inc/tgm/class-tgm-plugin-activation.php' );
 
 add_action( 'tgmpa_register', 'tokopress_register_required_plugins' );
 function tokopress_register_required_plugins() {
@@ -29,8 +29,8 @@ function tokopress_register_required_plugins() {
 		array(
 			'name'     	=> 'TokoPress - Marketica VC & Shortcodes',
 			'slug'     	=> 'tokopress-multipurpose-shortcode',
-			'source'   	=> get_template_directory() . '/inc/plugins/tokopress-multipurpose-shortcode-v2.2.zip',
-			'version' 	=> '2.2',
+			'source'   	=> get_template_directory() . '/inc/plugins/tokopress-multipurpose-shortcode-v2.5.zip',
+			'version' 	=> '2.5',
 			'required' 	=> true,
 		),
 

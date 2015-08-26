@@ -50,7 +50,10 @@ function tokopress_wphead_responsive() {
  */
 add_action( 'wp_head', 'tokopress_wphead_favicon', 0);
 function tokopress_wphead_favicon() {
-$icon = of_get_option( 'tokopress_favicon' ) ? of_get_option( 'tokopress_favicon' ) : THEME_URI.'/img/favicon.png';
+	if ( function_exists( 'get_site_icon_url' ) && get_site_icon_url() )
+		return;
+
+	$icon = of_get_option( 'tokopress_favicon' ) ? of_get_option( 'tokopress_favicon' ) : THEME_URI.'/img/favicon.png';
 	?>
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url($icon); ?>" />
 	<?php
@@ -267,7 +270,7 @@ function tokopress_custom_background_cb() {
 	}
 ?>
 <style type="text/css" id="custom-background-css">
-body.custom-background, body .site-container { <?php echo trim( $style ); ?> }
+body.custom-background { <?php echo trim( $style ); ?> }
 </style>
 <?php
 }

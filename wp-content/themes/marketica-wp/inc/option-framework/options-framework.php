@@ -36,11 +36,11 @@ function optionsframework_init() {
 		return;
 
 	// Loads the required Options Framework classes.
-	require plugin_dir_path( __FILE__ ) . 'includes/class-options-framework.php';
-	require plugin_dir_path( __FILE__ ) . 'includes/class-options-framework-admin.php';
-	require plugin_dir_path( __FILE__ ) . 'includes/class-options-interface.php';
-	require plugin_dir_path( __FILE__ ) . 'includes/class-options-media-uploader.php';
-	require plugin_dir_path( __FILE__ ) . 'includes/class-options-sanitization.php';
+	tokopress_require_file( plugin_dir_path( __FILE__ ) . 'includes/class-options-framework.php' );
+	tokopress_require_file( plugin_dir_path( __FILE__ ) . 'includes/class-options-framework-admin.php' );
+	tokopress_require_file( plugin_dir_path( __FILE__ ) . 'includes/class-options-interface.php' );
+	tokopress_require_file( plugin_dir_path( __FILE__ ) . 'includes/class-options-media-uploader.php' );
+	tokopress_require_file( plugin_dir_path( __FILE__ ) . 'includes/class-options-sanitization.php' );
 
 	// Instantiate the main plugin class.
 	$options_framework = new Options_Framework;

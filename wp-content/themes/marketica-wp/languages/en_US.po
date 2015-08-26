@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Marketica v2.3\n"
+"Project-Id-Version: Marketica WP v2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-05-29 23:03:39+0000\n"
+"PO-Revision-Date: 2015-08-25 00:41:02+0000\n"
 "Last-Translator: admin <admin@admin.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -75,6 +75,7 @@ msgstr ""
 #: block-content-title.php:15
 #: block-page-header-inner.php:15
 #: block-page-header-outer.php:15
+#: inc/theme/designs.php:310
 #@ tokopress
 msgid "Blog"
 msgstr ""
@@ -99,8 +100,8 @@ msgstr ""
 #: block-page-header-outer.php:47
 #: inc/functions/breadcrumb.php:285
 #: inc/functions/breadcrumb.php:1235
-#: inc/theme/frontend.php:197
-#: inc/theme/frontend.php:203
+#: inc/theme/frontend.php:200
+#: inc/theme/frontend.php:206
 #@ tokopress
 msgid "Y"
 msgstr ""
@@ -115,7 +116,7 @@ msgstr ""
 #: block-content-title.php:57
 #: block-page-header-inner.php:57
 #: block-page-header-outer.php:57
-#: inc/theme/frontend.php:206
+#: inc/theme/frontend.php:209
 #@ tokopress
 msgid "Shop"
 msgstr ""
@@ -209,22 +210,22 @@ msgstr ""
 msgid "Widgets in this area will be shown in Footer Widget."
 msgstr ""
 
-#: functions.php:182
+#: functions.php:187
 #@ tokopress
 msgid "Phone Number"
 msgstr ""
 
-#: functions.php:183
+#: functions.php:188
 #@ tokopress
 msgid "Facebook Profile URL"
 msgstr ""
 
-#: functions.php:185
+#: functions.php:190
 #@ tokopress
 msgid "Twitter Profile URL"
 msgstr ""
 
-#: functions.php:184
+#: functions.php:189
 #@ tokopress
 msgid "Google Plus Profil URL"
 msgstr ""
@@ -235,7 +236,7 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: inc/customizer/customizer-framework.php:32
+#: inc/customizer/customizer-framework.php:41
 #@ tokopress
 msgid "General Colors"
 msgstr ""
@@ -263,7 +264,7 @@ msgid "Page %d"
 msgstr ""
 
 #: inc/functions/breadcrumb.php:279
-#: inc/theme/frontend.php:185
+#: inc/theme/frontend.php:188
 #@ tokopress
 msgid "g:i a"
 msgstr ""
@@ -275,7 +276,7 @@ msgid "Minute %d"
 msgstr ""
 
 #: inc/functions/breadcrumb.php:281
-#: inc/theme/frontend.php:191
+#: inc/theme/frontend.php:194
 #@ tokopress
 msgid "g a"
 msgstr ""
@@ -578,19 +579,19 @@ msgid "Bold Italic"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:197
-#: inc/theme/plugins.php:149
+#: inc/theme/plugins.php:147
 #@ tokopress
 msgid "Install Required Plugins"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:198
-#: inc/theme/plugins.php:150
+#: inc/theme/plugins.php:148
 #@ tokopress
 msgid "Install Plugins"
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:199
-#: inc/theme/plugins.php:151
+#: inc/theme/plugins.php:149
 #, php-format
 #@ tokopress
 msgid "Installing Plugin: %s"
@@ -602,7 +603,7 @@ msgid "Something went wrong."
 msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:201
-#: inc/theme/plugins.php:153
+#: inc/theme/plugins.php:151
 #, php-format
 #@ tokopress
 msgid "This theme requires the following plugin: %1$s."
@@ -611,7 +612,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:202
-#: inc/theme/plugins.php:154
+#: inc/theme/plugins.php:152
 #, php-format
 #@ tokopress
 msgid "This theme recommends the following plugin: %1$s."
@@ -620,7 +621,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:203
-#: inc/theme/plugins.php:155
+#: inc/theme/plugins.php:153
 #, php-format
 #@ tokopress
 msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
@@ -629,7 +630,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:204
-#: inc/theme/plugins.php:156
+#: inc/theme/plugins.php:154
 #, php-format
 #@ tokopress
 msgid "The following required plugin is currently inactive: %1$s."
@@ -638,7 +639,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:205
-#: inc/theme/plugins.php:157
+#: inc/theme/plugins.php:155
 #, php-format
 #@ tokopress
 msgid "The following recommended plugin is currently inactive: %1$s."
@@ -647,7 +648,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:206
-#: inc/theme/plugins.php:158
+#: inc/theme/plugins.php:156
 #, php-format
 #@ tokopress
 msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
@@ -656,7 +657,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:207
-#: inc/theme/plugins.php:159
+#: inc/theme/plugins.php:157
 #, php-format
 #@ tokopress
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
@@ -665,7 +666,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:208
-#: inc/theme/plugins.php:160
+#: inc/theme/plugins.php:158
 #, php-format
 #@ tokopress
 msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
@@ -674,7 +675,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:209
-#: inc/theme/plugins.php:161
+#: inc/theme/plugins.php:159
 #@ tokopress
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
@@ -689,7 +690,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:212
-#: inc/theme/plugins.php:163
+#: inc/theme/plugins.php:161
 #@ tokopress
 msgid "Return to Required Plugins Installer"
 msgstr ""
@@ -701,7 +702,7 @@ msgstr ""
 
 #: inc/tgm/class-tgm-plugin-activation.php:214
 #: inc/tgm/class-tgm-plugin-activation.php:2037
-#: inc/theme/plugins.php:164
+#: inc/theme/plugins.php:162
 #@ tokopress
 msgid "Plugin activated successfully."
 msgstr ""
@@ -919,257 +920,259 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: inc/theme/designs.php:76
+#: inc/theme/designs.php:93
 #@ tokopress
 msgid "Header Background"
 msgstr ""
 
-#: inc/theme/designs.php:88
+#: inc/theme/designs.php:104
 #@ tokopress
 msgid "Logo Background"
 msgstr ""
 
-#: inc/theme/designs.php:218
+#: inc/theme/designs.php:224
 #@ tokopress
 msgid "Page Title Background"
 msgstr ""
 
-#: inc/theme/designs.php:230
+#: inc/theme/designs.php:235
 #@ tokopress
 msgid "Page Title Color"
 msgstr ""
 
-#: inc/theme/designs.php:246
+#: inc/theme/designs.php:250
 #@ tokopress
 msgid "Breadcrumb Color"
 msgstr ""
 
-#: inc/theme/designs.php:258
+#: inc/theme/designs.php:261
 #@ tokopress
 msgid "Breadcrumb Link Color"
 msgstr ""
 
-#: inc/theme/designs.php:270
+#: inc/theme/designs.php:272
 #@ tokopress
 msgid "Breadcrumb Separator Color"
 msgstr ""
 
-#: inc/theme/designs.php:288
-#: inc/theme/options.php:202
+#: inc/theme/designs.php:501
+#: inc/theme/options.php:211
 #@ tokopress
 msgid "Footer Widget"
 msgstr ""
 
-#: inc/theme/designs.php:300
+#: inc/theme/designs.php:514
 #@ tokopress
 msgid "Footer Widget Background"
 msgstr ""
 
-#: inc/theme/designs.php:312
+#: inc/theme/designs.php:525
 #@ tokopress
 msgid "Footer Widget Color"
 msgstr ""
 
-#: inc/theme/designs.php:325
+#: inc/theme/designs.php:537
 #@ tokopress
 msgid "Footer Widget Link Color"
 msgstr ""
 
-#: inc/theme/designs.php:337
+#: inc/theme/designs.php:548
 #@ tokopress
 msgid "Footer Widget Title Color"
 msgstr ""
 
-#: inc/theme/designs.php:349
+#: inc/theme/designs.php:559
 #@ tokopress
 msgid "Footer Widget Border Separator Color"
 msgstr ""
 
-#: inc/theme/designs.php:361
+#: inc/theme/designs.php:570
 #@ tokopress
 msgid "Footer Widget Border Top Color"
 msgstr ""
 
-#: inc/theme/designs.php:379
-#: inc/theme/options.php:210
+#: inc/theme/designs.php:587
+#: inc/theme/options.php:219
 #@ tokopress
 msgid "Footer Credit"
 msgstr ""
 
-#: inc/theme/designs.php:391
+#: inc/theme/designs.php:600
 #@ tokopress
 msgid "Footer Credit Background"
 msgstr ""
 
-#: inc/theme/designs.php:403
+#: inc/theme/designs.php:611
 #@ tokopress
 msgid "Footer Credit Color"
 msgstr ""
 
-#: inc/theme/designs.php:415
+#: inc/theme/designs.php:622
 #@ tokopress
 msgid "Footer Credit Link Color"
 msgstr ""
 
-#: inc/theme/frontend.php:151
+#: inc/theme/frontend.php:154
 #: woocommerce/loop/pagination.php:24
 #@ tokopress
 msgid "Previous"
 msgstr ""
 
-#: inc/theme/frontend.php:152
+#: inc/theme/frontend.php:155
 #: woocommerce/loop/pagination.php:25
 #@ tokopress
 msgid "Next"
 msgstr ""
 
-#: inc/theme/frontend.php:176
+#: inc/theme/frontend.php:179
 #@ tokopress
 msgid "404 - Not Found"
 msgstr ""
 
-#: inc/theme/frontend.php:178
+#: inc/theme/frontend.php:181
 #, php-format
 #@ tokopress
 msgid "Search Results for \"%1$s\""
 msgstr ""
 
-#: inc/theme/frontend.php:185
-#: inc/theme/frontend.php:191
+#: inc/theme/frontend.php:188
 #: inc/theme/frontend.php:194
-#: inc/theme/frontend.php:200
+#: inc/theme/frontend.php:197
 #: inc/theme/frontend.php:203
+#: inc/theme/frontend.php:206
 #, php-format
 #@ tokopress
 msgid "Archive for %1$s"
 msgstr ""
 
-#: inc/theme/frontend.php:188
+#: inc/theme/frontend.php:191
 #, php-format
 #@ tokopress
 msgid "Archive for minute %1$s"
 msgstr ""
 
-#: inc/theme/frontend.php:188
+#: inc/theme/frontend.php:191
 #@ tokopress
 msgid "i"
 msgstr ""
 
-#: inc/theme/frontend.php:194
+#: inc/theme/frontend.php:197
 #@ tokopress
 msgid "F jS, Y"
 msgstr ""
 
-#: inc/theme/frontend.php:197
+#: inc/theme/frontend.php:200
 #, php-format
 #@ tokopress
 msgid "Archive for week %1$s of %2$s"
 msgstr ""
 
-#: inc/theme/frontend.php:197
+#: inc/theme/frontend.php:200
 #@ tokopress
 msgid "W"
 msgstr ""
 
-#: inc/theme/frontend.php:221
+#: inc/theme/frontend.php:224
 #, php-format
 #@ tokopress
 msgid "- Page %s"
 msgstr ""
 
+#: inc/theme/designs.php:27
 #: inc/theme/options.php:94
 #@ tokopress
 msgid "Header"
 msgstr ""
 
-#: inc/theme/options.php:123
+#: inc/theme/options.php:132
 #@ tokopress
 msgid "Site Logo"
 msgstr ""
 
-#: inc/theme/options.php:252
+#: inc/theme/options.php:261
 #@ tokopress
 msgid "DISABLE Map"
 msgstr ""
 
-#: inc/theme/options.php:253
+#: inc/theme/options.php:262
 #@ tokopress
 msgid "DISABLE map from contact"
 msgstr ""
 
-#: inc/theme/options.php:260
+#: inc/theme/options.php:269
 #@ tokopress
 msgid "Latitude"
 msgstr ""
 
-#: inc/theme/options.php:261
+#: inc/theme/options.php:270
 #@ tokopress
 msgid "Insert map Latitude koordinat"
 msgstr ""
 
-#: inc/theme/options.php:267
+#: inc/theme/options.php:276
 #@ tokopress
 msgid "Longitude"
 msgstr ""
 
-#: inc/theme/options.php:268
+#: inc/theme/options.php:277
 #@ tokopress
 msgid "Insert map Longitude koordinat"
 msgstr ""
 
-#: inc/theme/options.php:274
+#: inc/theme/options.php:283
 #@ tokopress
 msgid "Marker Title"
 msgstr ""
 
-#: inc/theme/options.php:275
+#: inc/theme/options.php:284
 #@ tokopress
 msgid "Insert marker title"
 msgstr ""
 
-#: inc/theme/options.php:281
+#: inc/theme/options.php:290
 #@ tokopress
 msgid "Marker Description"
 msgstr ""
 
-#: inc/theme/options.php:282
+#: inc/theme/options.php:291
 #@ tokopress
 msgid "Insert marker description"
 msgstr ""
 
-#: inc/theme/options.php:192
+#: inc/theme/designs.php:487
+#: inc/theme/options.php:201
 #@ tokopress
 msgid "Footer"
 msgstr ""
 
-#: inc/theme/options.php:203
+#: inc/theme/options.php:212
 #@ tokopress
 msgid "DISABLE footer widget"
 msgstr ""
 
-#: inc/theme/options.php:211
+#: inc/theme/options.php:220
 #@ tokopress
 msgid "DISABLE footer credit"
 msgstr ""
 
-#: inc/theme/options.php:218
+#: inc/theme/options.php:227
 #@ tokopress
 msgid "Footer Credit Text"
 msgstr ""
 
-#: inc/theme/plugins.php:152
+#: inc/theme/plugins.php:150
 #@ tokopress
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: inc/theme/plugins.php:162
+#: inc/theme/plugins.php:160
 #@ tokopress
 msgid "Activate installed plugin"
 msgid_plural "Activate installed plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/theme/plugins.php:165
+#: inc/theme/plugins.php:163
 #, php-format
 #@ tokopress
 msgid "All plugins installed and activated successfully. %s"
@@ -1186,7 +1189,7 @@ msgid "Tokopress - Social Connect"
 msgstr ""
 
 #: inc/widget/widget_social.php:185
-#: inc/widget/widget_statistic.php:81
+#: inc/widget/widget_statistic.php:98
 #: inc/widget/widget_subscribe.php:46
 #@ tokopress
 msgid "Title:"
@@ -1287,17 +1290,17 @@ msgstr ""
 msgid "Display statistic product and users"
 msgstr ""
 
-#: inc/widget/widget_statistic.php:37
+#: inc/widget/widget_statistic.php:69
 #@ tokopress
 msgid "Marketplace Items"
 msgstr ""
 
-#: inc/widget/widget_statistic.php:41
+#: inc/widget/widget_statistic.php:40
 #@ tokopress
 msgid "Marketplace Members"
 msgstr ""
 
-#: inc/widget/widget_statistic.php:77
+#: inc/widget/widget_statistic.php:94
 #@ tokopress
 msgid "Statistics"
 msgstr ""
@@ -1328,105 +1331,89 @@ msgstr ""
 msgid "You can edit your sign-up form in the %sMailChimp for WordPress form settings%s."
 msgstr ""
 
-#: inc/woocommerce/designs.php:25
+#: inc/woocommerce/designs.php:99
 #@ tokopress
 msgid "Catalog Ordering Background"
 msgstr ""
 
-#: inc/woocommerce/designs.php:37
+#: inc/woocommerce/designs.php:110
 #@ tokopress
 msgid "Catalog Ordering Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:53
+#: inc/woocommerce/designs.php:125
 #@ tokopress
 msgid "Sale Flash Background"
 msgstr ""
 
-#: inc/woocommerce/designs.php:65
+#: inc/woocommerce/designs.php:136
 #@ tokopress
 msgid "Sale Flash Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:81
+#: inc/woocommerce/designs.php:151
 #@ tokopress
 msgid "Product Background"
 msgstr ""
 
-#: inc/woocommerce/designs.php:93
+#: inc/woocommerce/designs.php:162
 #@ tokopress
 msgid "Product Separator"
 msgstr ""
 
-#: inc/woocommerce/designs.php:105
+#: inc/woocommerce/designs.php:173
 #@ tokopress
 msgid "Product Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:117
+#: inc/woocommerce/designs.php:184
 #@ tokopress
 msgid "Product Title Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:129
+#: inc/woocommerce/designs.php:195
+#: inc/woocommerce/designs.php:303
 #@ tokopress
 msgid "Product Price Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:141
+#: inc/woocommerce/designs.php:206
 #@ tokopress
 msgid "Product Old Price Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:153
-#@ tokopress
-msgid "Product Border Price Color"
-msgstr ""
-
-#: inc/woocommerce/designs.php:165
+#: inc/woocommerce/designs.php:228
 #@ tokopress
 msgid "Product Caption Background"
 msgstr ""
 
-#: inc/woocommerce/designs.php:195
 #: inc/woocommerce/options.php:149
 #@ tokopress
 msgid "Product Rating"
 msgstr ""
 
-#: inc/woocommerce/designs.php:208
-#@ tokopress
-msgid "Product Rating Active"
-msgstr ""
-
-#: inc/woocommerce/designs.php:220
 #: inc/woocommerce/options.php:156
 #@ tokopress
 msgid "Product Price"
 msgstr ""
 
-#: inc/woocommerce/designs.php:232
-#@ tokopress
-msgid "Product Old Price"
-msgstr ""
-
-#: inc/woocommerce/designs.php:262
-#: inc/woocommerce/designs.php:316
-#: inc/woocommerce/designs.php:370
+#: inc/woocommerce/designs.php:365
+#: inc/woocommerce/designs.php:417
+#: inc/woocommerce/designs.php:469
 #@ tokopress
 msgid "Title Background Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:274
-#: inc/woocommerce/designs.php:328
-#: inc/woocommerce/designs.php:382
+#: inc/woocommerce/designs.php:376
+#: inc/woocommerce/designs.php:428
+#: inc/woocommerce/designs.php:480
 #@ tokopress
 msgid "Title Color"
 msgstr ""
 
-#: inc/woocommerce/designs.php:286
-#: inc/woocommerce/designs.php:340
-#: inc/woocommerce/designs.php:394
+#: inc/woocommerce/designs.php:387
+#: inc/woocommerce/designs.php:439
+#: inc/woocommerce/designs.php:491
 #@ tokopress
 msgid "Title Border Color"
 msgstr ""
@@ -1442,6 +1429,7 @@ msgstr ""
 msgid "Item Details"
 msgstr ""
 
+#: inc/woocommerce/designs.php:14
 #: inc/woocommerce/options.php:8
 #@ tokopress
 msgid "WooCommerce"
@@ -1641,78 +1629,78 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: inc/theme/options.php:118
+#: inc/theme/options.php:127
 #@ tokopress
 msgid "Header Section"
 msgstr ""
 
-#: inc/theme/options.php:129
+#: inc/theme/options.php:138
 #@ tokopress
 msgid "Search"
 msgstr ""
 
-#: inc/theme/options.php:130
+#: inc/theme/options.php:139
 #@ tokopress
 msgid "DISABLE search"
 msgstr ""
 
-#: inc/theme/options.php:137
+#: inc/theme/options.php:146
 #@ tokopress
 msgid "Account Navigation"
 msgstr ""
 
-#: inc/theme/options.php:138
+#: inc/theme/options.php:147
 #@ tokopress
 msgid "DISABLE account dropdown navigation"
 msgstr ""
 
-#: inc/theme/options.php:145
+#: inc/theme/options.php:154
 #@ tokopress
 msgid "Cart Link"
 msgstr ""
 
-#: inc/theme/options.php:146
+#: inc/theme/options.php:155
 #@ tokopress
 msgid "DISABLE cart link"
 msgstr ""
 
-#: inc/theme/options.php:170
+#: inc/theme/options.php:179
 #@ tokopress
 msgid "Header Scripts"
 msgstr ""
 
-#: inc/theme/options.php:175
+#: inc/theme/options.php:184
 #@ tokopress
 msgid "Header Script"
 msgstr ""
 
-#: inc/theme/options.php:176
-#: inc/theme/options.php:232
+#: inc/theme/options.php:185
+#: inc/theme/options.php:241
 #@ tokopress
 msgid "You can put any script here, for example your Google Analytics scripts."
 msgstr ""
 
-#: inc/theme/options.php:197
+#: inc/theme/options.php:206
 #@ tokopress
 msgid "Footer Section"
 msgstr ""
 
-#: inc/theme/options.php:226
+#: inc/theme/options.php:235
 #@ tokopress
 msgid "Footer Scripts"
 msgstr ""
 
-#: inc/theme/options.php:231
+#: inc/theme/options.php:240
 #@ tokopress
 msgid "Footer Script"
 msgstr ""
 
-#: inc/theme/options.php:247
+#: inc/theme/options.php:256
 #@ tokopress
 msgid "Contact Template"
 msgstr ""
 
-#: inc/widget/widget_statistic.php:59
+#: inc/widget/widget_statistic.php:76
 #@ tokopress
 msgid "Posts"
 msgstr ""
@@ -1909,72 +1897,73 @@ msgstr ""
 msgid "Header (Page Title)"
 msgstr ""
 
-#: inc/theme/designs.php:64
+#: inc/theme/designs.php:80
 #@ tokopress
 msgid "Header (Top)"
 msgstr ""
 
-#: inc/theme/designs.php:100
+#: inc/theme/designs.php:115
 #@ tokopress
 msgid "Primary Menu (Header Menu) Color"
 msgstr ""
 
-#: inc/theme/designs.php:112
+#: inc/theme/designs.php:126
 #@ tokopress
 msgid "Primary Menu (Header Menu) Hover Color"
 msgstr ""
 
-#: inc/theme/designs.php:124
+#: inc/theme/designs.php:137
 #@ tokopress
 msgid "Cart Link - Background"
 msgstr ""
 
-#: inc/theme/designs.php:136
+#: inc/theme/designs.php:148
 #@ tokopress
 msgid "Cart Link - Icon Color"
 msgstr ""
 
-#: inc/theme/designs.php:148
+#: inc/theme/designs.php:159
 #@ tokopress
 msgid "Cart Link - Text Color"
 msgstr ""
 
-#: inc/theme/designs.php:160
+#: inc/theme/designs.php:170
 #@ tokopress
 msgid "Secondary Menu (Below Header) Background"
 msgstr ""
 
-#: inc/theme/designs.php:174
+#: inc/theme/designs.php:183
 #@ tokopress
 msgid "Secondary Menu (Below Header) Color"
 msgstr ""
 
-#: inc/theme/designs.php:186
+#: inc/theme/designs.php:194
 #@ tokopress
 msgid "Secondary Menu (Below Header) Border Color"
 msgstr ""
 
-#: inc/theme/designs.php:198
+#: inc/theme/designs.php:205
 #@ tokopress
 msgid "Secondary Menu (Below Header) Hover Submenu Background"
 msgstr ""
 
-#: inc/theme/options.php:99
+#: inc/theme/options.php:100
+#: inc/theme/options.php:107
 #@ tokopress
 msgid "Favicon"
 msgstr ""
 
-#: inc/theme/plugins.php:201
+#: inc/theme/plugins.php:199
 #@ tokopress
 msgid "Marketica - Home"
 msgstr ""
 
-#: inc/theme/plugins.php:206
+#: inc/theme/plugins.php:204
 #@ tokopress
 msgid "Marketica - Plan &amp; Pricing"
 msgstr ""
 
-#: inc/theme/plugins.php:227
+#: inc/theme/plugins.php:225
 #@ tokopress
 msgid "Marketica - Team Members"
 msgstr ""
@@ -2009,27 +1998,27 @@ msgstr ""
 msgid "Updating this parent theme will lose any customizations you have made. Please consider using child theme for modifications. 'Cancel' to stop, 'OK' to update."
 msgstr ""
 
-#: inc/woocommerce/designs.php:13
+#: inc/woocommerce/designs.php:86
 #@ tokopress
 msgid "WC - Shop"
 msgstr ""
 
-#: inc/woocommerce/designs.php:183
+#: inc/woocommerce/designs.php:267
 #@ tokopress
 msgid "WC - Single Product Page"
 msgstr ""
 
-#: inc/woocommerce/designs.php:250
+#: inc/woocommerce/designs.php:352
 #@ tokopress
 msgid "WC - Related Products"
 msgstr ""
 
-#: inc/woocommerce/designs.php:304
+#: inc/woocommerce/designs.php:404
 #@ tokopress
 msgid "WC - Up-Sells Products"
 msgstr ""
 
-#: inc/woocommerce/designs.php:358
+#: inc/woocommerce/designs.php:456
 #@ tokopress
 msgid "WC - Cross-Sells Products"
 msgstr ""
@@ -2065,7 +2054,7 @@ msgstr ""
 msgid "WooCommerce - Single Product Item Details"
 msgstr ""
 
-#: inc/theme/plugins.php:280
+#: inc/theme/plugins.php:278
 #: inc/woocommerce/options.php:183
 #@ tokopress
 msgid "Product SKU"
@@ -2397,22 +2386,22 @@ msgstr ""
 msgid "No products were found of this seller!"
 msgstr ""
 
-#: functions.php:186
+#: functions.php:191
 #@ tokopress
 msgid "Instagram Profile URL"
 msgstr ""
 
-#: functions.php:187
+#: functions.php:192
 #@ tokopress
 msgid "Linkedin Profile URL"
 msgstr ""
 
-#: functions.php:188
+#: functions.php:193
 #@ tokopress
 msgid "Youtube Profile URL"
 msgstr ""
 
-#: functions.php:189
+#: functions.php:194
 #@ tokopress
 msgid "Flickr Profile URL"
 msgstr ""
@@ -2500,38 +2489,38 @@ msgstr ""
 msgid "No plugins are available to be updated at this time."
 msgstr ""
 
-#: inc/theme/designs.php:25
+#: inc/theme/designs.php:41
 #@ tokopress
 msgid "Fonts"
 msgstr ""
 
-#: inc/theme/designs.php:36
+#: inc/theme/designs.php:52
 #@ tokopress
 msgid "Primary Font"
 msgstr ""
 
-#: inc/theme/designs.php:46
+#: inc/theme/designs.php:62
 #@ tokopress
 msgid "Secondary Font"
 msgstr ""
 
-#: inc/theme/options.php:105
-#: inc/theme/options.php:110
+#: inc/theme/options.php:114
+#: inc/theme/options.php:119
 #@ tokopress
 msgid "Sticky Header"
 msgstr ""
 
-#: inc/theme/options.php:111
+#: inc/theme/options.php:120
 #@ tokopress
 msgid "ENABLE sticky header"
 msgstr ""
 
-#: inc/theme/options.php:153
+#: inc/theme/options.php:162
 #@ tokopress
 msgid "Page Header Section"
 msgstr ""
 
-#: inc/theme/options.php:158
+#: inc/theme/options.php:167
 #@ tokopress
 msgid "Page Header Style"
 msgstr ""
@@ -2613,33 +2602,215 @@ msgstr ""
 msgid "-- None --"
 msgstr ""
 
-#: inc/theme/plugins.php:243
+#: inc/theme/plugins.php:241
 #@ tokopress
 msgid "WooCommerce - Frontend Submission"
 msgstr ""
 
-#: inc/theme/plugins.php:252
+#: inc/theme/plugins.php:250
 #@ tokopress
 msgid "Visibility"
 msgstr ""
 
-#: inc/theme/plugins.php:253
+#: inc/theme/plugins.php:251
 #@ tokopress
 msgid "Vendor: only vendor can see frontend submission form"
 msgstr ""
 
-#: inc/theme/plugins.php:253
+#: inc/theme/plugins.php:251
 #@ tokopress
 msgid "User: all logged-in users can see frontend submission form"
 msgstr ""
 
-#: inc/theme/plugins.php:253
+#: inc/theme/plugins.php:251
 #@ tokopress
 msgid "All: everyone can see frontend submission form"
 msgstr ""
 
-#: inc/theme/plugins.php:266
+#: inc/theme/plugins.php:264
 #@ tokopress
 msgid "Product Type"
+msgstr ""
+
+#: dokan/store-toc.php:28
+#@ tokopress
+msgid "Terms And Conditions"
+msgstr ""
+
+#: inc/theme/designs.php:28
+#@ tokopress
+msgid "Customize your header sections"
+msgstr ""
+
+#: inc/theme/designs.php:290
+#@ tokopress
+msgid "Content"
+msgstr ""
+
+#: inc/theme/designs.php:291
+#@ tokopress
+msgid "Customize your content sections"
+msgstr ""
+
+#: inc/theme/designs.php:304
+#@ tokopress
+msgid "General"
+msgstr ""
+
+#: inc/theme/designs.php:316
+#@ tokopress
+msgid "Section Title"
+msgstr ""
+
+#: inc/theme/designs.php:322
+#@ tokopress
+msgid "Widget"
+msgstr ""
+
+#: inc/theme/designs.php:328
+#@ tokopress
+msgid "Pagination"
+msgstr ""
+
+#: inc/theme/designs.php:334
+#@ tokopress
+msgid "Table"
+msgstr ""
+
+#: inc/theme/designs.php:347
+#@ tokopress
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/theme/designs.php:357
+#@ tokopress
+msgid "Link Color"
+msgstr ""
+
+#: inc/theme/designs.php:367
+#@ tokopress
+msgid "Blog Title Color"
+msgstr ""
+
+#: inc/theme/designs.php:377
+#@ tokopress
+msgid "Blog Meta Color"
+msgstr ""
+
+#: inc/theme/designs.php:387
+#@ tokopress
+msgid "Blog Meta Link Color"
+msgstr ""
+
+#: inc/theme/designs.php:397
+#@ tokopress
+msgid "Section Title Color"
+msgstr ""
+
+#: inc/theme/designs.php:407
+#@ tokopress
+msgid "Section Title Icon Color"
+msgstr ""
+
+#: inc/theme/designs.php:417
+#@ tokopress
+msgid "Widget Title Color"
+msgstr ""
+
+#: inc/theme/designs.php:427
+#@ tokopress
+msgid "Statistic Widget - Number Color"
+msgstr ""
+
+#: inc/theme/designs.php:437
+#@ tokopress
+msgid "Pagination - Link Color"
+msgstr ""
+
+#: inc/theme/designs.php:447
+#@ tokopress
+msgid "Pagination - Active Color"
+msgstr ""
+
+#: inc/theme/designs.php:457
+#@ tokopress
+msgid "Table Heading Background Color"
+msgstr ""
+
+#: inc/theme/designs.php:488
+#@ tokopress
+msgid "Customize your footer sections"
+msgstr ""
+
+#: inc/theme/designs.php:639
+#@ tokopress
+msgid "Back To Top"
+msgstr ""
+
+#: inc/theme/designs.php:652
+#@ tokopress
+msgid "Back To Top Background"
+msgstr ""
+
+#: inc/theme/designs.php:663
+#@ tokopress
+msgid "Back To Top Icon Color"
+msgstr ""
+
+#: inc/theme/options.php:102
+#, php-format
+#@ tokopress
+msgid "Go to <a href=\"%s\">Appearance - Customize - Site Identity</a> to customize Favicon (Site Icon)."
+msgstr ""
+
+#: inc/widget/widget_statistic.php:59
+#@ tokopress
+msgid "Marketplace Sellers"
+msgstr ""
+
+#: inc/woocommerce/designs.php:15
+#@ tokopress
+msgid "Customize your woocommerce sections"
+msgstr ""
+
+#: inc/woocommerce/designs.php:28
+#@ tokopress
+msgid "WC - Buttons"
+msgstr ""
+
+#: inc/woocommerce/designs.php:41
+#@ tokopress
+msgid "Button (Default)"
+msgstr ""
+
+#: inc/woocommerce/designs.php:52
+#@ tokopress
+msgid "Button Alt (Primary)"
+msgstr ""
+
+#: inc/woocommerce/designs.php:217
+#@ tokopress
+msgid "Product Price Border Color"
+msgstr ""
+
+#: inc/woocommerce/designs.php:250
+#: inc/woocommerce/designs.php:292
+#@ tokopress
+msgid "Product Rating Color (Filled)"
+msgstr ""
+
+#: inc/woocommerce/designs.php:314
+#@ tokopress
+msgid "Product Regular Price Color"
+msgstr ""
+
+#: inc/woocommerce/designs.php:325
+#@ tokopress
+msgid "Product Gallery Arrow Background Color"
+msgstr ""
+
+#: inc/woocommerce/designs.php:335
+#@ tokopress
+msgid "Product Gallery Arrow Color"
 msgstr ""
 

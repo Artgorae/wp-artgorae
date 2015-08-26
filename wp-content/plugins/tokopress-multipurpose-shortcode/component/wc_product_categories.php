@@ -15,17 +15,20 @@ function tpvc_wc_cat_categories_shortcode( $atts ) {
 	global $woocommerce_loop;
 
 	extract( shortcode_atts( array(
-		'tpvc_wc_cat_style'		=> 'alt',
-		'tpvc_wc_cat_title'		=> __( 'Product Category', 'tokopress' ),
-		'tpvc_wc_cat_title_icon'=> '',
-		'tpvc_wc_cat_parent' 	=> '',
-		'tpvc_wc_cat_hide_empty'=> 1,
-		'tpvc_wc_cat_numbers' 	=> '6',
-		'tpvc_wc_cat_columns' 	=> '3',
-		'tpvc_wc_cat_orderby' 	=> 'none',
-		'tpvc_wc_cat_order' 	=> 'asc',
-		'tpvc_wc_cat_hide_title'=> '',
-		'tpvc_wc_cat_class'		=> ''
+		'tpvc_wc_cat_style'				=> 'alt',
+		'tpvc_wc_cat_title'				=> __( 'Product Category', 'tokopress' ),
+		'tpvc_wc_cat_title_color'		=> '',
+		'tpvc_wc_cat_title_bg'			=> '',
+		'tpvc_wc_cat_title_icon'		=> '',
+		'tpvc_wc_cat_title_icon_color'	=> '',
+		'tpvc_wc_cat_parent' 		=> '',
+		'tpvc_wc_cat_hide_empty'	=> 1,
+		'tpvc_wc_cat_numbers' 		=> '6',
+		'tpvc_wc_cat_columns' 		=> '3',
+		'tpvc_wc_cat_orderby' 		=> 'none',
+		'tpvc_wc_cat_order' 		=> 'asc',
+		'tpvc_wc_cat_hide_title'	=> '',
+		'tpvc_wc_cat_class'			=> ''
 	), $atts ) );
 
 	if ( isset( $atts[ 'tpvc_wc_cat_ids' ] ) ) {
@@ -36,6 +39,10 @@ function tpvc_wc_cat_categories_shortcode( $atts ) {
 	}
 
 	$tpvc_wc_cat_hide_empty = ( $tpvc_wc_cat_hide_empty == true || $tpvc_wc_cat_hide_empty == 1 ) ? 1 : 0;
+
+	if ( $tpvc_wc_cat_parent == 'top' ) {
+		$tpvc_wc_cat_parent = '0';
+	}
 
 	// get terms and workaround WP bug with parents/pad counts
 	$args = array(
@@ -74,9 +81,9 @@ function tpvc_wc_cat_categories_shortcode( $atts ) {
 	<div class="tpvc-product woocommerce woocommerce-product-col-<?php echo $tpvc_wc_cat_columns; ?> <?php echo $tpvc_wc_cat_class; ?>">
 
 		<?php if( "hide" != $tpvc_wc_cat_hide_title ) : ?>
-			<div class="tpvc-title">
-				<h2>
-					<?php if( "" != $tpvc_wc_cat_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_cat_title_icon ) . '"></i>'; ?>
+			<div class="tpvc-title" <?php if( "" !== $tpvc_wc_cat_title_bg ) echo 'style="background-color:' . $tpvc_wc_cat_title_bg . '"'; ?>>
+				<h2 <?php if( "" !== $tpvc_wc_cat_title_color ) echo 'style="color:' . $tpvc_wc_cat_title_color . '"'; ?>>
+					<?php if( "" != $tpvc_wc_cat_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_cat_title_icon ) . '" ' . ( $tpvc_wc_cat_title_icon_color ? 'style="color:'.$tpvc_wc_cat_title_icon_color.'"' : '' ). '></i>'; ?>
 					<?php echo $tpvc_wc_cat_title; ?>
 				</h2>
 			</div>
@@ -128,8 +135,8 @@ function tpvc_wc_cat_categories_vcmap() {
 	tpvc_vc_getCategoryChilds( 'id', 0, 0, $categories, 0, $product_categories_dropdown );
 
 	$product_categories_dropdown_begin = array(
-									__( '[Top Level Only]', 'tokopress' )	=> '0',
 									__( '[All Categories]', 'tokopress' )	=> '',
+									__( '[Top Level Only]', 'tokopress' )	=> 'top',
 								);
 	$product_categories_dropdown = array_merge( $product_categories_dropdown_begin, $product_categories_dropdown );
 
@@ -148,17 +155,32 @@ function tpvc_wc_cat_categories_vcmap() {
 									'value'			=> __( 'Product Categories', 'tokopress' )
 								),
 								array(
-									'type' => 'iconpicker',
-									'heading' => __( 'Title Icon', 'tokopress' ),
-									'param_name' => 'tpvc_wc_cat_title_icon',
-									'settings' => array(
-										'emptyIcon' => false, 
-										'iconsPerPage' => 100, 
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_cat_title_color'
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_cat_title_bg',
+								),
+								array(
+									'type' 			=> 'iconpicker',
+									'heading' 		=> __( 'Title Icon', 'tokopress' ),
+									'param_name' 	=> 'tpvc_wc_cat_title_icon',
+									'settings' 		=> array(
+										'emptyIcon' 	=> false, 
+										'iconsPerPage' 	=> 100, 
 									),
-									'dependency' => array(
-										'element' => 'type',
-										'value' => 'fontawesome',
+									'dependency' 	=> array(
+										'element' 		=> 'type',
+										'value' 		=> 'fontawesome',
 									),
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_cat_title_icon_color',
 								),
 								array(
 									'type' 			=> 'checkbox',

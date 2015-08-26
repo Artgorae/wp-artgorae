@@ -13,17 +13,20 @@ function tpvc_wc_product_search_shortcode( $atts ) {
 		return;
 
 	extract( shortcode_atts( array(
-		'tpvc_wc_search_title'	=> __( 'Find your product now, type here and hit enter', 'tokopress' )
+		'tpvc_wc_search_title'		=> __( 'Find your product now, type here and hit enter', 'tokopress' ),
+		'tpvc_wc_search_bg'			=> '',
+		'tpvc_wc_search_color'		=> '',
+		'tpvc_wc_search_icon_color'	=> ''
 	), $atts ) );
 	
-	$output = "\t" . '<div class="tpvc-product-search">' . "\n";
+	$output = "\t" . '<div class="tpvc-product-search" '.( $tpvc_wc_search_bg ? 'style="background-color:' . $tpvc_wc_search_bg . '"' : '' ).'>' . "\n";
     $output .= "\t\t" . '<div class="container">' . "\n";
 
 	$output .= "\t\t\t" . '<form role="search" method="get" id="custom-searchform" action="' . esc_url( home_url( '/'  ) ) . '">' . "\n";
 	$output .= "\t\t\t\t" . '<div>' . "\n";
 	
-	$output .= "\t\t\t\t\t" . '<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . $tpvc_wc_search_title . '" />' . "\n";
-	$output .= "\t\t\t\t\t" . '<button type="submit" class="search-submit"><i class="sli sli-magnifier"></i></button>' . "\n";
+	$output .= "\t\t\t\t\t" . '<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="' . $tpvc_wc_search_title . '" '.( $tpvc_wc_search_color ? 'style="color:' . $tpvc_wc_search_color . '"': '').'/>' . "\n";
+	$output .= "\t\t\t\t\t" . '<button type="submit" class="search-submit"><i class="sli sli-magnifier" '.( $tpvc_wc_search_icon_color ? 'style="color:' . $tpvc_wc_search_icon_color . '"': '').'></i></button>' . "\n";
 	$output .= "\t\t\t\t\t" . '<input type="hidden" name="post_type" value="product" />' . "\n";
 	
 	$output .= "\t\t\t\t" . '</div>' . "\n";
@@ -53,6 +56,21 @@ function tpvc_product_search_vcmap() {
 									'heading'		=> __( 'Search Text', 'tokopress' ),
 									'param_name'	=> 'tpvc_wc_search_title',
 									'value'			=> __( 'Find your product now, type here and hit enter', 'tokopress' )
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_search_bg',
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Text Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_search_color',
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_search_icon_color',
 								)
 							)
 	   	)

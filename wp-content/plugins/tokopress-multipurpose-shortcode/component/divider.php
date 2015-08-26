@@ -15,6 +15,7 @@ function tpvc_divider_shortcode( $atts ) {
 		'tpvc_divider_heading'		=> 'span',
 		'tpvc_divider_text'			=> '',
 		'tpvc_divider_icon'			=> 'fa-check-square-o',
+		'tpvc_divider_icon_color'	=> '',
 		'extra_class'				=> ''
 	), $atts ) );
 
@@ -34,7 +35,7 @@ function tpvc_divider_shortcode( $atts ) {
 		$output .= '<div class="divider-text">';
 		$output .= '<' . $tpvc_divider_heading . ' class="divider-heading">';
 		if( $tpvc_divider_icon_option == "no" )
-			$output .= '<i class="' . tpvc_icon( $tpvc_divider_icon ) . '"></i>';
+			$output .= '<i class="' . tpvc_icon( $tpvc_divider_icon ) . '" ' . ( $tpvc_divider_icon_color ? 'style="color:'.$tpvc_divider_icon_color.'"' : '' ). '></i>';
 		$output .= $tpvc_divider_text;
 		$output .= '</' . $tpvc_divider_heading . '>';
 		$output .= '</div>';
@@ -115,6 +116,12 @@ function tpvc_divider_vcmap() {
 									),
 								),
 								
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_divider_icon_color'
+								),
+
 								array(
 									'type'			=> 'textfield',
 									'heading'		=> __( 'Extra Class', 'tokopress' ),

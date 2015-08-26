@@ -104,7 +104,7 @@ class Options_Framework {
 	        // Load options from options.php file (if it exists)
 	        $location = apply_filters( 'options_framework_location', array( 'options.php' ) );
 	        if ( $optionsfile = locate_template( $location ) ) {
-	            $maybe_options = require_once $optionsfile;
+	            $maybe_options = tokopress_require_file( $optionsfile );
 	            if ( is_array( $maybe_options ) ) {
 					$options = $maybe_options;
 	            } else if ( function_exists( 'optionsframework_options' ) ) {

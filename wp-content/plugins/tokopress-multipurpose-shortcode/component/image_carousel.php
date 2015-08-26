@@ -28,6 +28,7 @@ function tpvc_shortcode_image_carousel( $atts ) {
 		'extra_class'		=> ''
 	), $atts ) );
 
+	$output = '';
 	if( "" != $images ){
 		if( 'yes' == $single ){
 			$img_per_page = 1;
@@ -63,7 +64,7 @@ function tpvc_shortcode_image_carousel( $atts ) {
 			$url_array[] = $url_item;
 		}
 
-		$output = "\t" . '<div class="tpvc-image-carousel-' . $carousel_id . ' ' . $extra_class . '">' . "\n";
+		$output .= "\t" . '<div class="tpvc-image-carousel-' . $carousel_id . ' ' . $extra_class . '">' . "\n";
 		$output .= "\t\t" . '<div class="tpvc-image-carousel owl-carousel">' . "\n";
 
 			$images_data = explode( ',', $images );

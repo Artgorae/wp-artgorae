@@ -15,17 +15,21 @@ function tpvc_wc_product_shortcode( $atts ) {
 	global $woocommerce_loop;
 
 	extract( shortcode_atts( array(
-		'tpvc_wc_product_style'		=> 'alt',
-		'tpvc_wc_product_title'		=> __( 'Product', 'tokopress' ),
-		'tpvc_wc_product_title_icon'=> '',
-		'tpvc_wc_product_link'		=> __( 'see all', 'tokopress' ),
-		'tpvc_wc_product_per_page' 	=> '6',
-		'tpvc_wc_product_columns' 	=> '2',
-		'tpvc_wc_product_orderby' 	=> 'date',
-		'tpvc_wc_product_order' 	=> 'desc',
-		'tpvc_wc_product_hide_title'=> '',
-		'tpvc_wc_product_play'		=> 'false',
-		'tpvc_wc_product_class'		=> ''
+		'tpvc_wc_product_style'				=> 'alt',
+		'tpvc_wc_product_title'				=> __( 'Product', 'tokopress' ),
+		'tpvc_wc_product_title_color'		=> '',
+		'tpvc_wc_product_title_bg'			=> '',
+		'tpvc_wc_product_title_icon'		=> '',
+		'tpvc_wc_product_title_icon_color'	=> '',
+		'tpvc_wc_product_link'			=> __( 'see all', 'tokopress' ),
+		'tpvc_wc_product_link_color'	=> '',
+		'tpvc_wc_product_per_page' 		=> '6',
+		'tpvc_wc_product_columns' 		=> '2',
+		'tpvc_wc_product_orderby' 		=> 'date',
+		'tpvc_wc_product_order' 		=> 'desc',
+		'tpvc_wc_product_hide_title'	=> '',
+		'tpvc_wc_product_play'			=> 'false',
+		'tpvc_wc_product_class'			=> ''
 	), $atts ) );
 
 	if ( $tpvc_wc_product_style == 'style-2' ) {
@@ -58,6 +62,15 @@ function tpvc_wc_product_shortcode( $atts ) {
 	<div class="tpvc-product woocommerce woocommerce-product-col-<?php echo $tpvc_wc_product_columns; ?> <?php echo $tpvc_wc_product_class; ?>">
 
 		<?php if( "hide" != $tpvc_wc_product_hide_title ) : ?>
+			<?php 
+			if ( $tpvc_wc_product_link_color ) {
+				echo '<style>';
+				echo '.tpvc-product.woocommerce .tpvc-title a.button { color:'.$tpvc_wc_product_link_color.'; box-shadow: '.$tpvc_wc_product_link_color.' 0 0px 0px 2px inset; }';
+				echo '.tpvc-product.woocommerce .tpvc-title a.button:hover { color: #fff; box-shadow: '.$tpvc_wc_product_link_color.' 0 0px 0px 40px inset; }';
+				echo '</style>';
+			}
+			?>
+
 			<?php
 			if ( ! $tpvc_wc_product_link ) $tpvc_wc_product_link = __( 'see all', 'tokopress' );
 			$shop = get_permalink( wc_get_page_id( 'shop' ) );
@@ -68,13 +81,13 @@ function tpvc_wc_product_shortcode( $atts ) {
 			} elseif ( "sales" == $tpvc_wc_product_orderby ) {
 				$see_all = '<a href="' . add_query_arg( 'orderby', 'popularity', $shop ) . '" class="button">' . $tpvc_wc_product_link . '</a>';
 			} else {
-				$see_all = '<a href="' . $shop . '" class="button alt">' . $tpvc_wc_product_link . '</a>';
+				$see_all = '<a href="' . $shop . '" class="button">' . $tpvc_wc_product_link . '</a>';
 			}
 
 			?>
-			<div class="tpvc-title">
-				<h2>
-					<?php if( "" != $tpvc_wc_product_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_product_title_icon ) . '"></i>'; ?>
+			<div class="tpvc-title" <?php if( "" !== $tpvc_wc_product_title_bg ) echo 'style="background-color:' . $tpvc_wc_product_title_bg . '"'; ?>>
+				<h2 <?php if( "" !== $tpvc_wc_product_title_color ) echo 'style="color:' . $tpvc_wc_product_title_color . '"'; ?>>
+					<?php if( "" != $tpvc_wc_product_title_icon ) echo '<i class="' . tpvc_icon( $tpvc_wc_product_title_icon ) . '" ' . ( $tpvc_wc_product_title_icon_color ? 'style="color:'.$tpvc_wc_product_title_icon_color.'"' : '' ). '></i>'; ?>
 					<?php echo $tpvc_wc_product_title; ?>
 				</h2>
 				<?php echo $see_all; ?>
@@ -134,23 +147,43 @@ function tpvc_wc_product_vcmap() {
 									'value'			=> __( 'Product', 'tokopress' )
 								),
 								array(
-									'type' => 'iconpicker',
-									'heading' => __( 'Title Icon', 'tokopress' ),
-									'param_name' => 'tpvc_wc_product_title_icon',
-									'settings' => array(
-										'emptyIcon' => false, 
-										'iconsPerPage' => 100, 
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_product_title_color'
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Background Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_product_title_bg',
+								),
+								array(
+									'type' 			=> 'iconpicker',
+									'heading' 		=> __( 'Title Icon', 'tokopress' ),
+									'param_name' 	=> 'tpvc_wc_product_title_icon',
+									'settings' 		=> array(
+										'emptyIcon' 	=> false, 
+										'iconsPerPage' 	=> 100, 
 									),
-									'dependency' => array(
-										'element' => 'type',
-										'value' => 'fontawesome',
+									'dependency' 	=> array(
+										'element' 		=> 'type',
+										'value' 		=> 'fontawesome',
 									),
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Title Icon Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_product_title_icon_color',
 								),
 								array(
 									'type'			=> 'textfield',
 									'heading'		=> __( 'Link Text', 'tokopress' ),
 									'param_name'	=> 'tpvc_wc_product_link',
 									'value'			=> __( 'see all', 'tokopress' )
+								),
+								array(
+									'type'			=> 'colorpicker',
+									'heading'		=> __( 'Link Color', 'tokopress' ),
+									'param_name'	=> 'tpvc_wc_product_link_color',
 								),
 								array(
 									'type' 			=> 'checkbox',
