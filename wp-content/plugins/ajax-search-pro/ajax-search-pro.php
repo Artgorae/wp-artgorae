@@ -3,7 +3,7 @@
 Plugin Name: Ajax Search Pro
 Plugin URI: http://wp-dreams.com
 Description: The most powerful ajax powered live search engine for WordPress.
-Version: 4.5
+Version: 4.5.1
 Author: Ernest Marcinko
 Author URI: http://wp-dreams.com
 */
@@ -20,7 +20,8 @@ define('ASP_TT_CACHE_PATH', plugin_dir_path(__FILE__)."/includes/cache/");
 define('ASP_DIR', 'ajax-search-pro');
 define('ASP_PLUGIN_NAME', 'ajax-search-pro/ajax-search-pro.php');
 define('ASP_URL',  plugin_dir_url(__FILE__));
-define('ASP_CURR_VER', 4500);
+define('ASP_CURR_VER', 4510);
+define('ASP_CURR_VER_STRING', "4.5.1");
 define('ASP_PLUGIN_SLUG', plugin_basename(__FILE__) );
 define('ASP_DEBUG', 0);
 define('ASP_DEMO', get_option('wd_asp_demo', 0) );

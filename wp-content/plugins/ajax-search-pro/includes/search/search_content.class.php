@@ -109,7 +109,10 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
 				$_prefix = $wpdb->prefix;
 			}
 
-			$this->remaining_limit = $searchData['maxresults'];
+			if (isset($options['non_ajax_search']))
+				$this->remaining_limit = 500;
+			else
+				$this->remaining_limit = $searchData['maxresults'];
 
 			/**
 			 *  Use separate queries if we have more than 1000 rows.
@@ -1000,6 +1003,11 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
 			$s          = $this->s;
 			$_s         = $this->_s;
 
+			// No post processing is needed on non-ajax search
+			if ( isset($options['non_ajax_search']) ) {
+				$this->results = $pageposts;
+				return $pageposts;
+			}
 
 			if ( is_multisite() ) {
 				$home_url = network_home_url();
@@ -1139,15 +1147,19 @@ if ( ! class_exists( 'wpdreams_searchContent' ) ) {
 					if ( $_content != "" ) {
 						$_content = apply_filters( 'the_content', $_content, $searchId );
 					}
-					if ( $_content != "" ) {
-						$_content = preg_replace( '#<script(.*?)>(.*?)</script>#is', '', $_content );
-					}
 				}
 				if ( isset( $searchData['stripshortcode'] ) && $searchData['stripshortcode'] == 1 ) {
 					if ( $_content != "" ) {
 						$_content = strip_shortcodes( $_content );
 					}
 				}
+
+				// Remove styles and scripts
+				$_content = preg_replace( array(
+					'#<script(.*?)>(.*?)</script>#is',
+					'#<style(.*?)>(.*?)</style>#is'
+				), '', $_content );
+
 				$_content = strip_tags( $_content, $searchData['striptagsexclude'] );
 
 

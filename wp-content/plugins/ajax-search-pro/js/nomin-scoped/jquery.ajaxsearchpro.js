@@ -741,8 +741,10 @@
                     });
 
                     $this.n.resultsDiv.on('click', '.asp_item_overlay', function(){
-                        var url = $('.asp_content h3 a', $(this).parent()).attr('href');
-                        window.location = url;
+                        // Method to preserve _blank, jQuery click() method only triggers event handlers
+                        var link = $('.asp_content h3 a', $(this).parent()).get(0);
+                        if (typeof link != "undefined")
+                            link.click();
                     });
                 }
 
@@ -1264,7 +1266,7 @@
                         var filter = "aspblur";
                     else
                         var filter = "no_aspblur";
-                    overlayImage = "<img filter='url(#" + filter + ")' style='filter: url(#" + filter + ");-webkit-filter: url(#" + filter + ");-moz-filter: url(#" + filter + ");-o-filter: url(#" + filter + ");-ms-filter: url(#" + filter + ");' class='asp_item_overlay_img' src=' " + src + "'>";
+                    overlayImage = "<div filter='url(#" + filter + ")' style='background-image:url(" + src + ");filter: url(#" + filter + ");-webkit-filter: url(#" + filter + ");-moz-filter: url(#" + filter + ");-o-filter: url(#" + filter + ");-ms-filter: url(#" + filter + ");' class='asp_item_overlay_img'></div>";
                 } else {
                     switch ($this.o.iifNoImage) {
                         case "description":
@@ -1279,7 +1281,7 @@
                                     var filter = "aspblur";
                                 else
                                     var filter = "no_aspblur";
-                                overlayImage = "<img filter='url(#" + filter + ")' style='filter: url(#" + filter + ");-webkit-filter: url(#" + filter + ");-moz-filter: url(#" + filter + ");-o-filter: url(#" + filter + ");-ms-filter: url(#" + filter + ");' class='asp_item_overlay_img' src=' " + $this.o.defaultImage + "'>";
+                                overlayImage = "<div filter='url(#" + filter + ")' style='background-image:url(" + $this.o.defaultImage + ");filter: url(#" + filter + ");-webkit-filter: url(#" + filter + ");-moz-filter: url(#" + filter + ");-o-filter: url(#" + filter + ");-ms-filter: url(#" + filter + ");' class='asp_item_overlay_img'></div>";
                             }
                             break;
                     }

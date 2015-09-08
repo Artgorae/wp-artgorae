@@ -15,13 +15,16 @@ function asp_search_filter_posts($posts, $wp_query) {
 	    return $posts;
     }
 
+	$cookie_cleared = false;
+
 	// Is this just a NEW regular search?
 	if (
 		!isset($_GET['asp_active']) &&
 	    !isset($_GET['paged'])
 	) {
 		// Then clear the cookie
-		unset($_COOKIE["asp_cookie"]);
+		setcookie("asp_cookie", "", time()-3600);
+		$cookie_cleared = true;
 	}
 
     if (isset($_POST['p_asp_data']) && $_POST['p_asp_data'] != '') {
@@ -45,7 +48,7 @@ function asp_search_filter_posts($posts, $wp_query) {
 		    "asid" => $_POST['p_asid']
 	    ))) );
     } else {
-		if ( isset($_COOKIE["asp_cookie"]) ) {
+		if ( isset($_COOKIE["asp_cookie"]) && !$cookie_cleared ) {
 			$c_val = unserialize( base64_decode($_COOKIE["asp_cookie"]) );
 			$s_data = $c_val['asp_data'];
 			$_POST['asid'] = $c_val['asid'];
@@ -55,6 +58,7 @@ function asp_search_filter_posts($posts, $wp_query) {
     }
 
     $_POST['options'] = $s_data;
+	$_POST['options']['non_ajax_search'] = true;
     $_POST['aspp'] = $_GET['s'];
     $_POST['asp_get_as_array'] = 1;
 
@@ -79,7 +83,9 @@ function asp_search_filter_posts($posts, $wp_query) {
         }
     }
 
-    $paged = (get_query_var('paged') != 0) ? get_query_var('paged') : 1;
+	// The get_query_var() is malfunctioning in some cases!!! use $_GET['paged']
+    //$paged = (get_query_var('paged') != 0) ? get_query_var('paged') : 1;
+	$paged = isset($_GET['paged']) ? $_GET['paged'] : 1;
     $posts_per_page = (int)get_option('posts_per_page');
 
     $mod_post_ids = array_slice($post_ids, (($paged-1) * $posts_per_page), $posts_per_page);
@@ -134,7 +140,7 @@ function asp_search_filter_posts($posts, $wp_query) {
 
     $wp_query->found_posts = count($post_ids);
     if (($wp_query->found_posts / $posts_per_page) > 1)
-        $wp_query->max_num_pages = floor($wp_query->found_posts / $posts_per_page) + 1;
+        $wp_query->max_num_pages = ceil($wp_query->found_posts / $posts_per_page);
     else
         $wp_query->max_num_pages = 0;
 
@@ -199,8 +205,8 @@ function search_stylesheets() {
     $comp_settings = get_option('asp_compatibility');
     $force_inline = w_isset_def($comp_settings['forceinlinestyles'], false);
 
-    wp_enqueue_style('wpdreams_animations', plugins_url('css/animations.css', dirname(__FILE__)), false);
-    wp_register_style('wpdreams-asp-basic', ASP_URL . 'css/style.basic.css', true);
+    wp_enqueue_style('wpdreams_animations', plugins_url('css/animations.css', dirname(__FILE__)), array(), ASP_CURR_VER_STRING);
+    wp_register_style('wpdreams-asp-basic', ASP_URL . 'css/style.basic.css', array(), ASP_CURR_VER_STRING);
     wp_enqueue_style('wpdreams-asp-basic');
 
     if (ASP_DEBUG == 1) {
@@ -245,7 +251,7 @@ function search_stylesheets() {
         }
     }
 
-    wp_enqueue_style('wpdreams-ajaxsearchpro-instances', ASP_URL . 'css/style.instances.css', false);
+    wp_enqueue_style('wpdreams-ajaxsearchpro-instances', ASP_URL . 'css/style.instances.css', array(), ASP_CURR_VER_STRING);
 
 }
 

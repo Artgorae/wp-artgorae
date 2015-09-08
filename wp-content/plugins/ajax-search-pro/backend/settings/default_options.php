@@ -105,7 +105,9 @@ $options['asp_defaults']['searchinterms'] = 0;
 
 // General/Sources 2
 $options['asp_defaults']['return_categories'] = 0;
+$options['asp_defaults']['return_tags'] = 0;
 $options['asp_defaults']['return_terms'] = '';
+$options['asp_defaults']['display_number_posts_affected'] = 0;
 $options['asp_defaults']['return_terms_exclude'] = '';
 
 // General / Attachments

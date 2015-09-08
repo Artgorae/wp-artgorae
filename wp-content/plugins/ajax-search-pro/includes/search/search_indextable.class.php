@@ -528,8 +528,11 @@ if (!class_exists('asp_searchIndexTable')) {
 			// Sort results by priority > relevance
 			usort($results_arr, array($this, 'compare_by_pr'));
 
-			// Leave only the the LIMIT amount
-			$results_arr = array_slice($results_arr, 0, $searchData['maxresults'], true);
+			// Leave only the the LIMIT amount, 500 for non-ajax cases
+			if ( isset($options['non_ajax_search']) )
+				$results_arr = array_slice($results_arr, 0, 500, true);
+			else
+				$results_arr = array_slice($results_arr, 0, $searchData['maxresults'], true);
 
 			$this->results = $results_arr;
 

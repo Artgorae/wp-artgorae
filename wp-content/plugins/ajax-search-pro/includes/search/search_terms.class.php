@@ -92,6 +92,8 @@ if (!class_exists('wpdreams_searchTerms')) {
             /*----------------------- Gather Types --------------------------*/
             if ($searchData['return_categories'] == 1)
                 $types[] = "category";
+	        if ( w_isset_def($searchData['return_tags'], 0) == 1 )
+		        $types[] = "post_tag";
             if (isset($searchData['selected-return_terms']) && is_array($searchData['selected-return_terms']) && count($searchData['selected-return_terms']) > 0)
                 $types = array_merge($types, $searchData['selected-return_terms']);
             if (count($types) < 1) {
@@ -256,6 +258,14 @@ if (!class_exists('wpdreams_searchTerms')) {
             foreach ($term_res as $k=>$v) {
                 $term_res[$k]->link = get_term_link( (int)$v->id, $v->taxonomy);
             }
+
+	        // Get term affected post count if enabled
+	        if ( w_isset_def($searchData["display_number_posts_affected"], 0) == 1 ) {
+		        foreach ($term_res as $k=>$v) {
+			        $term = get_term_by('id', $v->id, $v->taxonomy);
+			        $term_res[$k]->title .= " (" . $term->count . ")";
+		        }
+	        }
 
 
             /* WooCommerce Term image integration */

@@ -187,14 +187,19 @@ class VCASPAddonClass {
     Search shortcode logic - how it should be rendered
     */
     public function renderVcAspSearch( $atts, $content = null ) {
+
         extract( shortcode_atts( array(
-            'id' => '[0] x',
+            'id' => '',
             'extra_class' => ''
         ), $atts ) );
         if (function_exists('wpb_js_remove_wpautop'))
             $content = wpb_js_remove_wpautop($content, true);
 
+	    // First item (or blank first) is selected, let the shortcode know
+	    $id = ($id == "") ? "(99999) blank" : $id;
+
         preg_match("/^\((\d+)\)/", $id, $matches);
+
         if (!isset($matches[1]))
             return "";
         else
@@ -209,11 +214,14 @@ class VCASPAddonClass {
     */
     public function renderVcAspResults( $atts, $content = null ) {
         extract( shortcode_atts( array(
-            'id' => '[0] x',
+            'id' => '',
             'extra_class' => ''
         ), $atts ) );
         if (function_exists('wpb_js_remove_wpautop'))
             $content = wpb_js_remove_wpautop($content, true);
+
+	    // First item (or blank first) is selected, let the shortcode know
+	    $id = ($id == "") ? "(99999) blank" : $id;
 
         preg_match("/^\((\d+)\)/", $id, $matches);
         if (!isset($matches[1]))
@@ -230,11 +238,14 @@ class VCASPAddonClass {
     */
     public function renderVcAspSettings( $atts, $content = null ) {
         extract( shortcode_atts( array(
-            'id' => '[0] x',
+            'id' => '',
             'extra_class' => ''
         ), $atts ) );
         if (function_exists('wpb_js_remove_wpautop'))
             $content = wpb_js_remove_wpautop($content, true);
+
+	    // First item (or blank first) is selected, let the shortcode know
+	    $id = ($id == "") ? "(99999) blank" : $id;
 
         preg_match("/^\((\d+)\)/", $id, $matches);
         if (!isset($matches[1]))
@@ -251,7 +262,7 @@ class VCASPAddonClass {
     */
     public function renderVcAspTwoColumn( $atts, $content = null ) {
         extract( shortcode_atts( array(
-            'id' => '[0] x',
+            'id' => '',
             'search_width' => 50,
             'results_width' => 50,
             'invert' => "Search left, results right",
@@ -260,6 +271,9 @@ class VCASPAddonClass {
 
         if (function_exists('wpb_js_remove_wpautop'))
             $content = wpb_js_remove_wpautop($content, true);
+
+	    // First item (or blank first) is selected, let the shortcode know
+	    $id = ($id == "") ? "(99999) blank" : $id;
 
         preg_match("/^\((\d+)\)/", $id, $matches);
         if (!isset($matches[1]))

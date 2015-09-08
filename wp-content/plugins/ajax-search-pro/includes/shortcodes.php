@@ -58,10 +58,26 @@ class aspShortcodeContainer {
             } else {
                 $_prefix = $wpdb->prefix;
             }
-            $search = $wpdb->get_results("SELECT * FROM " . $_prefix . "ajaxsearchpro WHERE id=" . $id, ARRAY_A);
-            if (!isset($search[0])) {
-                return "This search form (with id $id) does not exist!";
-            }
+
+	        // Visual composer, first selected row, no data, so select the first one
+	        if ($id == 99999) {
+		        $search = $wpdb->get_results(
+			        "SELECT * FROM " . $_prefix . "ajaxsearchpro LIMIT 1",
+			        ARRAY_A
+		        );
+		        if (!isset($search[0]))
+			        return "There are no search instances to display. Please create one.";
+	        } else {
+		        $search = $wpdb->get_results(
+			        $wpdb->prepare("SELECT * FROM " . $_prefix . "ajaxsearchpro WHERE id=%d",  $id),
+			        ARRAY_A
+		        );
+		        if (!isset($search[0]))
+			        return "This search form (with id $id) does not exist!";
+	        }
+
+	        // Parse the id again for correction
+	        $id = $search[0]['id'] + 0;
             $wpdreams_ajaxsearchpros[$search[0]['id']] = 1;
 
             $search[0]['data'] = json_decode($search[0]['data'], true);
@@ -110,24 +126,68 @@ class aspShortcodeContainer {
 }
 
 function add_ajaxsearchpro_results( $atts ) {
+	global $wpdb;
+
     extract( shortcode_atts( array(
         'id' => '0',
         'element' => 'div'
     ), $atts ) );
-    if ($id == 0) return;
+    if ($id == "") return;
+
+	// Visual composer bug, get the first instance ID
+	if ($id == 99999) {
+		if (isset($wpdb->base_prefix)) {
+			$_prefix = $wpdb->base_prefix;
+		} else {
+			$_prefix = $wpdb->prefix;
+		}
+
+		$search = $wpdb->get_results(
+			"SELECT * FROM " . $_prefix . "ajaxsearchpro LIMIT 1",
+			ARRAY_A
+		);
+		if (!isset($search[0]))
+			return "";
+
+		$id = $search[0]['id'] + 0;
+	}
+
     return "<".$element." id='wpdreams_asp_results_".$id."'></".$element.">";
 }
 
 function add_asp_settings( $atts ) {
+	global $wpdb;
+
     extract( shortcode_atts( array(
         'id' => '0',
         'element' => 'div'
     ), $atts ) );
-    if ($id == 0) return;
+    if ($id == "") return;
+
+	// Visual composer bug, get the first instance ID
+	if ($id == 99999) {
+		if (isset($wpdb->base_prefix)) {
+			$_prefix = $wpdb->base_prefix;
+		} else {
+			$_prefix = $wpdb->prefix;
+		}
+
+		$search = $wpdb->get_results(
+			"SELECT * FROM " . $_prefix . "ajaxsearchpro LIMIT 1",
+			ARRAY_A
+		);
+		if (!isset($search[0]))
+			return "";
+
+		$id = $search[0]['id'] + 0;
+	}
+
     return "<".$element." id='wpdreams_asp_settings_".$id."'></".$element.">";
 }
 
 function add_asp_two_column ( $atts ) {
+	global $wpdb;
+
     extract( shortcode_atts( array(
         'id' => '0',
         'element' => 'div',
@@ -135,7 +195,25 @@ function add_asp_two_column ( $atts ) {
         'results_width' => 50,
         'invert' => 0,
     ), $atts ) );
-    if ($id == 0) return;
+    if ($id == "") return;
+
+	// Visual composer bug, get the first instance ID
+	if ($id == 99999) {
+		if (isset($wpdb->base_prefix)) {
+			$_prefix = $wpdb->base_prefix;
+		} else {
+			$_prefix = $wpdb->prefix;
+		}
+
+		$search = $wpdb->get_results(
+			"SELECT * FROM " . $_prefix . "ajaxsearchpro LIMIT 1",
+			ARRAY_A
+		);
+		if (!isset($search[0]))
+			return "";
+
+		$id = $search[0]['id'] + 0;
+	}
 
     $search_width -= 2;
     $results_width -= 2;

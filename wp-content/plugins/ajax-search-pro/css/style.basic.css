@@ -603,6 +603,11 @@ div.ajaxsearchpro[id*='ajaxsearchprores'].isotopic .results .item .asp_item_over
     -o-filter: url('#aspblur');
     display: none;
     cursor: pointer;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
 }
 
 

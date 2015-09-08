@@ -242,11 +242,11 @@ class aspInit {
         if ($comp_settings !== false && isset($comp_settings['loadpolaroidjs']) && $comp_settings['loadpolaroidjs'] == 0) {
             ;
         } else {
-            wp_register_script('wpdreams-modernizr', ASP_URL . 'js/nomin/modernizr.min.js');
+            wp_register_script('wpdreams-modernizr', ASP_URL . 'js/nomin/modernizr.min.js', array(), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-modernizr');
-            wp_register_script('wpdreams-classie', ASP_URL . 'js/nomin/classie.js');
+            wp_register_script('wpdreams-classie', ASP_URL . 'js/nomin/classie.js', array(), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-classie');
-            wp_register_script('wpdreams-photostack', ASP_URL . 'js/nomin/photostack.js');
+            wp_register_script('wpdreams-photostack', ASP_URL . 'js/nomin/photostack.js', array(), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-photostack');
         }
 
@@ -260,32 +260,32 @@ class aspInit {
             $prereq = "jquery";
             if ($js_source == "nomin-scoped") {
                 $prereq = "wpdreams-aspjquery";
-                wp_register_script('wpdreams-aspjquery', ASP_URL . 'js/' . $js_source . '/aspjquery.js');
+                wp_register_script('wpdreams-aspjquery', ASP_URL . 'js/' . $js_source . '/aspjquery.js', array(), ASP_CURR_VER_STRING);
                 wp_enqueue_script('wpdreams-aspjquery');
             }
-            wp_register_script('wpdreams-gestures', ASP_URL . 'js/' . $js_source . '/jquery.gestures.js', array($prereq));
+            wp_register_script('wpdreams-gestures', ASP_URL . 'js/' . $js_source . '/jquery.gestures.js', array($prereq), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-gestures');
-            wp_register_script('wpdreams-easing', ASP_URL . 'js/' . $js_source . '/jquery.easing.js', array($prereq));
+            wp_register_script('wpdreams-easing', ASP_URL . 'js/' . $js_source . '/jquery.easing.js', array($prereq), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-easing');
-            wp_register_script('wpdreams-mousewheel', ASP_URL . 'js/' . $js_source . '/jquery.mousewheel.js', array($prereq));
-            wp_enqueue_script('wpdreams-mousewheel');
-            wp_register_script('wpdreams-scroll', ASP_URL . 'js/' . $js_source . '/jquery.mCustomScrollbar.js', array($prereq, 'wpdreams-mousewheel'));
+            /*wp_register_script('wpdreams-mousewheel', ASP_URL . 'js/' . $js_source . '/jquery.mousewheel.js', array($prereq));
+            wp_enqueue_script('wpdreams-mousewheel');*/
+            wp_register_script('wpdreams-scroll', ASP_URL . 'js/' . $js_source . '/jquery.mCustomScrollbar.js', array($prereq), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-scroll');
-            wp_register_script('wpdreams-highlight', ASP_URL . 'js/' . $js_source . '/jquery.highlight.js', array($prereq));
+            wp_register_script('wpdreams-highlight', ASP_URL . 'js/' . $js_source . '/jquery.highlight.js', array($prereq), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-highlight');
             if ($load_noui) {
-                wp_register_script('wpdreams-nouislider', ASP_URL . 'js/' . $js_source . '/jquery.nouislider.all.js', array($prereq));
+                wp_register_script('wpdreams-nouislider', ASP_URL . 'js/' . $js_source . '/jquery.nouislider.all.js', array($prereq), ASP_CURR_VER_STRING);
                 wp_enqueue_script('wpdreams-nouislider');
             }
             if ($load_isotope) {
-                wp_register_script('wpdreams-rpp-isotope', ASP_URL . 'js/' . $js_source . '/rpp_isotope.js', array($prereq));
+                wp_register_script('wpdreams-rpp-isotope', ASP_URL . 'js/' . $js_source . '/rpp_isotope.js', array($prereq), ASP_CURR_VER_STRING);
                 wp_enqueue_script('wpdreams-rpp-isotope');
             }
-            wp_register_script('wpdreams-ajaxsearchpro', ASP_URL . 'js/' . $js_source . '/jquery.ajaxsearchpro.js', array($prereq, "wpdreams-scroll"));
+            wp_register_script('wpdreams-ajaxsearchpro', ASP_URL . 'js/' . $js_source . '/jquery.ajaxsearchpro.js', array($prereq, "wpdreams-scroll"), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-ajaxsearchpro');
         } else {
             wp_enqueue_script('jquery');
-            wp_register_script('wpdreams-ajaxsearchpro', ASP_URL . "js/" . $js_source . "/jquery.ajaxsearchpro" . $minify_string . ".min.js");
+            wp_register_script('wpdreams-ajaxsearchpro', ASP_URL . "js/" . $js_source . "/jquery.ajaxsearchpro" . $minify_string . ".min.js", array(), ASP_CURR_VER_STRING);
             wp_enqueue_script('wpdreams-ajaxsearchpro');
         }
 
