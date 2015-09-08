@@ -250,6 +250,25 @@
     public function actionCommentPermission($board_id, $comment_id, $type){
       $status = false;
       switch($type){
+
+        case 'read' :
+          if( is_user_logged_in() ){
+            $user           = wp_get_current_user();
+            $checkManagers  = $this->checkManagers($board_id);
+            if($checkManagers == true || current_user_can('manage_options')){
+              $status = true;
+            } else {
+              if($this->checkCommentPermission($board_id, 'read') == true){
+                $status = true;
+              }
+            }                
+          } else {
+            if($this->checkCommentPermission($board_id, 'read') == true){
+              $status = true;
+            }            
+          }
+        break;
+
         case 'delete' :
           if( is_user_logged_in() ){
             $user          = wp_get_current_user();
@@ -667,9 +686,9 @@
 
         $wpdb->update(
           $this->kkbtable,
-          array( 'type'     => $type, 'date' => $mktime, 'section'  => $entry_section ),
+          array( 'type'     => $type, 'date' => $mktime ),
           array( 'board_id' => $board_id, 'post_id'  => $entry_id ),
-          array( '%d', '%d', '%s' ),
+          array( '%d', '%d' ),
           array( '%d', '%d' )
         );
 
@@ -702,6 +721,7 @@
         }
 
         $result = $entry_id;
+        do_action('kkb_entry_modify_after', $board_id, $entry_id, $data);
       } else {
         $result = $kkberror->Error(014); 
       }
@@ -776,6 +796,7 @@
 
           // 게시글 저장 후 동작하는 액션 훅
           do_action('kingkongboard_entry_save_after', $board_id, $status);
+          do_action('kkb_entry_save_after', $board_id, $status, $data);
         } else {
           $status = false;
         }
@@ -1184,7 +1205,7 @@
      */ 
     public function checkCommentPermission($board_id, $type){
       $status = false;
-
+ 
       switch($type){
         case 'read' :
           $permission_read = get_post_meta($board_id, 'permission_comment_read', true);

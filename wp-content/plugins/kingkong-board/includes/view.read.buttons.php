@@ -2,11 +2,20 @@
   <div class="kingkongboard-controller-left">
 <?php
 
-  $list_path = add_query_arg( 'pageid', $pageid, get_the_permalink());
+  $list_args = apply_filters('kkb_read_arg_after', array('pageid' => $pageid), $this->board_id);
+  $list_path = add_query_arg( $list_args, get_the_permalink());
   
-  ($prevListNumber) ? $prev_path = add_query_arg( array('pageid' => $pageid, 'view' => 'read', 'id' => $prevListNumber), get_the_permalink()) : $prev_path = null;
-  ($nextListNumber) ? $next_path = add_query_arg( array('pageid' => $pageid, 'view' => 'read', 'id' => $nextListNumber), get_the_permalink()) : $next_path = null;
-  (parent::actionPermission($this->board_id, $entry_id, 'write') == true && $board_reply_use == "T") ? $reply_path = add_query_arg( array('pageid' => $pageid, 'view' => 'reply', 'id' => $entry_id.$parent_prm), get_the_permalink()) : $reply_path = null;
+  $prev_args = apply_filters('kkb_read_arg_after', array('pageid' => $pageid, 'view' => 'read', 'id' => $prevListNumber), $this->board_id);
+  $next_args = apply_filters('kkb_read_arg_after', array('pageid' => $pageid, 'view' => 'read', 'id' => $nextListNumber), $this->board_id);
+
+  ($prevListNumber) ? $prev_path = add_query_arg( $prev_args, get_the_permalink()) : $prev_path = null;
+  ($nextListNumber) ? $next_path = add_query_arg( $next_args, get_the_permalink()) : $next_path = null;
+  if (parent::actionPermission($this->board_id, $entry_id, 'write') == true && $board_reply_use == "T") {
+    $reply_args = apply_filters('kkb_read_arg_after', array('pageid' => $pageid, 'view' => 'reply', 'id' => $entry_id.$parent_prm), $this->board_id);
+    $reply_path = add_query_arg( $reply_args, get_the_permalink());
+  } else {
+    $reply_path = null;
+  }
 
   if($list_path){
     $button['list'] = array(
@@ -54,8 +63,10 @@
   </div>
   <div class="kingkongboard-controller-right">
 <?php
-  $modify_path  = add_query_arg( array('pageid' => $pageid, 'view' => 'modify', 'id' => $entry_id), get_the_permalink());
-  $delete_path  = add_query_arg( array('pageid' => $pageid, 'view' => 'delete', 'id' => $entry_id), get_the_permalink());
+  $modify_args  = apply_filters('kkb_read_arg_after', array('pageid' => $pageid, 'view' => 'modify', 'id' => $entry_id), $this->board_id);
+  $delete_args  = apply_filters('kkb_read_arg_after', array('pageid' => $pageid, 'view' => 'delete', 'id' => $entry_id), $this->board_id);
+  $modify_path  = add_query_arg( $modify_args, get_the_permalink());
+  $delete_path  = add_query_arg( $delete_args, get_the_permalink());
   $Rbuttons     = null;
   if(parent::actionPermission($this->board_id, $entry_id, 'modify') == true){
     $Rbuttons['modify'] = array(

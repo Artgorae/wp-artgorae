@@ -13,6 +13,10 @@
 	margin:0;
 }
 
+caption.blind {
+	overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0
+}
+
 div#kingkongboard-wrapper div.kkb-section-button-wrapper {
 	display:block;
 	margin:0 0 10px 0;
@@ -169,7 +173,6 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.comment-section div.c
 	box-sizing:border-box;
 	background:#f1f1f1 !important;
 	border:1px solid #e0e0e0 !important;
-	outline:0;
 	padding:10px;
 	line-height:1.5;
 	box-shadow:none;
@@ -188,7 +191,6 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.comment-section div.c
 	top:0;
 	height:80px;
 	width:95px;
-	outline:0;
 	text-align:center;
 }
 div#kingkongboard-wrapper div#kingkongboard-read-table div.comment-section div.comment-editor div.comment-editor-content-input {
@@ -208,7 +210,6 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.comment-section div.c
 	line-height:12px !important;
 	box-shadow:none;
 	border-radius:0;
-	outline:0;
 }
 
 div#kingkongboard-wrapper div.kkb-comment-modify-wrapper {
@@ -225,6 +226,9 @@ div#kingkongboard-wrapper div.kkb-comment-modify-wrapper textarea {
 	left:0;
 	width:100%;
 	height:100%;
+	box-sizing:border-box;
+	background:#f7f7f7;
+	border:1px solid #e0e0e0;
 }
 
 div#kingkongboard-wrapper div.kkb-comment-modify-wrapper button {
@@ -290,6 +294,12 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.
 
 div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.list-wrapper {
 	display:block;
+}
+
+div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list > span.comment-read-denied {
+	display:block;
+	padding:10px;
+	color:#797979;
 }
 
 div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.list-wrapper div.each-comment {
@@ -389,7 +399,6 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.
 	display:block;
 	height:80px;
 	width:100%;
-	outline:0;
 	background:#f7f7f7;
 	border:1px solid #e0e0e0;
 	box-sizing:border-box;
@@ -416,7 +425,6 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.
 	background:#f7f7f7;
 	height:auto !important;
 	line-height:12px !important;
-	outline:0;
 }
 
 div#kingkongboard-wrapper div#kingkongboard-read-table div.kkb-comment-list div.list-wrapper div.each-comment div.comment-reply div.comment-reply-header {
@@ -455,7 +463,7 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.title-section div.reg
 	vertical-align:middle;
 	padding-left:10px;
 	position:relative;
-	top:5px;
+	top:-18px;
 	margin:0;
 }
 
@@ -473,6 +481,16 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.title-section h1.kkb-
 	clear:inherit;
 	font-family : "돋움", "Dotum", Dotum, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
+}
+
+div#kingkongboard-wrapper h2.kkb-read-h2 {
+	font-size:12px;
+	color:#424242;
+	margin:0;
+	font-weight:400;
+	display:inline-block;
+	line-height:1.5;
+	font-family : "돋움", "Dotum", Dotum, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #kingkongboard-wrapper ul li:before {
@@ -499,9 +517,7 @@ div#kingkongboard-wrapper div#kingkongboard-read-table div.title-section h1.kkb-
 }
 
 #kingkongboard-wrapper a:not(#insert-media-button)  {
-	outline: none !important;
 	background:transparent;
-	border:0;
 	margin:0;
 	line-height:100%;
 	font-size:12px;
@@ -586,7 +602,6 @@ div#kingkongboard-wrapper div.kingkongboard-search span.kkb-section-span select 
 	line-height:1.5;
 	box-sizing:border-box;
 	height:100%;
-	outline:0;
 	border-radius:0 !important;
 	border:1px solid #e0e0e0;
 	display:none;
@@ -611,7 +626,6 @@ div#kingkongboard-wrapper div.kingkongboard-search span.btn-kkb-search input.kkb
 	border:0;
 	box-shadow:none;
 	background:none;
-	outline:0;
 	font-size:12px;
 	line-height:1.5;
 	max-height:inherit;
@@ -1041,7 +1055,6 @@ div#kingkongboard-wrapper div.kkb-write-wrapper div.textarea-box textarea:not(.w
 	margin-top:10px;
 	width:100%;
 	min-height:200px;
-	outline:0;
 	border:1px solid #e0e0e0;
 	background:#f1f1f1;
 	color:#424242;
@@ -1168,21 +1181,21 @@ div#kingkongboard-wrapper div.kkb-write-wrapper div.rows-more {
 	text-align:center;
 }
 
-div#kingkongboard-wrapper div.kkb-write-wrapper div.rows-more span {
+div#kingkongboard-wrapper div.kkb-write-wrapper div.rows-more > a {
 	position:relative;
 	display:block;
-	margin:0 auto;
+	margin:0 auto !important;
 	width:100px;
 	height:35px;
 	text-align:center;
-	background:#fff;
+	background:#fff !important;
 	border-top:1px solid#fff;
-	margin-top:-1px;
+	margin-top:-1px !important;
 	border-left:1px solid #c9c9c9;
 	border-right:1px solid #c9c9c9;
 	border-bottom:1px solid #c0c0c0;
 	vertical-align:middle;
-	line-height:33px;
+	line-height:33px !important;
 	cursor:pointer;
 }
 
@@ -1267,18 +1280,28 @@ div#kingkongboard-wrapper div.kkb-write-wrapper div.check-box span.write-span {
 }
 
 div#kingkongboard-wrapper div.kkb-write-wrapper div.write-box span.write-span input {
-	outline:0;
+
 }
 
 div#kingkongboard-wrapper div.kkb-write-wrapper div.check-box span.write-span input[type='checkbox'] {
 	position:absolute;
 	top:0;
 	left:0;
-	width:0px;
+	width:0px; 
 	height:0px;
 	margin:0;
 	padding:0;
 	border:0;
+	display:none;
+}
+
+div#kingkongboard-wrapper div.kkb-write-wrapper div.check-box span.write-span > span.toggle-checkbox-image {
+	display:inline-block;
+	width:20px !important;
+	height:20px !important;
+	background:url('../images/icons-checkbox.png') 0px 0px no-repeat;
+	opacity:1;
+	cursor:pointer;
 }
 
 div#kingkongboard-wrapper div.kkb-write-wrapper div.check-box span.write-span input[type='checkbox']:before {
@@ -1540,7 +1563,6 @@ div#kingkongboard-wrapper span.entry_comment_count {
 	background:#f1f1f1;
 	color:#424242;
 	height:26px;
-	outline:0;
 	margin:0;
 	padding:0;
 }
@@ -1788,7 +1810,6 @@ div#kingkongboard-wrapper a.comment-delete-button { cursor:pointer; font-size:11
 #kingkongboard-latest-wrapper #kingkongboard-latest-table td a {
 	text-decoration:none;
 	color:#424242;
-	outline:none !important;
 	border:0;
 }
 

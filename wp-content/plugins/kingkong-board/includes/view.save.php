@@ -10,8 +10,16 @@ if(!isset($_POST)) wp_die('KINGKONG BOARD : '.__('잘못된 접근 입니다.', 
 
 $board_id     = sanitize_text_field($_POST['board_id']);
 $post_id      = sanitize_text_field($_POST['post_id']);
+$iframe_use   = get_post_meta($board_id, 'kkb_iframe_use', true);
 
-(isset($_POST['page_id'])) ? $return_path = add_query_arg( array('pageid' => sanitize_text_field($_POST['page_id'])), get_the_permalink($post_id)) : $return_path = get_the_permalink($post_id);
+(isset($_POST['page_id'])) ? $pageid = sanitize_text_field($_POST['page_id']) : $pageid = 1; 
+$return_args = array('pageid' => $pageid);
+
+if($iframe_use == 'T'){
+  $return_args['kkb_mod'] = 'iframe';
+}
+
+$return_path = add_query_arg( $return_args, get_the_permalink($post_id));
 
 if(isset($_POST['g-recaptcha-response'])){
   $cpt_response = sanitize_text_field($_POST['g-recaptcha-response']);
@@ -86,6 +94,7 @@ if($result['status'] == 'failed'){
   </script>
 <?php
 } else {
+  //echo '<script>alert("'.$return_path.'");</script>';
   header( "Location: ".$return_path );
 }
 

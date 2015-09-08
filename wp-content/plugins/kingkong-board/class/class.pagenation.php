@@ -45,7 +45,8 @@
         }
 
         if( $page > 3){
-          $page_path = add_query_arg('pageid', '1', get_the_permalink());
+          $page_args = apply_filters('kkb_read_arg_after', array('pageid' => '1'), $this->board_id);
+          $page_path = add_query_arg($page_args, get_the_permalink());
           $display  = '<a href="'.$page_path.'"><span>1</span></a>';
           $display .= '<span class="none-select">...</span>';
           for ($i=($page-3); $i < $count; $i++) { 
@@ -54,11 +55,13 @@
             } else {
               if(($i+1) > $page + 2){
                 $display  .= '<span class="none-select">...</span>';
-                $page_path = add_query_arg( 'pageid', ($count.$param), get_the_permalink());
+                $page_args = apply_filters('kkb_read_arg_after', array('pageid' => ($count.$param)), $this->board_id);
+                $page_path = add_query_arg( $page_args, get_the_permalink());
                 $display  .= '<a href="'.$page_path.'" class="kkb-page-move"><span>'.$count.'</span></a>';
                 break;
               } else {
-                $page_path = add_query_arg( 'pageid', (($i+1).$param), get_the_permalink());
+                $page_args = apply_filters('kkb_read_arg_after', array('pageid' => (($i+1).$param)), $this->board_id);
+                $page_path = add_query_arg( $page_args, get_the_permalink());
                 $display .= '<a href="'.$page_path.'" class="kkb-page-move"><span>'.($i+1).'</span></a>';
               }
             }
@@ -67,14 +70,16 @@
           for ($i=0; $i < $count; $i++) { 
             if($i > 3){
                 $display  .= '<span class="none-select">...</span>';
-                $page_path = add_query_arg( 'pageid', ($count.$param), get_the_permalink());
+                $page_args = apply_filters('kkb_read_arg_after', array('pageid' => ($count.$param)), $this->board_id);
+                $page_path = add_query_arg( $page_args, get_the_permalink());
                 $display  .= '<a href="'.$page_path.'" class="kkb-page-move"><span>'.$count.'</span></a>';
                 break;          
             } else {
               if($page == ($i+1)){
                 $display  .= '<span>'.($i+1).'</span>';
               } else {
-                $page_path = add_query_arg( 'pageid', (($i+1).$param), get_the_permalink());
+                $page_args = apply_filters('kkb_read_arg_after', array('pageid' => (($i+1).$param)), $this->board_id);
+                $page_path = add_query_arg( $page_args, get_the_permalink());
                 $display  .= '<a href="'.$page_path.'" class="kkb-page-move"><span>'.($i+1).'</span></a>';
               }
             }

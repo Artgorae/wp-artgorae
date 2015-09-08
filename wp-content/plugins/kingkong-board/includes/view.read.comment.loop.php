@@ -32,12 +32,12 @@ if($comments){
 ?>
   <div class="comment-box">
     <span class="comment-avatar">
-      <img src="<?php echo $user_avatar;?>">
+      <img src="<?php echo $user_avatar;?>" alt="<?php echo $comment->comment_author;?>">
     </span>
     <div class="comment-content">
       <div class="comment-content-writer">
-        <span class="author"><?php echo $comment->comment_author;?></span>
-        <span class="date"><?php echo get_comment_date( 'Y.m.d H:i', $comment->comment_ID);?></span>
+        <h2 class="kkb-read-h2"><span class="author"><?php echo $comment->comment_author;?></span></h2>
+        <h2 class="kkb-read-h2"><span class="date"><?php echo get_comment_date( 'Y.m.d H:i', $comment->comment_ID);?></span></h2>
       </div>
 <?php
   echo apply_filters('kingkongboard_comment_content_before', null, $comment->comment_ID); 
@@ -45,7 +45,7 @@ if($comments){
       <div class="comment-content-text">
         <?php
           echo apply_filters('kkb_comment_content_inner_before', null, $board_id, $entry_id, $comment->comment_ID);
-          echo nl2br($comment->comment_content);
+          echo "<h2 class='kkb-read-h2'>".nl2br($comment->comment_content)."</h2>";
           echo apply_filters('kkb_comment_content_inner_after', null, $board_id, $entry_id, $comment->comment_ID);
         ?>
       </div>
@@ -61,11 +61,12 @@ if($comments){
   $controller = new kkbController();
   $controllers = null;
   if($controller->actionCommentPermission($board_id, $comment->comment_ID, 'modify') == true){
+    $modify_args = apply_filters('kkb_read_arg_after', array('view' => 'cmtcheck', 'cid' => $comment->comment_ID, 'id' => $entry_id, 'mod' => 'modify'), $board_id);
     $controllers['modify'] = array(
       'label'  => __('수정', 'kingkongboard'),
       'class'  => 'kkblc-comment-modify',
       'aclass' => null,
-      'ahref'  => add_query_arg( array( 'view' => 'cmtcheck', 'cid' => $comment->comment_ID, 'id' => $entry_id, 'mod' => 'modify'), get_the_permalink()),
+      'ahref'  => add_query_arg( $modify_args, get_the_permalink()),
       'data'   => null
     );
   }

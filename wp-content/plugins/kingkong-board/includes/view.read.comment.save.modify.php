@@ -13,6 +13,13 @@ include_once(ABSPATH . 'wp-includes/pluggable.php');
   $kkb_comment->kkb_comment_modify($_POST);
   $controller  = new kkbController();
   $post_id     = $controller->getMeta($_POST['entry_id'], 'guid');
-  $return_path = add_query_arg( array('view' => 'read', 'id' => $_POST['entry_id']), get_the_permalink($post_id) );
+  $board_id    = $controller->getMeta($_POST['entry_id'], 'board_id');
+  $iframe_use  = get_post_meta($board_id, 'kkb_iframe_use', true);
+
+  $return_args = array('view' => 'read', 'id' => $_POST['entry_id']);
+  if($iframe_use == 'T'){
+    $return_args['kkb_mod'] = 'iframe';
+  }
+  $return_path = add_query_arg( $return_args, get_the_permalink($post_id) );
   header( "Location: ".$return_path );
 ?>

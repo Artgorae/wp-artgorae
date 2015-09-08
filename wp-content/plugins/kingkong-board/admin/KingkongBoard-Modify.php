@@ -24,6 +24,7 @@
     $board_auto_link    = get_post_meta($board_id, 'kkb_auto_link', true);
     $board_read_under   = get_post_meta($board_id, 'kkb_read_under_loop', true);
     $attach_number      = get_post_meta($board_id, 'kkb_attach_number', true);
+    $board_iframe_use   = get_post_meta($board_id, 'kkb_iframe_use', true);
 
     $captcha_site_key   = null;
     $captcha_secret_key = null;
@@ -45,6 +46,7 @@
     ($board_must_thumb == "T") ? $board_must_thumb_checked = "checked" : $board_must_thumb_checked = null;
     ($board_auto_link == "T") ? $board_auto_link_selected = "checked" : $board_auto_link_selected = null;
     ($board_read_under == "T") ? $board_read_unser_loop_checked = "checked" : $board_read_unser_loop_checked = null;
+    ($board_iframe_use == 'T') ? $board_iframe_use_selected = "checked" : $board_iframe_use_selected = null;
 
     switch($board_thumb_input){
       case "T" :
@@ -310,6 +312,15 @@
                 <div class="description-container">
                   <span class="description"><?php echo __('http 또는 https 링크 기입시 자동으로 해당 경로로 링크를 연결 합니다.', 'kingkongboard');?></span>
                 </div>                
+              </td>
+            </tr>
+            <tr>
+              <th><?php _e('아이프레임 모드:', 'kingkongboard');?></th>
+              <td>
+                <input type="checkbox" name="kkb_iframe_use" value="T" <?php echo $board_iframe_use_selected;?>> <?php _e('아이프레임 보기를 활성화 합니다.', 'kingkongboard');?>
+                <div class="description-container">
+                  <span class="description"><?php echo __('원페이지 테마나 페이지길이가 길다면 활성화 하세요. 특별한 문제가 없다면 비활성화로 두시기 바랍니다.', 'kingkongboard');?></span>
+                </div>                 
               </td>
             </tr>
             <tr>

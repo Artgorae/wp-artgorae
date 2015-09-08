@@ -6,6 +6,7 @@
       add_filter( 'wp_title', array($this, 'change_title'), 9999);
       add_action( 'init', array($this, 'kingkongboard_localization') );
       add_action( 'admin_menu', array($this, 'KingkongBoard_AddMenu') );
+      add_action( 'kingkongboard_iframe_header', array($this, 'KingkongBoard_Style') );
       add_action( 'admin_enqueue_scripts', array($this, 'KingkongBoard_AdminStyle') ); 
       add_action( 'wp_enqueue_scripts', array($this, 'KingkongBoard_Style'), 9999);
       add_filter( 'mce_buttons', array($this, 'KingkongBoard_register_buttons') );
@@ -24,12 +25,34 @@
       add_action( 'template_redirect', array($this, 'kkb_entry_redirect'));
       add_filter( 'load_textdomain_mofile', array($this, 'replace_kkb_default_language_files'), 10, 2);
       add_action( 'kingkong_board_before', array($this, 'kkb_before_css'), 10, 1);
+      add_action( 'kingkong_board_iframe_before', array($this, 'kkb_iframe_before'), 10, 1);
       add_action( 'init', array($this, 'media_category_create') );
       add_action( 'init', array($this, 'regist_kkb_tag'), 0);
       add_action( 'kingkongboard_entry_save_after', array($this, 'entry_notification'), 10, 2);
       add_action( 'kingkongboard_save_comment_after', array($this, 'comment_notification'), 10, 3);
       remove_action('welcome_panel', 'wp_welcome_panel');
       add_action( 'welcome_panel', array($this, 'kkb_welcome_panel') );
+      add_filter( 'page_template', array($this, 'iframe_template') );
+    }
+
+    public function kkb_iframe_before($board_id){
+      add_filter( 'kkb_read_arg_after', array($this, 'iframe_link'), 10, 2);
+    }
+
+    public function iframe_link($array, $board_id){
+      $array['kkb_mod'] = 'iframe';
+      return $array;
+    }
+
+    public function iframe_template($page_template){
+      //print_r($page_template);
+      if(isset($_GET['kkb_mod'])){
+        $mod = sanitize_text_field($_GET['kkb_mod']);
+        if($mod == 'iframe'){
+          $page_template = KINGKONGBOARD_ABSPATH.'/includes/iframe-template.php';
+        }
+      }
+      return $page_template;
     }
 
     public function kkb_welcome_panel(){
@@ -39,7 +62,7 @@
       ob_get_clean();
       echo $content;
     }
-
+ 
     public function entry_notification($board_id, $entry_id){
       $notice_entry   = get_post_meta($board_id, 'kingkongboard_notice_entry', true);
       $emails         = get_post_meta($board_id, 'kingkongboard_notice_emails', true);

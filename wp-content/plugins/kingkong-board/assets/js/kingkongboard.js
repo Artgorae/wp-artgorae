@@ -15,6 +15,20 @@ jQuery(document).ready(function(){
     	}});
     });
 
+    if(getInternetExplorerVersion() != -1){
+    	jQuery(".write-span").find(".input-checkbox").before().css("background", "none");
+    	jQuery(".write-span").find(".input-checkbox").css("width", "auto");
+    	jQuery(".write-span").find(".input-checkbox").css("height", "auto");
+    }
+
+    jQuery(".toggle-checkbox-image").toggle(function(){
+    	jQuery(this).parent().find(".input-checkbox").prop("checked", true);
+    	jQuery(this).css("background-position", "-30px 0");
+    }, function(){
+    	jQuery(this).parent().find(".input-checkbox").prop("checked", false);
+    	jQuery(this).css("background-position", "0 0");
+    });
+
     //jQuery("[name=entry_section]").selectionBox();
 
 	jQuery(".popular-tags").find(".btn-popular-tags").toggle(function(){
@@ -490,6 +504,22 @@ function kkb_comment_reply_submit(cid){
 	}
 	return true;
 }
+
+
+function resizeKKBIframe(obj){
+	obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}
+
+function getInternetExplorerVersion() {    
+         var rv = -1; // Return value assumes failure.    
+         if (navigator.appName == 'Microsoft Internet Explorer') {        
+              var ua = navigator.userAgent;        
+              var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");        
+              if (re.exec(ua) != null)            
+                  rv = parseFloat(RegExp.$1);    
+             }    
+         return rv; 
+} 
 
 
 

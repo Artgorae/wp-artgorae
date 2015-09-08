@@ -203,6 +203,15 @@
               </td>
             </tr>
             <tr>
+              <th><?php _e('아이프레임 모드:', 'kingkongboard');?></th>
+              <td>
+                <input type="checkbox" name="kkb_iframe_use" value="T"> <?php _e('아이프레임 보기를 활성화 합니다.', 'kingkongboard');?>
+                <div class="description-container">
+                  <span class="description"><?php echo __('원페이지 테마나 페이지길이가 길다면 활성화 하세요. 특별한 문제가 없다면 비활성화로 두시기 바랍니다.', 'kingkongboard');?></span>
+                </div>                 
+              </td>
+            </tr>
+            <tr>
               <td colspan="2">
                 <hr>
               </td>

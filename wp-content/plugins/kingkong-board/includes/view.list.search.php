@@ -19,11 +19,13 @@
       ($section == $esection) ? $section_value .= '<option value="'.$esection.'" selected>분류:'.$esection.'</option>' : $section_value .= '<option value="'.$esection.'">분류:'.$esection.'</option>';
     }
   }
-
-  $backPath = add_query_arg( array('pageid' => $page), get_the_permalink());
+  $page_args = apply_filters('kkb_read_arg_after', array(), $board_id);
+  $back_args = apply_filters('kkb_read_arg_after', array('pageid' => $page), $board_id);
+  $page_path = add_query_arg($page_args, get_the_permalink($post->ID));
+  $backPath  = add_query_arg($back_args, get_the_permalink());
 ?>
 <div class="kingkongboard-search <?php echo $searchClass;?>">
-  <form method="POST" action="<?php echo get_the_permalink($post->ID);?>">
+  <form method="POST" action="<?php echo $page_path;?>">
     <div class="kkb-search-buttons">
 <?php
   if($keyword || $section){
@@ -50,4 +52,4 @@
     </div>
   </form>
 </div>
-<input type="hidden" name="page_permalink" value="'.get_the_permalink($post->ID).'">
+<input type="hidden" name="page_permalink" value="<?php echo $page_path;?>">

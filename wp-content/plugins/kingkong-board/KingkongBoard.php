@@ -3,7 +3,7 @@
 Plugin Name: Kingkong Board
 Plugin URI: http://www.superrocket.io
 Description: 슈퍼로켓에서 제공하는 한국형 워드프레스 게시판 플러그인 입니다. 
-Version: 2.0.0.5
+Version: 2.0.0.8
 Author: Bryan Lee
 Author URI: http://www.superrocket.io
 License: GPL2

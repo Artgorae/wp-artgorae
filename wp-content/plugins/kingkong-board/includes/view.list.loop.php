@@ -10,9 +10,13 @@
   if(isset($_GET['srchtype'])) $search_type = sanitize_text_field($_GET['srchtype']);
   if(isset($_GET['kkb_section'])) $section = sanitize_text_field($_GET['kkb_section']);
 
+  $config     = new kkbConfig();
+  $config     = $config->getBoard($board_id);
+
 ?>
  
-  <table id="<?php echo $table_id;?>" class="<?php echo $table_class;?>">
+  <table id="<?php echo $table_id;?>" summary="<?php echo $config->title;?> 게시판" class="<?php echo $table_class;?>">
+    <caption class="blind"><?php echo $config->title;?> 게시판 전체목록</caption>
     <thead>
       <tr>
 <?php
@@ -33,8 +37,6 @@
   (isset($_GET['pageid'])) ? $page = sanitize_text_field($_GET['pageid']) : $page = 1;
   require_once KINGKONGBOARD_ABSPATH.'class/class.list.php';
   $kkb        = new kkbList();
-  $config     = new kkbConfig();
-  $config     = $config->getBoard($board_id);
 
   if($keyword || $section){
     $data['kkb_search_keyword'] = $keyword;

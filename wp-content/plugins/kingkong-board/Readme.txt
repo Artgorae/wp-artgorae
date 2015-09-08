@@ -4,7 +4,7 @@ Donate link: http://www.superrocket.io
 Tags: 킹콩보드, 한국형게시판, 게시판, kingkongboard, board, kboard, 한국게시판, 플러그인, 킹콩게시판, kingkong, 킹콩
 Requires at least: 3.8.0
 Tested up to: 4.2.2
-Stable tag: 2.0.0.5
+Stable tag: 2.0.0.8
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 5. 기본양식과 금칙어 설정까지!
 
 == Changelog ==
+
+= 2.0.0.8 =
+1. IE / FireFox 에서 공지사항/비밀글 체크박스 이미지가 정상적으로 노출되지 않던 문제가 수정되었습니다.
+
+= 2.0.0.7 =
+1. 댓글 읽기/쓰기 권한이 정상적용이 되지 않던 문제가 수정 되었습니다. (chs 님 감사합니다.)
+2. 웹접근성이 개선 되었습니다 (이은창님 감사합니다.)
+
+= 2.0.0.6 =
+1. 웹접근성이 개선되었습니다. (이은창님 감사합니다.)
+2. 처음 관리자 화면 접속시 foreach warning 메세지 오류가 수정 되었습니다. (김범수님 감사합니다.)
+3. IE 접속시 체크박스 표시 오류가 수정 되었습니다. (하준철님 감사합니다.)
+4. 아이프레임 모드가 추가 되었습니다.
 
 = 2.0.0.5 =
 1. 대시보드 킹콩보드 알림판이 추가 되었습니다.

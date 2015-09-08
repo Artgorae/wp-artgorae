@@ -46,8 +46,8 @@ if($this->entry_id && is_numeric($this->entry_id) && $this->board_id && is_numer
   ob_start();
 ?>
   <div class="title-section">
-    <div class="regist-date"><?php echo date("Y.m.d H:i", $date);?></div>
     <h1 class="kkb-read-h1"><?php echo $this->get_title($entry_id); ?></h1>
+    <div class="regist-date"><h2 class="kkb-read-h2"><?php echo date("Y.m.d H:i", $date);?></h2></div>
   </div>
 <?php
   $title_section = ob_get_contents();
@@ -56,7 +56,7 @@ if($this->entry_id && is_numeric($this->entry_id) && $this->board_id && is_numer
   ob_start();
 ?>
   <div class="writer-section">
-    <div class="regist-writer"><?php echo $writer;?></div>
+    <div class="regist-writer"><h2 class="kkb-read-h2"><?php echo $writer;?></h2></div>
     <div class="regist-info">
       <span><?php _e('조회 수', 'kingkongboard');?><b><?php echo $hit;?></b></span>
     </div>

@@ -553,6 +553,16 @@
       delete_post_meta($board_id, 'kkb_auto_link');
     }
 
+    if(isset($options['kkb_iframe_use'])){
+      if($options['kkb_iframe_use'] == 'T'){
+        update_post_meta($board_id, 'kkb_iframe_use', 'T');
+      } else {
+        delete_post_meta($board_id, 'kkb_iframe_use');
+      }
+    } else {
+      delete_post_meta($board_id, 'kkb_iframe_use');
+    }
+
     $result['status']   = $Status['status'];
     $result['message']  = $Status['message'];
     $result['board_id'] = $board_id;
@@ -755,6 +765,8 @@
     $parent      = $controller->getMeta($entry_id, 'parent');
     $entry_depth = $controller->getMeta($entry_id, 'depth');
     $guid        = $controller->getMeta($entry_id, 'guid');
+    $board_id    = $controller->getMeta($entry_id, 'board_id');
+
     if($entry_depth > 1){
       $padding        = 5 * $entry_depth;
       $reply_padding  = apply_filters('kkb_list_reply_padding', ' padding-left:'.$padding.'px;', $entry_id, $padding);
@@ -782,7 +794,10 @@
 
       $extra_priority = apply_filters('kkb_loop_extra_priority', $entry_secret_icon.$entry_attach_text.$comments_count, $entry_secret_icon, $entry_attach_text, $comments_count, $entry_id);
 
-      $read_path = add_query_arg(array('pageid' => $pageid, 'view' => 'read', 'id' => $entry_id.$parent_id), get_the_permalink($guid));
+      $read_array = array('pageid' => $pageid, 'view' => 'read', 'id' => $entry_id.$parent_id);
+      $read_array = apply_filters('kkb_read_arg_after', $read_array, $board_id);
+
+      $read_path = add_query_arg($read_array, get_the_permalink($guid));
       
       $title = get_the_title($entry_id);
       $title = str_replace('비공개: ', '', $title);

@@ -36,7 +36,10 @@ function kingkong_board_latest($attr){
         switch($priority){
           case "title" :
             $read_path = add_query_arg(array('view' => 'read', 'id' => $latest->post_id), get_the_permalink($latest->guid));
-            $title = kingkongboard_text_cut(get_the_title($latest->post_id), $length, "...");
+            $title     = get_the_title($latest->post_id);
+            $title     = str_replace('Private: ', '', $title);
+            $title     = str_replace('비공개: ', '', $title);
+            $title = kingkongboard_text_cut($title, $length, "...");
             $latest_content .= '<td class="kingkongboard-latest-td-'.$priority.'">';
             $latest_content .= '<a href="'.$read_path.'">'.apply_filters('kkb_latest_title', $title, $board_id, $latest->post_id).'</a>';
             $latest_content .= '</td>';

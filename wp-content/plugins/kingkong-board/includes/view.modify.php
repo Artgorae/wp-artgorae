@@ -25,18 +25,18 @@
   echo apply_filters("kingkongboard_write_title_before", null, $this->board_id);
 ?>
     <div class="write-box">
-      <label class="kingkongboard-write-title"><span><?php echo apply_filters('kkb_write_title_text', __('제목', 'kingkongboard'), $this->board_id);?><span class="label-required">*</span></span></label>
-      <span class="write-span"><input type="text" name="entry_title" style="width:100%" value="<?php echo $this->get_title($entry_id);?>"></span>
+      <label for="entry-title" class="kingkongboard-write-title"><span><?php echo apply_filters('kkb_write_title_text', __('제목', 'kingkongboard'), $this->board_id);?><span class="label-required">*</span></span></label>
+      <span class="write-span"><input type="text" id="entry-title" name="entry_title" style="width:100%" value="<?php echo $this->get_title($entry_id);?>" title="<?php echo apply_filters('kkb_write_title_text', __('제목', 'kingkongboard'), $this->board_id);?>"></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
   echo apply_filters("kingkongboard_write_notice_before", null, $this->board_id);
   if( current_user_can('manage_options') || parent::checkManagers($this->board_id) == true ){
-    ob_start();
+    ob_start(); 
 ?>
     <div class="write-box check-box">
-      <label><span><?php _e('공지사항', 'kingkongboard');?></span></label>
-      <span class="write-span"><input type="checkbox" name="entry_notice" value="notice" <?php echo $notice_checked;?>></span>
+      <label for="input-checkbox-notice"><span><?php _e('공지사항', 'kingkongboard');?></span></label>
+      <span class="write-span"><span class="toggle-checkbox-image"></span><input id="input-checkbox-notice" type="checkbox" name="entry_notice" class="input-checkbox" value="notice" title="<?php _e('공지사항', 'kingkongboard');?>" <?php echo $notice_checked;?>></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -49,8 +49,8 @@
   ob_start();
 ?>
     <div class="write-box check-box">
-      <label><span><?php _e('비밀글', 'kingkongboard');?></span></label>
-      <span class="write-span"><input type="checkbox" name="entry_secret" <?php echo $entry_secret_checked;?> <?php echo $board_must_secret_text;?>> <?php echo $secret_description;?></span>
+      <label for="input-checkbox-secret"><span><?php _e('비밀글', 'kingkongboard');?></span></label>
+      <span class="write-span"><span class="toggle-checkbox-image"></span><input id="input-checkbox-secret" type="checkbox" class="input-checkbox" name="entry_secret" title="<?php _e('비밀글', 'kingkongboard');?>" <?php echo $entry_secret_checked;?> <?php echo $board_must_secret_text;?>> <?php echo $secret_description;?></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -71,8 +71,8 @@
     ob_start();
 ?>
     <div class="write-box">
-      <label><span><?php _e('분류선택', 'kingkongboard');?></span></label>
-      <span class="write-span"><?php echo apply_filters('kkb_write_section', '<select name="entry_section">'.$section_value.'</select>', $this->board_id);?></span>
+      <label for="entry-section"><span><?php _e('분류선택', 'kingkongboard');?></span></label>
+      <span class="write-span"><?php echo apply_filters('kkb_write_section', '<select id="entry-section" name="entry_section" title="'.__('분류선택', 'kingkongboard').'">'.$section_value.'</select>', $this->board_id);?></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -85,8 +85,8 @@
   if( !is_user_logged_in() ){
 ?>
     <div class="write-box">
-      <label><span><?php _e('작성자', 'kingkongboard');?><span class="label-required">*</span></span></label>
-      <span class="write-span"><input type="text" name="entry_writer" value="<?php echo $writer;?>"></span>
+      <label for="entry-writer"><span><?php _e('작성자', 'kingkongboard');?><span class="label-required">*</span></span></label>
+      <span class="write-span"><input id="entry-writer" type="text" name="entry_writer" value="<?php echo $writer;?>" title="<?php _e('작성자', 'kingkongboard');?>"></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -96,8 +96,8 @@
   if( !is_user_logged_in() ){
 ?>
     <div class="write-box">
-      <label><span><?php _e('비밀번호', 'kingkongboard');?><span class="label-required">*</span></span></label>
-      <span class="write-span"><input type="password" name="entry_password"></span>
+      <label for="entry-password"><span><?php _e('비밀번호', 'kingkongboard');?><span class="label-required">*</span></span></label>
+      <span class="write-span"><input id="entry-password" type="password" name="entry_password" title="<?php _e('비밀번호', 'kingkongboard');?>"></span>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -112,7 +112,7 @@
     case "textarea" :
       $content = nl2br(get_post_field('post_content', $entry_id));
 ?>
-        <textarea name="entry_content" rows="10"><?php echo $content;?></textarea>
+        <textarea name="entry_content" rows="10" title="<?php _e('내용입력', 'kingkongboard');?>"><?php echo $content;?></textarea>
 <?php
     break;
 
@@ -129,7 +129,7 @@
     default :
       $content = nl2br(get_post_field('post_content', $entry_id));
 ?>
-          <textarea name="entry_content" rows="10"><?php echo $content;?></textarea>
+          <textarea name="entry_content" rows="10" title="<?php _e('내용입력', 'kingkongboard');?>"><?php echo $content;?></textarea>
 <?php
     break;
   }
@@ -141,9 +141,9 @@
     </div>
     <div class="write-box-devider"></div>
     <div class="write-box">
-      <label><span><?php _e('태그설정', 'kingkongboard');?></span></label>
+      <label for="entry-tags"><span><?php _e('태그설정', 'kingkongboard');?></span></label>
       <span class="write-span">
-        <input name="entry_tags" type="text" style="display:block; min-width:auto; width:100%" placeholder="<?php _e('콤마(,) 로 분리 합니다.', 'kingkongboard');?>" value="<?php echo $tag_names;?>">
+        <input id="entry-tags" name="entry_tags" type="text" style="display:block; min-width:auto; width:100%" placeholder="<?php _e('콤마(,) 로 분리 합니다.', 'kingkongboard');?>" value="<?php echo $tag_names;?>">
       </span>
     </div>
 <?php
@@ -164,7 +164,7 @@
 ?>
     </div>
     <div class="rows-more popular-tags">
-      <span class="btn-popular-tags" data-fold="<?php _e('접기', 'kingkongboard');?>" data-open="<?php _e('자주쓰는태그', 'kingkongboard');?>"><?php _e('자주쓰는태그', 'kingkongboard');?></span>
+      <a href="#" class="btn-popular-tags" data-fold="<?php _e('접기', 'kingkongboard');?>" data-open="<?php _e('자주쓰는태그', 'kingkongboard');?>"><?php _e('자주쓰는태그', 'kingkongboard');?></a>
     </div>
 <?php
   }
@@ -211,13 +211,13 @@
   if($config->thumbUpload == "T"){
 ?>
     <div class="write-box">
-      <label><span><?php _e('썸네일', 'kingkongboard');?></span></label>
+      <label for="entry-thumbnail"><span><?php _e('썸네일', 'kingkongboard');?></span></label>
       <span class="write-span" style="position:relative; width:300px">
         <div class="file-upload">
-          <input type="text" class="text" title="파일 첨부하기" readonly="readonly" style="font-size:12px">
+          <input type="text" class="text" title="썸네일 첨부하기" readonly="readonly" style="font-size:12px">
           <div class="upload-btn">
-            <button type="button" class="img-upload <?php echo kkb_button_classer($this->board_id);?>" title="찾아보기"><span>찾아보기</span></button>
-            <input type="file" id="find" class="file" name="thumbnail_file[]" title="찾아보기">
+            <button type="button" class="img-upload <?php echo kkb_button_classer($this->board_id);?>" title="썸네일 찾아보기"><span>찾아보기</span></button>
+            <input id="entry-thumbnail" type="file" id="find" class="file" name="thumbnail_file[]" title="썸네일 찾아보기">
           </div>
         </div>
       </span>
@@ -230,19 +230,19 @@
     $attach_number = get_post_meta($this->board_id, 'kkb_attach_number', true);
 ?>
     <div class="write-box attach-box attach-box-1">
-      <label><span data-title="<?php _e('첨부파일', 'kingkongboard');?>"><?php _e('첨부파일', 'kingkongboard');?></span></label>
+      <label for="entry-file"><span data-title="<?php _e('첨부파일', 'kingkongboard');?>"><?php _e('첨부파일', 'kingkongboard');?></span></label>
       <span class="write-span" style="position:relative; width:300px">
         <div class="file-upload">
           <input type="text" class="text" title="파일 첨부하기" readonly="readonly" style="font-size:12px">
           <div class="upload-btn">
-            <button type="button" class="img-upload <?php echo kkb_button_classer($this->board_id);?>" title="찾아보기"><span>찾아보기</span></button>
-            <input type="file" id="find" class="file" name="entry_file[]" title="찾아보기">
+            <button type="button" class="img-upload <?php echo kkb_button_classer($this->board_id);?>" title="파일 찾아보기"><span>찾아보기</span></button>
+            <input id="entry-file" type="file" id="find" class="file" name="entry_file[]" title="파일 찾아보기">
           </div>
         </div>
       </span>
     </div>
     <div class="rows-more attach-more">
-      <span class="btn-attach-more" data-limit="<?php echo $attach_number;?>" data-error="<?php printf(__('최대 %d개 까지 업로드 할 수 있습니다.', 'kingkongboard'), $attach_number);?>"><?php _e('첨부파일 추가', 'kingkongboard');?></span>
+      <a href="#" class="btn-attach-more" data-limit="<?php echo $attach_number;?>" data-error="<?php printf(__('최대 %d개 까지 업로드 할 수 있습니다.', 'kingkongboard'), $attach_number);?>"><?php _e('첨부파일 추가', 'kingkongboard');?></a>
     </div>
     <div class="write-box-devider"></div>
 <?php
@@ -258,7 +258,11 @@
 
   </div>
   <div class="kingkongboard-controller">
-    <a href="<?php echo get_the_permalink();?>" class="<?php echo kkb_button_classer($this->board_id);?> button-prev">
+  <?php
+    $back_args = apply_filters('kkb_read_arg_after', array(), $this->board_id);
+    $back_path = add_query_arg($back_args, get_the_permalink());
+  ?>
+    <a href="<?php echo $back_path;?>" class="<?php echo kkb_button_classer($this->board_id);?> button-prev">
       <?php echo kkb_button_text($this->board_id, 'back');?>
     </a> 
     <button type="button" class="<?php echo kkb_button_classer($this->board_id);?> button-save" style="float:right">

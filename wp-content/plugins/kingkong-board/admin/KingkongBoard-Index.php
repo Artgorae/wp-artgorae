@@ -34,35 +34,43 @@
   include KINGKONGBOARD_ABSPATH.'/class/class.board.php';
   $kkboard    = new kkboard();
   $lists      = $kkboard->boardList();
-  foreach($lists as $list){
-    $bdata = $kkboard->getData($list->ID);
+  if($lists){
+    foreach($lists as $list){
+      $bdata = $kkboard->getData($list->ID);
 ?>
-  <tr>
-    <td><?php echo $bdata->ID;?></td>
-    <td><a href="?page=KingkongBoard&view=modify&id=<?php echo $bdata->ID;?>"><?php echo $bdata->title;?></a></td>
-    <td><?php echo $bdata->shortcode;?></td>
-    <td><?php echo $bdata->slug;?></td>
-    <td><?php echo $bdata->skin;?></td>
-    <td>
-      <a href="?page=KingkongBoard&view=modify&id=<?php echo $bdata->ID;?>" class="button-kkb kkbgreen"><i class="kkb-icon kkb-icon-setting"></i><?php echo __('옵션설정', 'kingkongboard');?></a>
-      <a href="?page=KingkongBoard&view=entry&id=<?php echo $bdata->ID;?>" class="button-kkb kkbblue"><i class="kkb-icon kkb-icon-list"></i><?php echo __('리스트 보기', 'kingkongboard');?></a>
-      <!--<a class="button-kkb kkborange"><i class="kkb-icon kkb-icon-export"></i>Data 내보내기</a>-->
-      <a class="button-kkb kkbred button-board-remove" original-title="삭제" data="<?php echo $bdata->ID;?>"><i class="kkb-icon kkb-icon-trash"></i></a>
-      <!--<a class="button-kkb kkbyellow" original-title="복사하기"><i class="kkb-icon kkb-icon-duplicate"></i></a>-->
+    <tr>
+      <td><?php echo $bdata->ID;?></td>
+      <td><a href="?page=KingkongBoard&view=modify&id=<?php echo $bdata->ID;?>"><?php echo $bdata->title;?></a></td>
+      <td><?php echo $bdata->shortcode;?></td>
+      <td><?php echo $bdata->slug;?></td>
+      <td><?php echo $bdata->skin;?></td>
+      <td>
+        <a href="?page=KingkongBoard&view=modify&id=<?php echo $bdata->ID;?>" class="button-kkb kkbgreen"><i class="kkb-icon kkb-icon-setting"></i><?php echo __('옵션설정', 'kingkongboard');?></a>
+        <a href="?page=KingkongBoard&view=entry&id=<?php echo $bdata->ID;?>" class="button-kkb kkbblue"><i class="kkb-icon kkb-icon-list"></i><?php echo __('리스트 보기', 'kingkongboard');?></a>
+        <!--<a class="button-kkb kkborange"><i class="kkb-icon kkb-icon-export"></i>Data 내보내기</a>-->
+        <a class="button-kkb kkbred button-board-remove" original-title="삭제" data="<?php echo $bdata->ID;?>"><i class="kkb-icon kkb-icon-trash"></i></a>
+        <!--<a class="button-kkb kkbyellow" original-title="복사하기"><i class="kkb-icon kkb-icon-duplicate"></i></a>-->
 <?php
-  $added_post_lists = check_board_shortcode_using( "kingkong_board ".$bdata->oslug );
-  if($added_post_lists){
-    $link = get_the_permalink($added_post_lists[0]);
+    $added_post_lists = check_board_shortcode_using( "kingkong_board ".$bdata->oslug );
+    if($added_post_lists){
+      $link = get_the_permalink($added_post_lists[0]);
 ?>
-      <a href="<?php echo $link;?>" target="_blank" class="button-kkb kkbyellow" original-title="게시판 보기"><i class="kkb-icon kkb-icon-preview"></i></a>
-<?php
+        <a href="<?php echo $link;?>" target="_blank" class="button-kkb kkbyellow" original-title="게시판 보기"><i class="kkb-icon kkb-icon-preview"></i></a>
+  <?php
+    } else {
+  ?>
+        <a class="button-kkb kkbgray" original-title="페이지 또는 포스트에 숏코드를 등록 하셔야 게시판 보기를 하실 수 있습니다."><i class="kkb-icon kkb-icon-preview"></i></a>
+  <?php
+    }
+  ?>
+    </tr>
+  <?php
+    }
   } else {
 ?>
-      <a class="button-kkb kkbgray" original-title="페이지 또는 포스트에 숏코드를 등록 하셔야 게시판 보기를 하실 수 있습니다."><i class="kkb-icon kkb-icon-preview"></i></a>
-<?php
-  }
-?>
-  </tr>
+    <tr>
+      <td colspan="6"><?php _e('신규 게시판을 생성 하세요.', 'kingkongboard');?></td>
+    </tr>
 <?php
   }
 ?>
