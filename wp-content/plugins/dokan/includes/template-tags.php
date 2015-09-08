@@ -144,7 +144,7 @@ function dokan_product_dashboard_errors() {
 
 function dokan_product_listing_status_filter() {
     $permalink = dokan_get_navigation_url( 'products' );
-    $status_class = isset( $_GET['post_status'] ) ? $_GET['post_status'] : 'all';
+    $status_class = isset( $_GET['product_cat'] ) ? $_GET['product_cat'] : 'all';
     $post_counts = dokan_count_posts( 'product', get_current_user_id() );
 
     dokan_get_template_part( 'products/listing-status-filter', '', array(
@@ -609,13 +609,9 @@ function doakn_store_listing_content( $atts ) {
 
                         <address>
 
-                            <?php if ( isset( $store_info['address'] ) && !empty( $store_info['address'] ) ) {
-                                echo dokan_get_seller_address( $seller->ID );
-                            } ?>
-
                             <?php if ( isset( $store_info['phone'] ) && !empty( $store_info['phone'] ) ) { ?>
                                 <br>
-                                <abbr title="<?php _e( 'Phone Number', 'dokan' ); ?>"><?php _e( 'P:', 'dokan' ); ?></abbr> <?php echo esc_html( $store_info['phone'] ); ?>
+                                <?php echo esc_html( $store_info['phone'] ); ?>
                             <?php } ?>
 
                         </address>
