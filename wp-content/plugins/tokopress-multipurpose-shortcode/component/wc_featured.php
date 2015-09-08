@@ -146,14 +146,14 @@ function tpvc_wc_product_featured_shortcode( $atts ) {
 	wp_reset_postdata();
 
 	$js_code = '$(\'.tpvc-featured-product ul.owl-carousel\').owlCarousel({
-            items:1,
-            autoPlay:true,
-            stopOnHover:true,
-            navigation:true,
-            navigationText:[\'<span><i class="icon-left fa fa-chevron-left"></i></span>\', \'<span><i class="icon-right fa fa-chevron-right"></i></span>\'],
-            rewindNav:true,
-            scrollPerPage:false,
-            singleItem:true
+            items : 1,
+            loop: true,
+            nav : true,
+            stopOnHover : true,     
+            navText : [\'<i class="fa fa-chevron-left"></i>\', \'<i class="fa fa-chevron-right"></i>\'],
+            lazyLoad: true,
+            autoplay: true,
+            dots: false
         });';
 	
 	wc_enqueue_js( $js_code );

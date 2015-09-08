@@ -3,7 +3,15 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $post, $woocommerce, $product;
 
-echo '<div class="thumbnails">';
+$attachment_ids = $product->get_gallery_attachment_ids();
+$attachment_count = count( $attachment_ids );
+
+if ( $attachment_count > 0 ) {
+	echo '<div class="thumbnails owl-carousel">';
+}
+else {
+	echo '<div class="thumbnails">';
+}
 
 if ( has_post_thumbnail() ) {
 
@@ -13,11 +21,10 @@ if ( has_post_thumbnail() ) {
 		'title' => $image_title
 		) );
 
-	$attachment_count = count( $product->get_gallery_attachment_ids() );
-
 	if ( $attachment_count > 0 ) {
 		$gallery = '[product-gallery]';
-	} else {
+	} 
+	else {
 		$gallery = '';
 	}
 
@@ -30,10 +37,7 @@ else {
 
 }
 
-$attachment_ids = $product->get_gallery_attachment_ids();
-
 if ( $attachment_ids ) {
-
 
 		$loop = 0;
 

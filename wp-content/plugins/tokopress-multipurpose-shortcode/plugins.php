@@ -3,7 +3,7 @@
 Plugin Name: TokoPress - Marketica VC & Shortcodes
 Plugin URI: http://toko.press
 Description: TokoPress - Visual Composer Addons and Shortcodes For Marketica WordPress Theme
-Version: 2.5
+Version: 2.5.1
 Author: TokoPress
 Author URI: http://tokopress.com/
 Text Domain: tokopress

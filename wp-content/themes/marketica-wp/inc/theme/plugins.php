@@ -29,16 +29,16 @@ function tokopress_register_required_plugins() {
 		array(
 			'name'     	=> 'TokoPress - Marketica VC & Shortcodes',
 			'slug'     	=> 'tokopress-multipurpose-shortcode',
-			'source'   	=> get_template_directory() . '/inc/plugins/tokopress-multipurpose-shortcode-v2.5.zip',
-			'version' 	=> '2.5',
+			'source'   	=> get_template_directory() . '/inc/plugins/tokopress-multipurpose-shortcode-v2.5.1.zip',
+			'version' 	=> '2.5.1',
 			'required' 	=> true,
 		),
 
 		array(
 			'name'     	=> 'Visual Composer',
 			'slug'     	=> 'js_composer',
-			'source'   	=> get_template_directory() . '/inc/plugins/js_composer-v4.5.3.zip',
-			'version' 	=> '4.5.3',
+			'source'   	=> get_template_directory() . '/inc/plugins/js_composer-v4.6.2.zip',
+			'version' 	=> '4.6.2',
 			'required' 	=> true,
 		),
 
@@ -282,6 +282,18 @@ if ( shortcode_exists( 'wcxt-frontend-submission' ) ) {
 															'Yes'		=> 'yes',
 														),
 										'std'			=> 'no'
+									),
+
+									array(
+										'type'			=> 'dropdown',
+										'heading'		=> __( 'Product Status', 'tokopress' ),
+										'param_name'	=> 'product_sku',
+										'value'			=> array(
+															'Pending Review'	=> 'pending',
+															'Published'			=> 'publish',
+															'Draft'				=> 'draft',
+														),
+										'std'			=> 'pending'
 									),
 
 								)

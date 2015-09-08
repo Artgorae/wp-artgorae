@@ -6,7 +6,7 @@
 if ( ! isset( $content_width ) ) $content_width = 1012;
 
 define( 'THEME_NAME' , 'marketica-wp' );
-define( 'THEME_VERSION', '2.5' );
+define( 'THEME_VERSION', '2.5.1' );
 
 define( 'THEME_DIR', get_template_directory() );
 define( 'THEME_URI', get_template_directory_uri() );

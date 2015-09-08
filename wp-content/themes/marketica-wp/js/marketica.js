@@ -72,7 +72,7 @@
 
         if(jQuery.isFunction($().owlCarousel)) {
 
-            $('.woocommerce .product .product-thumbnail .thumbnails').owlCarousel({
+            $('.woocommerce .product .product-thumbnail .thumbnails.owl-carousel').owlCarousel({
                 items : 1,
                 loop: true,
                 nav : true,

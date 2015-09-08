@@ -4,7 +4,7 @@ Theme URI:http://www.toko.press
 Author:TokoPress
 Author URI:http://www.toko.press
 Description:The Best Marketplace Themes For WordPress and WooCommerce.
-Version:2.5
+Version:2.5.1
 License:GPL License
 License URI:license.txt
 Tags:one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, theme-options, translation-ready
@@ -7623,8 +7623,8 @@ ul.dokan-seller-wrap li.dokan-single-seller .dokan-store-caption .dokan-store-ca
 .tpvc-featured-product.woocommerce ul.products li.product .featured-title p {
   margin: 0;
 }
-.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-buttons .owl-prev span,
-.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-buttons .owl-next span {
+.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-prev,
+.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-next {
   position: absolute;
   bottom: 40%;
   background: white;
@@ -7639,10 +7639,10 @@ ul.dokan-seller-wrap li.dokan-single-seller .dokan-store-caption .dokan-store-ca
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-buttons .owl-prev span {
+.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-prev {
   left: 20px;
 }
-.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-buttons .owl-next span {
+.tpvc-featured-product.woocommerce ul.products .owl-controls .owl-next {
   right: 20px;
 }
 

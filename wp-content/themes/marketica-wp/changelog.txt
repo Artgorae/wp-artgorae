@@ -1,3 +1,10 @@
+2.5.1
+added: Visual Composer - WC Frontend Submission, post status parameter (pending,publish,draft)
+updated: Visual Composer 4.6.2
+fixed: product image slider disappear
+fixed: Visual Composer - WC Featured - carousel issue
+fixed: Visual Composer - WC Products - product catalog style option
+
 2.5
 added: Dokan 2.4 compatibility
 added: Dokan 2.4 - support Dokan seller TOC page

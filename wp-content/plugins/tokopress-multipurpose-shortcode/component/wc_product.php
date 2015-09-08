@@ -15,7 +15,7 @@ function tpvc_wc_product_shortcode( $atts ) {
 	global $woocommerce_loop;
 
 	extract( shortcode_atts( array(
-		'tpvc_wc_product_style'				=> 'alt',
+		'tpvc_wc_product_style'				=> 'alternate',
 		'tpvc_wc_product_title'				=> __( 'Product', 'tokopress' ),
 		'tpvc_wc_product_title_color'		=> '',
 		'tpvc_wc_product_title_bg'			=> '',
@@ -32,8 +32,11 @@ function tpvc_wc_product_shortcode( $atts ) {
 		'tpvc_wc_product_class'			=> ''
 	), $atts ) );
 
-	if ( $tpvc_wc_product_style == 'style-2' ) {
-		$tpvc_wc_product_style = '';
+	if ( $tpvc_wc_product_style == '' ) {
+		$tpvc_wc_product_style = 'alternate';
+	}
+	elseif ( $tpvc_wc_product_style == 'style-2' ) {
+		$tpvc_wc_product_style = 'alternate';
 	}
 	elseif ( $tpvc_wc_product_style == 'style-1' ) {
 		$tpvc_wc_product_style = 'default';
@@ -135,10 +138,10 @@ function tpvc_wc_product_vcmap() {
 									'heading'		=> __( 'Product Catalog Style', 'tokopress' ),
 									'param_name'	=> 'tpvc_wc_product_style',
 									'value'			=> array(
-														__( 'Alternate Style', 'tokopress' ) => '',
+														__( 'Alternate Style', 'tokopress' ) => 'alternate',
 														__( 'Default Style', 'tokopress' ) => 'default',
 														),
-									'std'			=> 'default'
+									'std'			=> 'alternate'
 								),
 								array(
 									'type'			=> 'textfield',
