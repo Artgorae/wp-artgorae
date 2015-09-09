@@ -291,7 +291,9 @@ class Inbox_Shortcode_Controller extends IG_Request
             $product_html = get_custom_order_button( $title, $description, $price );
         }
 
-        $m->subject = __("Re:", mmg()->domain) . ' ' . $mess->subject;
+        if ( empty( $m->subject ) ) {
+            $m->subject = __("Re:", mmg()->domain) . ' ' . $mess->subject;
+        }
 
         if ( isset ( $product_html ) ) {
             $m->subject = __( 'You have new estimates!', 'artgorae' );

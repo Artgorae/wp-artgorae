@@ -17,6 +17,19 @@
                         )
                     )); ?>
                     <div class="modal-body">
+                        <div style="margin-bottom: 0"
+                             class="form-group <?php echo $model->has_error("subject") ? "has-error" : null ?>">
+                            <?php $form->label("subject", array(
+                                "text" => "Subject",
+                                "attributes" => array("class" => "control-label col-sm-2 hidden-xs hidden-sm")
+                            )) ?>
+                            <div class="col-md-10 col-sm-12 col-xs-12">
+                                <?php $form->text("subject", array("attributes" => array("class" => "form-control", "placeholder" => "Subject"))) ?>
+                                <span
+                                    class="help-block m-b-none error-subject"><?php $form->error("subject") ?></span>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
                         <div class="form-group <?php echo $model->has_error("content") ? "has-error" : null ?>">
                             <?php /*$form->label("content", array("text" => "Content", "attributes" => array("class" => "col-lg-2 control-label"))) */ ?>
                             <div class="col-lg-12">
