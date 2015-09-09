@@ -31,16 +31,12 @@ if (!isset($render_reply)) {
                            data-username="<?php echo esc_attr($from_data->user_login) ?>"
                            data-parentid="<?php echo esc_attr(mmg()->encrypt($message->conversation_id)) ?>"
                            data-id="<?php echo esc_attr(mmg()->encrypt($message->id)) ?>" type="button"
-                           class="btn btn-info btn-sm mm-reply">
-                            <i class="fa fa-file-text-o"></i>
-                        </a>
+                           class="btn btn-info btn-sm mm-reply"><i class="fa fa-file-text-o"></i> <?php _e( 'Estimates', 'artgorae' ) ?> </a>
                         <a href="#reply-form-c"
                            data-username="<?php echo esc_attr($from_data->user_login) ?>"
                            data-parentid="<?php echo esc_attr(mmg()->encrypt($message->conversation_id)) ?>"
                            data-id="<?php echo esc_attr(mmg()->encrypt($message->id)) ?>" type="button"
-                           class="btn btn-info btn-sm mm-reply">
-                            <i class="fa fa-reply"></i>
-                        </a>
+                           class="btn btn-info btn-sm mm-reply"><i class="fa fa-reply"></i> <?php _e( 'Reply', mmg()->domain ) ?></a>
                         <a href="#" title="<?php echo esc_attr(__("Archive", mmg()->domain)) ?>"
                            data-id="<?php echo esc_attr(mmg()->encrypt($message->conversation_id)) ?>"
                            data-type="<?php echo MM_Message_Status_Model::STATUS_ARCHIVE ?>"
@@ -198,7 +194,7 @@ if (!isset($render_reply)) {
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <img style="max-width:100px;width: 100%"
+                                        <img style="max-width:70px;width: 100%"
                                              class="img-responsive img-circle center-block"
                                              src="<?php echo mmg()->get_avatar_url(get_avatar($message->send_from)) ?>">
                                     </div>

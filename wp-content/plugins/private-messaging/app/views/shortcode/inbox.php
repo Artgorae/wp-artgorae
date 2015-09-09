@@ -36,7 +36,7 @@
                                 class="load-conv <?php echo $model->has_unread() == false ? 'read' : null ?> list-group-item <?php echo $key == 0 ? 'active' : null ?>">
                                 <div class="row">
                                     <div class="col-md-3 no-padding">
-                                        <img style="width: 90%" class="img-responsive img-circle center-block"
+                                        <img style="width: 70%" class="img-responsive img-circle center-block"
                                              src="<?php echo mmg()->get_avatar_url(get_avatar($message->send_from)) ?>">
                                     </div>
                                     <div class="col-md-9">
