@@ -117,6 +117,11 @@ class Dokan_Template_Products {
             $price          = floatval( $_POST['_regular_price'] );
             $featured_image = absint( $_POST['feat_image_id'] );
 
+            $delivery_policy   = trim( $_POST['_delivery_policy'] );
+            $return_policy   = trim( $_POST['_return_policy'] );
+            $warranty_policy   = trim( $_POST['_warranty_policy'] );
+            $seller_policy   = trim( $_POST['_seller_policy'] );
+
             if ( empty( $post_title ) ) {
 
                 $errors[] = __( 'Please enter product title', 'dokan' );
@@ -201,6 +206,11 @@ class Dokan_Template_Products {
                     update_post_meta( $product_id, '_sale_price', '' );
                     update_post_meta( $product_id, '_price', $price );
                     update_post_meta( $product_id, '_visibility', 'visible' );
+
+                    update_post_meta( $product_id, '_delivery_policy', $delivery_policy );
+                    update_post_meta( $product_id, '_return_policy', $return_policy );
+                    update_post_meta( $product_id, '_warranty_policy', $warranty_policy );
+                    update_post_meta( $product_id, '_seller_policy', $seller_policy );
 
                     dokan_new_process_product_meta( $product_id );
 

@@ -6,37 +6,41 @@
  *
  * @package dokan
  */
+
+global $product;
+$post_id = $product->post->ID;
 ?>
 
-<h2><?php _e( 'Seller Information', 'dokan' ); ?><span style="float:right;"><?php get_follow_button(); ?></span></h2>
+<h2><?php _e( 'Seller Policies', 'artgorae' ); ?></h2>
 
 <ul class="list-unstyled">
 
-    <?php if ( !empty( $store_info['store_name'] ) ) { ?>
-        <li class="store-name">
-            <span><b><?php _e( 'Store Name:', 'dokan' ); ?></b></span>
-            <span class="details">
-                <?php echo esc_html( $store_info['store_name'] ); ?>
-            </span>
-        </li>
-    <?php } ?>
-
-    <li class="seller-name">
-        <span><b><?php _e( 'Seller:', 'dokan' ); ?></b></span>
+    <li class="store-name">
+        <span><b><?php _e( 'Delivery Policy:', 'artgorae' ); ?></b></span>
         <span class="details">
-            <?php printf( '<a href="%s">%s</a>', dokan_get_store_url( $author->ID ), $author->display_name ); ?>
+            <?php echo esc_html( get_post_meta( $post_id, '_delivery_policy', true ) ); ?>
         </span>
     </li>
-    <?php if ( !empty( $store_info['phone'] ) ) { ?>
-        <li class="store-address">
-            <span><b><?php _e( 'Store Introduction:', 'artgorae' ); ?></b></span>
-            <span class="details">
-                <?php echo esc_html( $store_info['phone'] ); ?>
-            </span>
-        </li>
-    <?php } ?>
 
-    <li class="clearfix">
-        <?php dokan_get_readable_seller_rating( $author->ID ); ?>
+    <li class="store-name">
+        <span><b><?php _e( 'Return Policy:', 'artgorae' ); ?></b></span>
+        <span class="details">
+            <?php echo esc_html( get_post_meta( $post_id, '_return_policy', true ) ); ?>
+        </span>
     </li>
+
+    <li class="store-name">
+        <span><b><?php _e( 'Warranty Policy:', 'artgorae' ); ?></b></span>
+        <span class="details">
+            <?php echo esc_html( get_post_meta( $post_id, '_warranty_policy', true ) ); ?>
+        </span>
+    </li>
+
+    <li class="store-name">
+        <span><b><?php _e( 'Seller Policy:', 'artgorae' ); ?></b></span>
+        <span class="details">
+            <?php echo esc_html( get_post_meta( $post_id, '_seller_policy', true ) ); ?>
+        </span>
+    </li>
+
 </ul>
