@@ -161,15 +161,6 @@ function search_shortcode()
 		<div class="cloud-item tag-cloud-meta-item">스타일</div>
 		</div>
 		<div id="tag-cloud-category">
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
-		<div class="cloud-item tag-cloud-category-item">카테고리</div>
 		</div>
 		</div>
 		</div>
@@ -183,15 +174,19 @@ var images = ['2015/09/02165657/tumblr_nr5qcp9YQx1slhhf0o1_1280.jpg', '2015/09/0
 var metaPosition = [[45,130], [55,280], [60,400], [140,80], [140,200], [170,330], [165,470], [245,120], [265,250], [270,410]];
 var metaDim = [85, 85, 100, 75, 110, 120, 110, 120, 100, 100];
 
-var talentPosition = [[50,80],[50,180],[45,290],[40,390],[160,70],[170,190],[150,305],[140,400],[80,490],[260,110],[255,285],[250,400],[200,500]];
-var talentDim = [75, 100, 100, 80, 100, 120, 90, 90, 110, 90, 100, 100, 90, 40, 40, 40, 40];
+var talentPosition = [[50,80],[50,180],[45,290],[40,390],[160,70],[170,190],[150,305],[140,400],[80,490],[260,80],[290,180],[255,285],[250,400],[200,500]];
+var talentDim = [75, 100, 100, 80, 100, 120, 90, 90, 110, 90, 100, 100, 90, 90, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40];
 
 var workPosition = [[60,90],[50,240],[50,420],[160,170],[160,330],[150,480],[250,100],[260,240],[250,430],[300,300]];
 var workDim = [110, 100, 100, 110, 140, 100, 100, 100, 100];
 
-var tags = ['감상적인', '강한', '거시기한', '거친', '고급스러운', '깔끔한', '남성스러운', '도시적인', '러블리한', '멋있는', '모노톤', '모던한', '밝은', '부드러운', '빠른', '세련된', '심플한', '아기자기한', '아름다운', '어두운'];
+<?php 
+	$product_tag = get_terms( 'product_tag', array ( 'fields' => 'names', 'hide_empty' => false ) );
+	$product_cat = get_terms( 'product_cat', array ( 'fields' => 'names', 'hide_empty' => false ) );
+ ?>
+var tags = [<?php echo '"'.implode('","', $product_tag).'"' ?>];
 var workCategories = ['공예품', '잡동사니 ', 'Fine Art', '폰케이스', '에코백', '아트토이', '액세서리', '포스터', '전통공예'];
-var talentCategories = ['UI/UX', '그래픽아트', 'CI/BI', '포토그래피', '캘리그라피', '영상/모션그래픽', '일러스트', '아트토이', '인포그래픽', '편집디자인', 'Fine Art', '3D 그래픽', '공예'];
+var talentCategories = [<?php echo '"'.implode('","', $product_cat).'"' ?>];
 
 var category_switch = true;
 
@@ -201,7 +196,7 @@ var search_terms = [];
 $('.search-bg').css('background-image', 'url(' + imgPrefix+images[parseInt(Math.random()*images.length)] + ')');
 
 jQuery(document).ready(function(){
-    $('#mode-tab li').click(function(){
+    /*$('#mode-tab li').click(function(){
         if(!$(this).hasClass('active')){
             $('#mode-tab li').each(function(){
                 $(this).removeClass('active');
@@ -211,13 +206,18 @@ jQuery(document).ready(function(){
 
             mixCategoryTags();
         }
-    });
+    });*/
     
     mixMetaTags();
     mixCategoryTags();
     
     $("#meta-refresh-button").click(function(){
         mixMetaTags();
+    });
+
+    $(".proclose").click(function(){
+    	search_terms = [];
+    	$(".cloud-item").removeClass('active');
     });
 
     $('.tag-cloud-meta-item').click(function(){
@@ -280,8 +280,9 @@ function mixCategoryTags(){
     ih = $('#tag-cloud-meta').innerHeight();
 
     $('#tag-cloud-category').empty();
-    for(var i = 0; i<(category_switch?talentCategories.length:workCategories.length); i++){
-        $('#tag-cloud-category').append('<div class="cloud-item tag-cloud-category-item"></div>');
+    for(var i = 0; i<14; i++){//<(category_switch?talentCategories.length:workCategories.length)
+	if(talentCategories[i]!="")
+	        $('#tag-cloud-category').append('<div class="cloud-item tag-cloud-category-item"></div>');
     }
 
     $('.tag-cloud-category-item').click(function(){
