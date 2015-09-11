@@ -11,3 +11,295 @@ License URI: license.txt
 Tags:one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, theme-options, translation-ready
 */
 
+header{
+    margin-bottom: 20px;
+}
+
+.site-navigation-wrap{
+    display: none;
+}
+
+#tag-cloud-aligner {
+    position: absolute;
+    top: 30px;
+    width: 50%;
+    left: 50%;
+}
+
+#tag-cloud-container{
+    text-align: center;
+}
+
+#tag-cloud-container h3{
+    display:none;
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+
+#tag-cloud-aligner h3:nth-child(1){
+    left: -50%;
+}
+
+#tag-cloud-aligner h3:nth-child(2){
+    left: 0%;
+}
+
+#tag-cloud-meta {
+    position: absolute;
+    left: -90%;
+    right: 100%;
+    text-align: right;
+    height: 250px;
+}
+
+#tag-cloud-category {
+    position: absolute;
+    left: 0%;
+    right: 10%;
+    height: 250px;
+}
+
+#tag-cloud-container h4{
+    text-align: center;
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+}
+
+.search-bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-bg>div{
+    background-color:rgba(0,0,0,0.15);
+}
+
+#search {
+    position: relative;
+    padding: 0px 0px 40px 0px;
+    min-height: 380px;
+}
+
+
+#tag-cloud-container {
+    padding-top: 3px;
+}
+
+#tag-cloud-container h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+#mode-tab{
+    display:none;
+}
+
+#mode-tab li a{
+    margin-bottom: 0px;
+    font-size: 25px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    border-bottom: 0px solid #333;
+    color: #444;
+    letter-spacing: 0.3em;
+    cursor:pointer;
+    background-color:white;
+    font-weight: 800;
+}
+
+#mode-tab li a:hover{
+    text-decoration:none;
+}
+
+#mode-tab li.active a{
+    background-color:transparent;
+    color: white;
+}
+
+#mode-tab li:nth-child(2) {
+    float: right;
+}
+
+ul.nav-tabs{
+    list-style:none;
+    padding-left:0px;
+    margin: 0px;
+}
+
+ul.nav-tabs li{
+    width: 49%;
+    display: inline-block;
+}
+
+ul.nav-tabs>li>a{
+    width: 100%;
+    display:block;
+    text-align:center;
+    
+}
+
+.cloud-item{
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cloud-item.active{
+    background-color: rgba(255,135,20,0.7);
+    color:white;
+}
+
+#meta-refresh-button {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border:none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+#meta-refresh-button span{
+    display:none;
+}
+
+.tag-cloud-meta-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #444;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.tag-cloud-meta-item.active{
+}
+
+.tag-cloud-category-item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #444;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.tag-cloud-category-item.active {
+}
+
+#search-bar {
+    position: absolute;
+    width: 70%;
+    margin: 0px auto;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+#search-bar h4{
+    color: white;
+    text-align: center;
+}
+
+#search-bar input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-style:normal;
+}
+/*
+div#ajaxsearchpro1_1 {
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+*/
+input.autocomplete{
+    font-style:normal;
+}
+
+.vc_row{
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.products.resdrg div.thumbnail{
+	height:300px;
+	overflow-y:hidden;
+}
+
+
+@media screen and (max-width: 480px) {
+    .cloud-item{
+        display:block !important;
+        margin: 3px 1px 3px 1px;
+        position:relative !important;
+        top:0 !important;
+        left:0 !important;
+        width: 48% !important;
+        height: 50px !important;
+        line-height: 50px !important;
+        border-radius: 0%;
+        font-size: 14px !important;
+        float: left;
+    }
+    
+    #tag-cloud-meta {
+        position: absolute;
+        left: -100%;
+        right: 100%;
+        text-align: left;
+        padding: 3px;
+        height: auto;
+    }
+
+    #tag-cloud-category {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        padding: 3px;
+        height: auto;
+        text-align: left;
+    }
+    
+    #tag-cloud-aligner {
+    position: relative;
+    top: 5px;
+    width: 50%;
+    left: 50%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    #tag-cloud-meta {
+        left: -100%;
+        right: 100%;
+    }
+
+    #tag-cloud-category {
+        left: 0%;
+        right: 0%;
+    }
+}
+
+#single-post-meta-manager{
+    display:none;
+}
+
